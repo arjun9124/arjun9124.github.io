@@ -1,0 +1,29 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+{{ .Content }}
+<div class="image-grid">
+    {{ range sort .Data.Pages "Date" "desc" }}
+        {{ if and (isset .Params "image") .Params.image }}
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+            {{ $image := .Page.Resources.GetMatch .Params.image }}
+            {{ with $image }}
+               {{ $opts := dict
+                    "method" "ClusteredDot4x4" 
+                    "colors" (slice "FFFFFF" "2F4F4F" ) 
+                    "strength" 0.85
+                }}
+
+  {{ $filters := slice
+    (images.Process "resize 800x")
+    (images.Dither $opts)
+    (images.Process "png")
+  }}
+  {{ with . | images.Filter $filters }}
+    <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
+  {{ end }}
+            {{end}}
+            </a>
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}

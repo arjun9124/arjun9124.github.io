@@ -1,0 +1,36 @@
+baseURL = 'https://cipirit.netlify.app/'
+languageCode = 'en-us'
+title = "arjun's webpage"
+theme = "console-theme"
+
+
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast"
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+[[params.navlinks]]
+  name = "thoughts/"
+  url = "thoughts/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+
+  [[params.navlinks]]
+  name = "gallery/"
+  url = "gallery/"
+
+
+
+
+[markup.goldmark.renderer]
+	unsafe = true
