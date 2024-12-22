@@ -1,7 +1,7 @@
 ---
 title: "Unregulated"
-date: 2024-12-22T21:34:02+05:30
-slug: 2024-12-22-unregulated
+date: 2024-06-28T10:34:02+05:30
+slug: 2024-06-28-unregulated
 type: posts
 draft: false
 categories:
