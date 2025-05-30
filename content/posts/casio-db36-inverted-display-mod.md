@@ -1,5 +1,4 @@
 ---
-
 title: Casio DB-36 Inverted Display Mod
 date: 2023-05-05T10:21:20+05:30
 draft: false
@@ -44,5 +43,3 @@ So in case you are meaning to try this for yourself, I've got a few tips
 * It takes a while to grow into the new inverted display, so dont regret doing this mod too early. 
 
 Local TV repair uncles and bhaiyas are too critical of your intrest in TV screen polarizers anyway. You get that weird stare from them when you ask them if they have one for sale, and usually its acompanied by a question "karoge kya iska ?" "kis liye chahiye ?" I just told them I needed it for a college project, which soon changed to "college projector" as they told their ustaad ji about this kid with an unusual request. Its the easiest thing to tell to anyone when they get critical of your creative endavours, college project. The whole roadmap of college to degree to placement to marrige flashes before them as their criticism changes to praise. They might question the quest for creative satisfaction, but no one shall dare to question the quest for sociteal validation. 
-
-
