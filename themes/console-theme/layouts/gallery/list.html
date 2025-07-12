@@ -7,20 +7,8 @@
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             {{ $image := .Page.Resources.GetMatch .Params.image }}
             {{ with $image }}
-               {{ $opts := dict
-                    "method" "ClusteredDot4x4" 
-                    "colors" (slice "FFFFFF" "2F4F4F" ) 
-                    "strength" 0.85
-                }}
-
-  {{ $filters := slice
-    (images.Process "resize 800x")
-    (images.Dither $opts)
-    (images.Process "png")
-  }}
-  {{ with . | images.Filter $filters }}
-    <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-  {{ end }}
+                {{ $thumb := .Resize "400x" }}
+                <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
             {{end}}
             </a>
         {{ end }}
