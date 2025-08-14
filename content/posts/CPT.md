@@ -3,7 +3,7 @@ title: "CPT"
 date: 2025-05-04
 slug: chemicalprocessingtechnolgy
 type: posts
-draft: false
+draft: true
 categories:
   - default
 tags:
@@ -12,11 +12,7 @@ tags:
 
 An entry from my journal, written in a midnight writers unblock initiated by Sarveshwar Dayal Saxena and fueled by Mishima
 
-
-
 **कल पेपर है। और कल चंद मिनटों में आ जाएगा।** 
-
-
 
 पता नहीं कैसे गुज़र गया दिन पूरा। अधनंगा बैठा था अंधेरे में, तो पिछले कमरे की दीवार से *धप* की आवाज़ आई। मुझे लगा कोई है, तो बड़े दरवाज़े का मुआइना किया। हवा के दबाव में कुछ परिवर्तित सा था। दरवाज़े के क़रीब एक हवा का बहाव था जो नहीं होना चाहिए था। परदों के बीच की दरार से झांका, तो बाहर पौधे हिल रहे थे। हवा चल रही थी। मैंने परदे खोले, जाली खोली। आख़िर दरवाज़े का भिड़ना हवा के दबाव में बदलाव के कारण था।
 
