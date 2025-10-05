@@ -11,6 +11,6 @@ tags:
 ---
 
 things that are but aren't: 
-- Schrodinger's cat
-- fight club
-- Godel's incompleteness theorem 
+1. Schrodinger's cat
+2. fight club
+3. Godel's incompleteness theorem 
