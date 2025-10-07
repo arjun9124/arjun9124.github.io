@@ -3,7 +3,7 @@ title: "Whimsymaxxing"
 date: 2024-01-01T14:07:07+05:30
 slug: 2024-01-01-whimsymaxxing
 type: thoughts
-draft: false
+draft: true
 categories:
   - thoughts
 tags:

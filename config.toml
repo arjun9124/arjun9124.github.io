@@ -38,6 +38,9 @@ pagination.pagerSize = 5
   # To disable animations, please remove or comment animationStyle parameter
   animateStyle = "animated zoomIn fast"
 
+  linkedin = "https://linkedin.com"
+  twitter = "https://x.com"
+
   [[params.navlinks]]
   name = "about/"
   url = "about/"

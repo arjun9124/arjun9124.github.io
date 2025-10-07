@@ -3,7 +3,7 @@ title: Ballpoint
 date: 2024-01-21T12:54:15+05:30
 slug: 2024-01-21-ballpoint
 type: thoughts
-draft: false
+draft: true
 categories:
   - thoughts
 tags:
