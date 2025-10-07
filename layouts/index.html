@@ -42,7 +42,7 @@ Hey there, I am Arjun. Welcome to my webpage. <a href="about/">(more)</a>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
                 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
                 {{ .Summary }}
-		<a href="{{ .Permalink }}" title="click here to read it you idiot.">read more.</a>
+		<a href="{{ .Permalink }}" title="click here to read it you idiot.">(read more)</a>
             </p>
         </div>    
     {{ end }}
@@ -60,7 +60,7 @@ Hey there, I am Arjun. Welcome to my webpage. <a href="about/">(more)</a>
             {{ with $image }}
                {{ $opts := dict
                     "method" "ClusteredDot4x4" 
-                    "colors" (slice "FFFFFF" "41E2F4" "0C9FA9" "000000") 
+                    "colors" (slice "FFFFFF" "000000") 
                     "strength" 0.85
                 }}
 
