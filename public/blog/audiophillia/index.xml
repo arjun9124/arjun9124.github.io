@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audiophillia on Hugo ʕ•ᴥ•ʔ Bear Blog</title>
+    <link>http://localhost:1313/blog/audiophillia/</link>
+    <description>Recent content in Audiophillia on Hugo ʕ•ᴥ•ʔ Bear Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2020, Jane Doe.</copyright>
+    <lastBuildDate>Thu, 11 May 2023 19:17:32 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/audiophillia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aquisition of Audiophillic Equipment</title>
+      <link>http://localhost:1313/gallery/aquisition-of-audiophillic-equipment/</link>
+      <pubDate>Thu, 11 May 2023 19:17:32 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/aquisition-of-audiophillic-equipment/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
