@@ -1,4 +1,13 @@
-<a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
+
+<div style="display: flex; justify-content: space-between;" >
+  <div><a href="{{ "" | relURL }}" class="title">
+  <img src="/images/arjun.png" height="70em">
 </a>
+</div>
+  <div>{{ with .Site.Params.favicon }}
+<img src="{{ . | absURL }}" height="70em" />{{ end }}</div>
+</div>
+
+
+
 <nav>{{- partial "nav.html" . -}}</nav>
