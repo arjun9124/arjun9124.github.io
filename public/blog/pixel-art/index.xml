@@ -11,9 +11,9 @@
     <atom:link href="http://localhost:1313/blog/pixel-art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pixel Art</title>
-      <link>http://localhost:1313/pixel-art/</link>
+      <link>http://localhost:1313/blog/pixel-art/</link>
       <pubDate>Fri, 01 Apr 2022 17:30:47 +0530</pubDate>
-      <guid>http://localhost:1313/pixel-art/</guid>
+      <guid>http://localhost:1313/blog/pixel-art/</guid>
       <description>This post was originally made on my blogger blog on 01/04/2022. In this post, I shall be expressing my newfound appreciation of Pixel art.&#xA;Personally, I have always been a fan of old 90&amp;rsquo;s graphics and retro computing in general. Old 90&amp;rsquo;s graphics, although a compromise made by the artists for the days low graphics memory have in this age become something people appreciate. Afterall, it still is an art. And what an art !</description>
     </item>
   </channel>

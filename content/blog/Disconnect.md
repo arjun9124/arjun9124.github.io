@@ -3,7 +3,7 @@ title: Disconnect
 date: 2023-09-08T13:32:11+05:30
 slug: disconnect
 type: posts
-draft: false
+draft: true
 categories:
 
 - Life/Zindagi/General

@@ -38,7 +38,7 @@
   <meta itemprop="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
   <meta itemprop="datePublished" content="2020-01-03T00:00:00+00:00">
   <meta itemprop="dateModified" content="2020-01-03T00:00:00+00:00">
-  <meta itemprop="wordCount" content="395">
+  <meta itemprop="wordCount" content="398">
   <meta itemprop="image" content="http://localhost:1313/images/share.png">
   <meta itemprop="keywords" content="Markdown,Syntax">
 <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -46,8 +46,8 @@
   <style>
   :root {
     --width: 720px;
-    --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
+    --font-main: monospace;
+    --font-secondary: monospace;
     --font-scale: 1em;
     --background-color: #fff;
     --heading-color: #222;
@@ -59,12 +59,12 @@
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background-color: #01242e;
-      --heading-color: #eee;
-      --text-color: #ddd;
-      --link-color: #8cc2dd;
-      --visited-color: #8b6fcb;
-      --blockquote-color: #ccc;
+    --background-color: #000;
+    --heading-color: #ddd;
+    --text-color: #bbb;
+    --link-color: #cd8c23;
+    --visited-color: #749034;
+    --blockquote-color: #ddd;
     }
   }
 
@@ -200,13 +200,20 @@
 </head>
 
 <body>
-  <header><a href="/" class="title">
-  <h2>Arjun9124</h2>
+  <header>
+<div style="display: flex; justify-content: space-between;" >
+  <div><a href="/" class="title">
+  <img src="/images/arjun.png" height="70em">
 </a>
-<nav>
-<a href="/">Home</a>
+</div>
+  <div>
+<img src="http://localhost:1313/images/favicon.png" height="70em" /></div>
+</div>
 
-<a href="/about/">about</a>
+
+
+<nav>
+<a href="/">home</a>
 
 <a href="/blog/">blog</a>
 
@@ -259,17 +266,10 @@
 <th>Age</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<td>Bob</td>
-<td>27</td>
-</tr>
-<tr>
-<td>Alice</td>
-<td>23</td>
-</tr>
-</tbody>
 </table>
+<pre><code>Bob | 27
+</code></pre>
+<p>Alice | 23</p>
 <h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
 <table>
 <thead>
@@ -313,15 +313,16 @@
 </code></pre>
 <h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
 <div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#007020">&lt;!doctype html&gt;</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>&lt;<span style="color:#062873;font-weight:bold">html</span> <span style="color:#4070a0">lang</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;en&#34;</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>&lt;<span style="color:#062873;font-weight:bold">head</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>  &lt;<span style="color:#062873;font-weight:bold">meta</span> <span style="color:#4070a0">charset</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;utf-8&#34;</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>  &lt;<span style="color:#062873;font-weight:bold">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#062873;font-weight:bold">title</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>&lt;/<span style="color:#062873;font-weight:bold">head</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>&lt;<span style="color:#062873;font-weight:bold">body</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>  &lt;<span style="color:#062873;font-weight:bold">p</span>&gt;Test&lt;/<span style="color:#062873;font-weight:bold">p</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>&lt;/<span style="color:#062873;font-weight:bold">body</span>&gt;
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>&lt;/<span style="color:#062873;font-weight:bold">html</span>&gt;</span></span></code></pre></div>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>&lt;<span style="color:#062873;font-weight:bold">html</span> <span style="color:#4070a0">lang</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>&lt;<span style="color:#062873;font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>  &lt;<span style="color:#062873;font-weight:bold">meta</span> <span style="color:#4070a0">charset</span><span style="color:#666">=</span><span style="color:#4070a0">&#34;utf-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>  &lt;<span style="color:#062873;font-weight:bold">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#062873;font-weight:bold">title</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>&lt;/<span style="color:#062873;font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>&lt;<span style="color:#062873;font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>  &lt;<span style="color:#062873;font-weight:bold">p</span>&gt;Test&lt;/<span style="color:#062873;font-weight:bold">p</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>&lt;/<span style="color:#062873;font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>&lt;/<span style="color:#062873;font-weight:bold">html</span>&gt;</span></span></code></pre></div>
 <h2 id="list-types">List Types</h2>
 <h4 id="ordered-list">Ordered List</h4>
 <ol>
@@ -359,9 +360,7 @@
 </li>
 </ol>
 </div>
-</content>
-
-<div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
+</content><div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
   <p>
     
         <strike>
@@ -375,8 +374,6 @@
     
   </p>
 </div>
-
-
 <p>
   
   <a href="http://localhost:1313/blog/markdown/">#Markdown</a>

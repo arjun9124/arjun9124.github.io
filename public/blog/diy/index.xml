@@ -11,9 +11,9 @@
     <atom:link href="http://localhost:1313/blog/diy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ender 3</title>
-      <link>http://localhost:1313/ender3/</link>
+      <link>http://localhost:1313/blog/ender3/</link>
       <pubDate>Mon, 06 Oct 2025 10:03:49 +0530</pubDate>
-      <guid>http://localhost:1313/ender3/</guid>
+      <guid>http://localhost:1313/blog/ender3/</guid>
       <description>An Ender 3 is the rite of passage for all 3D Printing enthusiasts. Yes a Bambu lab may be refined, convenient and clean but to become the ultimate hobbyist and maker one must burn their hands cleaning the clogged extruder of an Ender 3. One must blow more money on repairs than the actual cost of the printer in order to get it running.&#xA;3D Printing is not a simple technology.</description>
     </item>
   </channel>

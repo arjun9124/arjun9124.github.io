@@ -10,7 +10,6 @@ tags:
   - default
 ---
 
-<center><img src="../pictures/unregulated.png" style="width: 70;"></center>
 
 I like to support the untaxed, unregulated part of the economy. I don't haggle with Rikshawalas. They aren't technically unregulated, they are self regulating. They are perfect order within the lack of order. Nobody decided their prices, nobody made their laws. They operate a thin plane above supply and demand. Ethics and regulations when they exist are based on their morality. They have license plates, but who's checking ?! Even when anarchy befalls, banks, governments and their issued tokens become obsolete I bet Rikshawalas would still be roaming on their screeching whining rikshaws, charged with stolen electricity. [1] [2]
 

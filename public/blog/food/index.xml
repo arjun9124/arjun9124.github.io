@@ -11,16 +11,16 @@
     <atom:link href="http://localhost:1313/blog/food/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aloo Tikki</title>
-      <link>http://localhost:1313/aloo-tikki/</link>
+      <link>http://localhost:1313/blog/aloo-tikki/</link>
       <pubDate>Mon, 31 Jul 2023 11:19:53 +0530</pubDate>
-      <guid>http://localhost:1313/aloo-tikki/</guid>
+      <guid>http://localhost:1313/blog/aloo-tikki/</guid>
       <description>Its the conflicting flavours, red caramelized chutney with its heavy spicy taste and the green, sour tangy refreshing coriander chutney. The hot tikki just out of the wok, straight into some chilled yoghurt. A contrast of temperature. The depth and texture of the brown deep fried tikki being contrasted by the homogenous white yoghurt. On top it may be graced by a salad dressing, of chopped onions, cabbage and pomegranate further producing opposition to the deep fried carbohydrates of the tikki.</description>
     </item>
     <item>
       <title>Parantha Teir List</title>
-      <link>http://localhost:1313/parantha/</link>
+      <link>http://localhost:1313/blog/parantha/</link>
       <pubDate>Sun, 06 Feb 2022 17:31:03 +0530</pubDate>
-      <guid>http://localhost:1313/parantha/</guid>
+      <guid>http://localhost:1313/blog/parantha/</guid>
       <description>This post was originally published on my blogger blog on 6 February 2022. This is a revised version of that post.&#xA;The perfect north Indian breakfast, not just north Indian though. Parantha is a thing that possibly is the largest common tie between one of the largest regions of this sub continent. From Lahore to Calcutta, you can see the similar breakfast of parantas with chai. And why not !? isn&amp;rsquo;t it such a great one.</description>
     </item>
   </channel>

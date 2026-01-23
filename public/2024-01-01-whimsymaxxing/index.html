@@ -45,8 +45,8 @@
   <style>
   :root {
     --width: 720px;
-    --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
+    --font-main: monospace;
+    --font-secondary: monospace;
     --font-scale: 1em;
     --background-color: #fff;
     --heading-color: #222;
@@ -58,12 +58,12 @@
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background-color: #01242e;
-      --heading-color: #eee;
-      --text-color: #ddd;
-      --link-color: #8cc2dd;
-      --visited-color: #8b6fcb;
-      --blockquote-color: #ccc;
+    --background-color: #000;
+    --heading-color: #ddd;
+    --text-color: #bbb;
+    --link-color: #cd8c23;
+    --visited-color: #749034;
+    --blockquote-color: #ddd;
     }
   }
 
@@ -199,13 +199,20 @@
 </head>
 
 <body>
-  <header><a href="/" class="title">
-  <h2>Arjun9124</h2>
+  <header>
+<div style="display: flex; justify-content: space-between;" >
+  <div><a href="/" class="title">
+  <img src="/images/arjun.png" height="70em">
 </a>
-<nav>
-<a href="/">Home</a>
+</div>
+  <div>
+<img src="http://localhost:1313/images/favicon.png" height="70em" /></div>
+</div>
 
-<a href="/about/">about</a>
+
+
+<nav>
+<a href="/">home</a>
 
 <a href="/blog/">blog</a>
 
