@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ if eq .Type "blog" }}{{ if not .Params.menu }}
-<h1>{{ .Title }}</h1>
+<h2>{{ .Title }}</h2>
 <p>
   <i>
     <time datetime='{{ .Date.Format "2006-01-02" }}'>
@@ -10,7 +10,7 @@
 </p>
 {{ end }}{{ end }}
 {{ if eq .Type "posts" }}{{ if not .Params.menu }}
-<h1>{{ .Title }}</h1>
+<h2>{{ .Title }}</h2>
 <p>
   <i>
     <time datetime='{{ .Date.Format "2006-01-02" }}'>
@@ -20,7 +20,7 @@
 </p>
 {{ end }}{{ end }}
 {{ if eq .Type "thoughts" }}{{ if not .Params.menu }}
-<h1>{{ .Title }}</h1>
+<h2>{{ .Title }}</h2>
 <p>
   <i>
     <time datetime='{{ .Date.Format "2006-01-02" }}'>

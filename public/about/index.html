@@ -44,29 +44,35 @@ I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobod
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
-  :root {
-    --width: 720px;
-    --font-main: monospace;
-    --font-secondary: monospace;
-    --font-scale: 1.25em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --blockquote-color: #222;
-  }
+:root {
+  --width: 70%;
+  --font-main: monospace;
+  --font-secondary: monospace;
+  --font-scale: 1.25em;
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-    --background-color: #000;
-    --heading-color: #ddd;
-    --text-color: #bbb;
-    --link-color: #cd8c23;
-    --visited-color: #749034;
-    --blockquote-color: #ddd;
-    }
+   
+  --background-color: #ffffff;         
+  --text-color: #212121;               
+  --blockquote-color: #dfedff;         
+  --link-color: #0066ff;               
+  --visited-color: #004dc1;            
+  --highlight-color: #FFFF00;          
+  --heading-color: #212121;            
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+     
+    --background-color: #0c0c0c;
+    --text-color: #eaeaea;
+    --blockquote-color: #333333;
+    --link-color: #4990fc;
+    --visited-color: #94befc;
+    --highlight-color: #042659;
+    --heading-color: #eaeaea;
   }
+}
+
 
   body {
     font-family: var(--font-secondary);
@@ -90,6 +96,8 @@ I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobod
   h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
+    font-size: var(--font-scale);
+
   }
 
   a {
@@ -201,14 +209,10 @@ I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobod
 
 <body>
   <header>
-<div style="display: flex; justify-content: space-between;" >
-  <div><a href="/" class="title">
-  <img src="/images/arjun.png" height="70em">
+<a href="/" class="title">
+  <h1>Arjun's Webpage</h1>
 </a>
-</div>
-  <div>
-<img src="http://localhost:1313/images/favicon.png" height="70em" /></div>
-</div>
+
 
 
 
@@ -226,7 +230,7 @@ I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobod
 
 
 <content>
-  <h2 id="who-am-i-">Who am I ?</h2>
+  <h3 id="who-am-i-">Who am I ?</h3>
 <p>I am Arjun. I live in Delhi, India. I am a student of Engineering.</p>
 <p>If you somehow found this website, then congratulations. In certain cases<sup>[1]</sup>, you may have received the URL from me. Normally you should have forgotten it.</p>
 <p>I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobody ever does, this place shall continue to exist on principle. According to google search console, if you lookup the term &ldquo;arjun9124&rdquo; this webpage is supposed to show up. At the time of writing, there is only one page on this &ldquo;website&rdquo; that is indexed by google search.</p>
@@ -236,7 +240,7 @@ I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobod
 <li>You accidentally strolled in here</li>
 <li>You are cooler than the average person who never bothered to open this website</li>
 </ul>
-<h2 id="whats-the-deal-with-this-website-">What&rsquo;s the deal with this website ?</h2>
+<h3 id="whats-the-deal-with-this-website-">What&rsquo;s the deal with this website ?</h3>
 <ul>
 <li>It&rsquo;s <a href="https://motherfuckingwebsite.com/">minimalist.</a> Or so it seems.</li>
 <li>It&rsquo;s my medium of self expression on the web.</li>
@@ -246,7 +250,7 @@ I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobod
 <blockquote>
 <p>One broken GitHub pages repository for man is one giant leap for big tech</p>
 </blockquote>
-<h2 id="i-need-a-tld">I need a tld.</h2>
+<h3 id="i-need-a-tld">I need a tld.</h3>
 <hr>
 
 </content>
@@ -262,7 +266,7 @@ I&rsquo;d appreciate if you read something. Even if you don&rsquo;t, or if nobod
 </p>
 
   </main>
-  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a> | <a href="https://arjun9124.github.io/index.xml">RSS Feed</a> 
 </footer>
 
   

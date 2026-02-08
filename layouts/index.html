@@ -1,18 +1,18 @@
 {{ define "main" }}
 
-<h4> welcome ?</h4>
+<p>
 Hi, I am Arjun. This is my webpage.
-
-<h4>latest posts</h4>
-
+</p>
+<h3>Recent Posts</h3>
 <div class="posts-list">
 {{ with .Site.GetPage "/blog" }}
     {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
-            <li><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></li>
+        <div class="post" style="text-indent: ;">
+            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
         </div>    
     {{ end }}
 {{ end }}
 </div>
 
 {{ end }}
+

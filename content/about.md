@@ -6,7 +6,7 @@ weight = 2
 
 
 
-## Who am I ? 
+### Who am I ? 
 
 I am Arjun. I live in Delhi, India. I am a student of Engineering. 
 
@@ -20,7 +20,7 @@ I'd appreciate if you read something. Even if you don't, or if nobody ever does,
 - You accidentally strolled in here 
 - You are cooler than the average person who never bothered to open this website
 
-## What's the deal with this website ?
+### What's the deal with this website ?
 
 - It's [minimalist.](https://motherfuckingwebsite.com/) Or so it seems.
 - It's my medium of self expression on the web.
@@ -30,5 +30,5 @@ I'd appreciate if you read something. Even if you don't, or if nobody ever does,
 In case I have ceased to maintain this page, then feel sad that one interesting bit of internet is gone. 
 > One broken GitHub pages repository for man is one giant leap for big tech
 
-## I need a tld.
+### I need a tld.
 ---
