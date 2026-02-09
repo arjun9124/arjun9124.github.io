@@ -50,7 +50,7 @@
 
   <style>
 :root {
-  --width: 70%;
+  --width: 1000px;
   --font-main: monospace;
   --font-secondary: monospace;
   --font-scale: 1.25em;
@@ -78,6 +78,21 @@
   }
 }
 
+tml, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+ 
+main {
+  flex: 1;
+}
 
   body {
     font-family: var(--font-secondary);
@@ -165,9 +180,15 @@
     font-style: italic;
   }
 
-  footer {
+
+
+footer {
     padding: 25px 0;
-    text-align: center;
+    background-color: var(--background-color);
+     
+     
+     
+     
   }
 
   .title:hover {
@@ -207,6 +228,8 @@
   ul.blog-posts li a:visited {
     color: var(--visited-color);
   }
+
+
 
 </style>
 

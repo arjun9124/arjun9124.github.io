@@ -43,29 +43,50 @@
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
-  :root {
-    --width: 90%;
-    --font-main: monospace;
-    --font-secondary: monospace;
-    --font-scale: 1.25em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --blockquote-color: #222;
-  }
+:root {
+  --width: 1000px;
+  --font-main: monospace;
+  --font-secondary: monospace;
+  --font-scale: 1.25em;
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-    --background-color: #000;
-    --heading-color: #ddd;
-    --text-color: #bbb;
-    --link-color: #cd8c23;
-    --visited-color: #749034;
-    --blockquote-color: #ddd;
-    }
+   
+  --background-color: #ffffff;         
+  --text-color: #212121;               
+  --blockquote-color: #dfedff;         
+  --link-color: #0066ff;               
+  --visited-color: #004dc1;            
+  --highlight-color: #FFFF00;          
+  --heading-color: #212121;            
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+     
+    --background-color: #0c0c0c;
+    --text-color: #eaeaea;
+    --blockquote-color: #333333;
+    --link-color: #4990fc;
+    --visited-color: #94befc;
+    --highlight-color: #042659;
+    --heading-color: #eaeaea;
   }
+}
+
+tml, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+ 
+main {
+  flex: 1;
+}
 
   body {
     font-family: var(--font-secondary);
@@ -89,6 +110,8 @@
   h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
+    font-size: var(--font-scale);
+
   }
 
   a {
@@ -151,9 +174,15 @@
     font-style: italic;
   }
 
-  footer {
+
+
+footer {
     padding: 25px 0;
-    text-align: center;
+    background-color: var(--background-color);
+     
+     
+     
+     
   }
 
   .title:hover {
@@ -194,20 +223,18 @@
     color: var(--visited-color);
   }
 
+
+
 </style>
 
 </head>
 
 <body>
   <header>
-<div style="display: flex; justify-content: space-between;" >
-  <div><a href="/" class="title">
-  <img src="/images/arjun.png" height="70em">
+<a href="/" class="title">
+  <h1>Arjun's Webpage</h1>
 </a>
-</div>
-  <div>
-<img src="http://localhost:1313/images/favicon.png" height="70em" /></div>
-</div>
+
 
 
 
@@ -223,7 +250,7 @@
   <main>
 
 
-<h1>Make Youtube Distraction Free</h1>
+<h2>Make Youtube Distraction Free</h2>
 <p>
   <i>
     <time datetime='2023-06-24'>
@@ -320,7 +347,7 @@ Youtube allows you to view shorts as regular videos as well, which prevents you 
 </p>
 
   </main>
-  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a> | <a href="https://arjun9124.github.io/index.xml">RSS Feed</a> 
 </footer>
 
   

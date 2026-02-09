@@ -3,7 +3,8 @@
 baseURL = "https://example.com"
 
 # The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
+
+theme = ["hugo-bearblog", "hugo-shortcode-gallery"]
 
 # Basic metadata configuration for your blog.
 title = "Arjun9124"

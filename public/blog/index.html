@@ -9,7 +9,7 @@
 <title>blog | Arjun9124</title>
 <meta name="title" content="blog" />
 <meta name="description" content="" />
-<meta name="keywords" content="3d printing,art,culture,default,life/zindagi/general,music,thoughts,3d printing,autism,college,consoom,culture,default,diy,engineering,family,food,hindi,internet,jee,life,matrix,music,pixel,pixel art,ramblings,retro,school,thoughts," />
+<meta name="keywords" content="3d printing,art,culture,default,life/zindagi/general,music,thoughts,3d printing,autism,college,consoom,culture,default,diy,engineering,family,food,hindi,internet,jee,life,markdown,matrix,music,pixel,pixel art,ramblings,retro,school,syntax,thoughts," />
 
 
 <meta property="og:url" content="http://localhost:1313/blog/">
@@ -36,7 +36,7 @@
   <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blog/index.xml" title="Arjun9124" />
   <style>
 :root {
-  --width: 70%;
+  --width: 1000px;
   --font-main: monospace;
   --font-secondary: monospace;
   --font-scale: 1.25em;
@@ -64,6 +64,21 @@
   }
 }
 
+tml, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+ 
+main {
+  flex: 1;
+}
 
   body {
     font-family: var(--font-secondary);
@@ -151,9 +166,15 @@
     font-style: italic;
   }
 
-  footer {
+
+
+footer {
     padding: 25px 0;
-    text-align: center;
+    background-color: var(--background-color);
+     
+     
+     
+     
   }
 
   .title:hover {
@@ -193,6 +214,8 @@
   ul.blog-posts li a:visited {
     color: var(--visited-color);
   }
+
+
 
 </style>
 
@@ -257,6 +280,28 @@
     <li>
       <span>
         <i>
+          <time datetime='2025-05-04'>
+            04 May, 2025
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/chemicalprocessingtechnolgy/">CPT</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-11-17'>
+            17 Nov, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-11-17-satyr/">Satyr</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
           <time datetime='2024-06-28'>
             28 Jun, 2024
           </time>
@@ -279,6 +324,17 @@
     <li>
       <span>
         <i>
+          <time datetime='2024-02-24'>
+            24 Feb, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-02-24-pretentious-markets/">Pretentious Markets</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
           <time datetime='2024-01-26'>
             26 Jan, 2024
           </time>
@@ -290,12 +346,45 @@
     <li>
       <span>
         <i>
+          <time datetime='2024-01-21'>
+            21 Jan, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-01-21-ballpoint/">Ballpoint</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
           <time datetime='2024-01-02'>
             02 Jan, 2024
           </time>
         </i>
       </span>
       <a href="http://localhost:1313/blog/charcha/">चर्चा</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-01-01'>
+            01 Jan, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-01-01-whimsymaxxing/">Whimsymaxxing</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-09-08'>
+            08 Sep, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/disconnect/">Disconnect</a>
     </li>
     
     <li>
@@ -318,6 +407,28 @@
         </i>
       </span>
       <a href="http://localhost:1313/blog/2023-07-19-padyatri/">Padyatri</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-07-07'>
+            07 Jul, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/instagram/">Instagram</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-07-03'>
+            03 Jul, 2023
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/the-point-of-no-return/">The Point of No Return</a>
     </li>
     
     <li>
@@ -441,6 +552,17 @@
       <a href="http://localhost:1313/blog/republic-day/">The Only Day Your Dad Will Ever Ask You To Watch TV</a>
     </li>
     
+    <li>
+      <span>
+        <i>
+          <time datetime='2020-01-03'>
+            03 Jan, 2020
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/markdown-syntax-guide/">Markdown Syntax Guide</a>
+    </li>
+    
   </ul>
   
   <small>
@@ -474,6 +596,8 @@
       
       <a href="http://localhost:1313/blog/life/">#Life</a>&nbsp;
       
+      <a href="http://localhost:1313/blog/markdown/">#Markdown</a>&nbsp;
+      
       <a href="http://localhost:1313/blog/matrix/">#Matrix</a>&nbsp;
       
       <a href="http://localhost:1313/blog/music/">#Music</a>&nbsp;
@@ -487,6 +611,8 @@
       <a href="http://localhost:1313/blog/retro/">#Retro</a>&nbsp;
       
       <a href="http://localhost:1313/blog/school/">#School</a>&nbsp;
+      
+      <a href="http://localhost:1313/blog/syntax/">#Syntax</a>&nbsp;
       
       <a href="http://localhost:1313/blog/thoughts/">#Thoughts</a>&nbsp;
       

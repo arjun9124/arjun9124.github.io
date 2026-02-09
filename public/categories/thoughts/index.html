@@ -9,7 +9,7 @@
 <title>Thoughts | Arjun9124</title>
 <meta name="title" content="Thoughts" />
 <meta name="description" content="" />
-<meta name="keywords" content="3d printing,art,culture,default,life/zindagi/general,music,thoughts,3d printing,autism,college,consoom,culture,default,diy,engineering,family,food,hindi,internet,jee,life,matrix,music,pixel,pixel art,ramblings,retro,school,thoughts," />
+<meta name="keywords" content="3d printing,art,culture,default,life/zindagi/general,music,thoughts,3d printing,autism,college,consoom,culture,default,diy,engineering,family,food,hindi,internet,jee,life,markdown,matrix,music,pixel,pixel art,ramblings,retro,school,syntax,thoughts," />
 
 
 <meta property="og:url" content="http://localhost:1313/categories/thoughts/">
@@ -29,35 +29,56 @@
 
 
   <meta itemprop="name" content="Thoughts">
-  <meta itemprop="dateModified" content="2024-05-28T20:40:17+05:30">
+  <meta itemprop="dateModified" content="2024-11-17T18:16:31+05:30">
   <meta itemprop="image" content="http://localhost:1313/images/share.png">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/categories/thoughts/index.xml" title="Arjun9124" />
   <style>
-  :root {
-    --width: 90%;
-    --font-main: monospace;
-    --font-secondary: monospace;
-    --font-scale: 1.25em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --blockquote-color: #222;
-  }
+:root {
+  --width: 1000px;
+  --font-main: monospace;
+  --font-secondary: monospace;
+  --font-scale: 1.25em;
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-    --background-color: #000;
-    --heading-color: #ddd;
-    --text-color: #bbb;
-    --link-color: #cd8c23;
-    --visited-color: #749034;
-    --blockquote-color: #ddd;
-    }
+   
+  --background-color: #ffffff;         
+  --text-color: #212121;               
+  --blockquote-color: #dfedff;         
+  --link-color: #0066ff;               
+  --visited-color: #004dc1;            
+  --highlight-color: #FFFF00;          
+  --heading-color: #212121;            
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+     
+    --background-color: #0c0c0c;
+    --text-color: #eaeaea;
+    --blockquote-color: #333333;
+    --link-color: #4990fc;
+    --visited-color: #94befc;
+    --highlight-color: #042659;
+    --heading-color: #eaeaea;
   }
+}
+
+tml, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+ 
+main {
+  flex: 1;
+}
 
   body {
     font-family: var(--font-secondary);
@@ -81,6 +102,8 @@
   h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
+    font-size: var(--font-scale);
+
   }
 
   a {
@@ -143,9 +166,15 @@
     font-style: italic;
   }
 
-  footer {
+
+
+footer {
     padding: 25px 0;
-    text-align: center;
+    background-color: var(--background-color);
+     
+     
+     
+     
   }
 
   .title:hover {
@@ -186,20 +215,18 @@
     color: var(--visited-color);
   }
 
+
+
 </style>
 
 </head>
 
 <body>
   <header>
-<div style="display: flex; justify-content: space-between;" >
-  <div><a href="/" class="title">
-  <img src="/images/arjun.png" height="70em">
+<a href="/" class="title">
+  <h1>Arjun's Webpage</h1>
 </a>
-</div>
-  <div>
-<img src="http://localhost:1313/images/favicon.png" height="70em" /></div>
-</div>
+
 
 
 
@@ -225,6 +252,17 @@
     <li>
       <span>
         <i>
+          <time datetime='2024-11-17'>
+            17 Nov, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-11-17-satyr/">Satyr</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
           <time datetime='2024-05-28'>
             28 May, 2024
           </time>
@@ -236,12 +274,45 @@
     <li>
       <span>
         <i>
+          <time datetime='2024-02-24'>
+            24 Feb, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-02-24-pretentious-markets/">Pretentious Markets</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
           <time datetime='2024-01-26'>
             26 Jan, 2024
           </time>
         </i>
       </span>
       <a href="http://localhost:1313/blog/2024-01-26-kutte/">कुत्ते</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-01-21'>
+            21 Jan, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-01-21-ballpoint/">Ballpoint</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2024-01-01'>
+            01 Jan, 2024
+          </time>
+        </i>
+      </span>
+      <a href="http://localhost:1313/blog/2024-01-01-whimsymaxxing/">Whimsymaxxing</a>
     </li>
     
     <li>
@@ -260,7 +331,7 @@
 </content>
 
   </main>
-  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a> | <a href="https://arjun9124.github.io/index.xml">RSS Feed</a> 
 </footer>
 
   

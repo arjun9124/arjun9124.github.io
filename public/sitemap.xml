@@ -37,20 +37,32 @@
     <loc>http://localhost:1313/blog/35mm-i/</loc>
     <lastmod>2025-10-01T20:59:28+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/2024-06-28-unregulated/</loc>
-    <lastmod>2024-06-28T10:34:02+05:30</lastmod>
+    <loc>http://localhost:1313/blog/chemicalprocessingtechnolgy/</loc>
+    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2024-11-17-satyr/</loc>
+    <lastmod>2024-11-17T18:16:31+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/thoughts/</loc>
-    <lastmod>2024-05-28T20:40:17+05:30</lastmod>
+    <lastmod>2024-11-17T18:16:31+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/thoughts/</loc>
-    <lastmod>2024-05-28T20:40:17+05:30</lastmod>
+    <lastmod>2024-11-17T18:16:31+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2024-06-28-unregulated/</loc>
+    <lastmod>2024-06-28T10:34:02+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2024-05-28-vivaad/</loc>
     <lastmod>2024-05-28T20:40:17+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/2024-02-24-pretentious-markets/</loc>
+    <lastmod>2024-02-24T21:07:57+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/2024-01-26-kutte/</loc>
     <lastmod>2024-01-26T12:53:02+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2024-01-21-ballpoint/</loc>
+    <lastmod>2024-01-21T12:54:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/hindi/</loc>
     <lastmod>2024-01-02T10:08:21+05:30</lastmod>
@@ -60,6 +72,24 @@
   </url><url>
     <loc>http://localhost:1313/blog/charcha/</loc>
     <lastmod>2024-01-02T10:08:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/2024-01-01-whimsymaxxing/</loc>
+    <lastmod>2024-01-01T14:07:07+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/college/</loc>
+    <lastmod>2023-09-08T13:32:11+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/disconnect/</loc>
+    <lastmod>2023-09-08T13:32:11+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/internet/</loc>
+    <lastmod>2023-09-08T13:32:11+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/life/</loc>
+    <lastmod>2023-09-08T13:32:11+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/ramblings/</loc>
+    <lastmod>2023-09-08T13:32:11+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/aloo-tikki/</loc>
     <lastmod>2023-07-31T11:19:53+05:30</lastmod>
@@ -73,16 +103,16 @@
     <loc>http://localhost:1313/blog/food/</loc>
     <lastmod>2023-07-31T11:19:53+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/ramblings/</loc>
-    <lastmod>2023-07-31T11:19:53+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/2023-07-19-padyatri/</loc>
     <lastmod>2023-07-19T21:37:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/culture/</loc>
-    <lastmod>2023-06-25T18:33:38+05:30</lastmod>
+    <loc>http://localhost:1313/blog/instagram/</loc>
+    <lastmod>2023-07-07T22:00:21+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/internet/</loc>
+    <loc>http://localhost:1313/blog/the-point-of-no-return/</loc>
+    <lastmod>2023-07-03T21:20:27+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/culture/</loc>
     <lastmod>2023-06-25T18:33:38+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/music/</loc>
@@ -121,12 +151,6 @@
     <loc>http://localhost:1313/blog/college/</loc>
     <lastmod>2023-01-28T17:31:10+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/college/</loc>
-    <lastmod>2023-01-28T17:31:10+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/life/</loc>
-    <lastmod>2023-01-28T17:31:10+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/jee/</loc>
     <lastmod>2022-06-17T17:31:18+05:30</lastmod>
   </url><url>
@@ -156,5 +180,14 @@
   </url><url>
     <loc>http://localhost:1313/blog/republic-day/</loc>
     <lastmod>2022-01-27T17:30:09+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/markdown/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/markdown-syntax-guide/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/syntax/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url>
 </urlset>
