@@ -178,6 +178,22 @@ footer {
   ul.blog-posts li a:visited {
     color: var(--visited-color);
   }
+:root {
+  --sb-top: 50px;     /* your bar heights */
+  --sb-bottom: 50px;
+}
+
+/* Keep Swipebox's positioning model intact */
+#swipebox-slider .slide {
+  box-sizing: border-box !important;
+}
+
+/* Reserve space so bars don't cover media */
+#swipebox-slider .slide.current {
+  padding-top: var(--sb-top) !important;
+  padding-bottom: var(--sb-bottom) !important;
+}
+
 
 
 
