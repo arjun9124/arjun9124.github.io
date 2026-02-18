@@ -8,7 +8,7 @@ weight = 2
 
 I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. 
 
-I'd appreciate if you read something. Even if you don't, or if nobody ever does, this place shall continue to exist on principle. According to google search console, if you lookup the term "arjun9124" this webpage is supposed to show up. At the time of writing, there is only one page on this "website" that is indexed by google search.
+I'd appreciate if you read something. Even if you don't, or if nobody ever does, this place shall continue to exist on principle. 
 
 ### The reason/s you are reading this are: 
 
@@ -24,6 +24,9 @@ I'd appreciate if you read something. Even if you don't, or if nobody ever does,
 
 In case I have ceased to maintain this page, then feel sad that one interesting bit of internet is gone. 
 > One broken GitHub pages repository for man is one giant leap for big tech
+
+### Contact
+pls
 
 ### I need a tld.
 ---
