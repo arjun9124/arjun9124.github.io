@@ -7,7 +7,7 @@ baseURL = "https://arjun9124.github.io"
 theme = ["hugo-bearblog", "hugo-shortcode-gallery"]
 
 # Basic metadata configuration for your blog.
-title = "Arjun9124"
+title = "Arjun's Webpage"
 author = "Arjun 9124"
 copyright = "Copyleft © 2025, Arjun 9124."
 languageCode = "en-IN"
@@ -23,7 +23,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [permalinks]
   blog = "/blog/:slug/"
-  tags = "/blog/tag/:slug"
+  tags = "/tag/:slug"
 
 [params]
   enablePostNavigator = true

@@ -198,7 +198,7 @@ Ordinal: {{ .Ordinal}}
 						
 						{{ else if (eq $previewType "dither") }}
  							 {{/* Make a tiny preview, then dither it */}}
-  							{{ $tiny := ($thumbnail.Fit ("480x480 q85 box png")) }}
+  							{{ $tiny := ($thumbnail.Fit ("480x480 q50 box png")) }}
   							{{/* Configure dithering (palette + method + strength) */}}
   							{{ $dopts := dict
       								"colors" (slice "0c0c0c" "7a7a7a" "eaeaea")

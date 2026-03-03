@@ -1,6 +1,6 @@
 <style>
 :root {
-  --width: 1000px;
+  --width: 700px;
   --font-main: monospace;
   --font-secondary: monospace;
   --font-scale: 1.25em;
@@ -194,7 +194,19 @@ footer {
   padding-bottom: var(--sb-bottom) !important;
 }
 
+.container {
+  display: flex; /* Enables Flexbox */
+}
 
+.column {
+  flex: 1; /* Makes both columns share space equally */
+}
+h3.recent {
+padding-bottom: 0px; 
+margin-bottom: 0px;
+}
 
-
+small.grey {
+color: grey;
+}
 </style>

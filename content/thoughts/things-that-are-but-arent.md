@@ -5,9 +5,9 @@ slug: 2025-10-05-things-that-are-but-arent
 type: thoughts
 draft: false
 categories:
-  - default
+  - thoughts
 tags:
-  - default
+  - thoughts, random
 ---
 
 things that are but aren't: 
