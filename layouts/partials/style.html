@@ -77,13 +77,22 @@ main {
   }
 
   a:hover {
-    text-decoration: underline;
+    text-color: var(--background-color);
+    background-color: var(--link-color);
+    color: var(--background-color);
+  }
+
+content a:hover {
+    text-color: var(--background-color);
+    background-color: var(--link-color);
+    color: var(--background-color);
   }
 
   nav a {
     margin-right: 8px;
   }
 
+ 
   strong,
   b {
     color: var(--heading-color);
@@ -176,7 +185,7 @@ footer {
   }
 
   ul.blog-posts li a:visited {
-    color: var(--visited-color);
+    text-decoration: line-through red;
   }
 :root {
   --sb-top: 50px;     /* your bar heights */
@@ -208,5 +217,20 @@ margin-bottom: 0px;
 
 small.grey {
 color: grey;
+}
+
+nav a {
+  color: var(--link-color);
+  padding: 0.05rem 0.1rem;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: var(--link-color);
+  color: var(--background-color);
+}
+
+nav a {
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 </style>

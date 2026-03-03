@@ -1,3 +1,5 @@
 {{ range .Site.Menus.main }}
-<a href="{{ .URL }}">{{ .Name }}</a>
+  {{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+  <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
+{{- .Name -}}  </a>
 {{ end }}

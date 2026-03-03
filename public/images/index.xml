@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Images on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/images/</link>
+    <description>Recent content in Images on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2025, Arjun 9124.</copyright>
+    <atom:link href="http://localhost:1313/images/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>images</title>
+      <link>http://localhost:1313/images/images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/images/images/</guid>
+      <description>Images, of stuff&#xD;</description>
+    </item>
+  </channel>
+</rss>

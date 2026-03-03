@@ -1,6 +1,18 @@
 
 <a href="{{ "" | relURL }}" class="title">
-  <h1>Arjun's Webpage</h1>
+  <h1>
+  {{ if .IsHome }}
+    Arjun’s Webpage
+  {{ else if .IsSection }}
+    Arjun’s {{ .Section | humanize }}
+{{ else if eq .Title "about" }}
+    About Arjun
+{{ else if eq .Title "images" }}
+    Arjun's Images
+  {{ else }}
+    Arjun’s Webpage
+  {{ end }}
+</h1>
 </a>
 
 
