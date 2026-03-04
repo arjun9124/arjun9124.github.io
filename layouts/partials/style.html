@@ -43,6 +43,14 @@ s {
  text-decoration: line-through solid red;
 }
 
+sul {
+ text-decoration: underline solid red;
+}
+
+cul {
+ text-decoration: underline solid;
+ text-decoration-color: var(--link-color);
+}
 /* Make main expand */
 main {
   flex: 1;
@@ -191,6 +199,11 @@ footer {
   ul.blog-posts li a:visited {
   color: var(--visited-color);
 }
+
+  ul.blog-posts li a:hover {
+  color: var(--background-color);
+}
+
 :root {
   --sb-top: 50px;     /* your bar heights */
   --sb-bottom: 50px;
