@@ -25,8 +25,5 @@ I'd appreciate if you read something. Even if you don't, or if nobody ever does,
 In case I have ceased to maintain this page, then feel sad that one interesting bit of internet is gone. 
 > One broken GitHub pages repository for man is one giant leap for big tech
 
-### Contact
-pls
 
-### I need a tld.
 ---
