@@ -28,9 +28,14 @@
   </header>
   <main>
     {{- block "main" . }}{{- end }}
+    {{- partial "webrings.html" . -}}
+
   </main>
+
   <footer>
+
     {{- partial "footer.html" . -}}
+
   </footer>
 
   <!-- A partial to be overwritten by the user.
