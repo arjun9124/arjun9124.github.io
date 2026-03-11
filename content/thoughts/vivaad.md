@@ -7,7 +7,8 @@ draft: flase
 categories:
   - thoughts
 tags:
-  - thoughts
+  - kutte
+  
 ---
 
 सन २०२४ : कुत्ते विवाद से डरने लगे हैं।  

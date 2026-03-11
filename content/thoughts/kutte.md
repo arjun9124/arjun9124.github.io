@@ -7,7 +7,8 @@ draft: false
 categories:
   - thoughts
 tags:
-  - thoughts
+  - kutte
+  - esoteric
 ---
 
 सन २०२४ : सभी कुत्ते कोट पेहेन्ने लगे है।  

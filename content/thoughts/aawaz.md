@@ -1,13 +1,18 @@
 ---
-title: "Aawaz"
-date: 2026-03-03T12:38:42+05:30
-slug: 2026-03-03-aawaz
+title: "कुत्ते - आवाज़ "
+date: 2024-10-11T23:16:48+05:30
+slug: kutte-aawaz
 type: posts
-draft: true
+draft: false
 categories:
   - default
 tags:
-  - default
+  - esoteric
+  - kutte
 ---
+सन २०२५* : कुत्ते आवाज़ दबा रहे हैं।  
 
+![Image alt](/aawaz.png)
 
+--- 
+<small>*करीबन </small>
