@@ -1,84 +1,81 @@
-from __future__ import annotations
-
-import subprocess
-import sys
 from datetime import datetime
 from pathlib import Path
+import subprocess
+import sys
 
 
 ROOT = Path(__file__).resolve().parent
-META_FILE = ROOT / "content" / "meta.md"
+META = ROOT / "content" / "meta.md"
 
 
-def run(cmd: list[str]) -> None:
-    print(f"\n> {' '.join(cmd)}")
-    result = subprocess.run(cmd, cwd=ROOT)
-    if result.returncode != 0:
-        print(f"ERROR: command failed with exit code {result.returncode}")
-        sys.exit(result.returncode)
+def git(cmd):
+    print("> " + " ".join(cmd))
+    r = subprocess.run(cmd, cwd=ROOT)
+    if r.returncode != 0:
+        sys.exit(r.returncode)
 
 
-def git_has_staged_changes() -> bool:
-    result = subprocess.run(
+def get_frontmatter_and_body(text: str):
+    if not text.startswith("---"):
+        return "", text
+
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return "", text
+
+    front = "---" + parts[1] + "---\n"
+    body = parts[2].lstrip("\n")
+    return front, body
+
+
+def append_entry(commit, desc):
+    raw = META.read_text(encoding="utf-8")
+
+    front, body = get_frontmatter_and_body(raw)
+
+    ts = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %z")
+    ts = ts[:-2] + ":" + ts[-2:]
+
+    entry = f"\n### {ts} - {commit}\n\n{desc}\n"
+
+    if "# Changelog" in body:
+        head, tail = body.split("# Changelog", 1)
+        new_body = head + "# Changelog\n" + entry + tail.lstrip("\n")
+    else:
+        new_body = body.rstrip() + "\n\n# Changelog\n" + entry
+
+    META.write_text(front + new_body, encoding="utf-8")
+
+
+def main():
+    print("\n=== CHANGELOG + PUSH ===\n")
+
+    if not META.exists():
+        print("meta.md not found")
+        sys.exit(1)
+
+    commit = input("Commit title: ").strip()
+    if not commit:
+        sys.exit(1)
+
+    desc = input("Describe change: ").strip() or commit
+
+    git(["git", "add", "-A"])
+
+    r = subprocess.run(
         ["git", "diff", "--cached", "--quiet"],
         cwd=ROOT,
     )
-    return result.returncode != 0
+    if r.returncode == 0:
+        print("No changes.")
+        return
 
+    print("Updating changelog…")
+    append_entry(commit, desc)
 
-def ensure_meta_file() -> None:
-    if not META_FILE.exists():
-        print(f"ERROR: {META_FILE} not found")
-        sys.exit(1)
-
-
-def append_changelog_entry(commit_name: str, description: str) -> None:
-    text = META_FILE.read_text(encoding="utf-8")
-
-    heading = "# Changelog"
-    timestamp = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %z")
-    timestamp = f"{timestamp[:-2]}:{timestamp[-2:]}"  # +0530 -> +05:30
-
-    entry = (
-        f"\n### {timestamp} - {commit_name}\n\n"
-        f"{description}\n"
-    )
-
-    if heading in text:
-        idx = text.index(heading) + len(heading)
-        new_text = text[:idx] + "\n" + entry + text[idx:]
-    else:
-        new_text = text.rstrip() + f"\n\n# Changelog\n" + entry
-
-    META_FILE.write_text(new_text, encoding="utf-8", newline="\n")
-
-
-def main() -> None:
-    print("\n==== SITE CHANGELOG + PUSH ====\n")
-
-    ensure_meta_file()
-
-    commit_name = input("Commit title: ").strip()
-    if not commit_name:
-        print("ERROR: Commit title required.")
-        sys.exit(1)
-
-    description = input("Describe change: ").strip()
-    if not description:
-        description = commit_name
-
-    run(["git", "add", "-A"])
-
-    if not git_has_staged_changes():
-        print("No changes detected.")
-        sys.exit(0)
-
-    print("\nWriting changelog entry...")
-    append_changelog_entry(commit_name, description)
-
-    run(["git", "add", "-A"])
-    run(["git", "commit", "-m", commit_name])
-    run(["git", "push", "-u", "origin", "main"])
+    git(["git", "add", "-A"])
+    git(["git", "commit", "-m", commit])
+    git(["git", "push", "-u", "origin", "main"])
 
     print("\nDone.")
 
