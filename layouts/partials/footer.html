@@ -1,4 +1,7 @@
-
-<div class="container"><div class="item">{{ if not (.Param "hideMadeWithLine") }}Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo Bear</a>{{ end }} |</div><div class="item"> <a href="https://arjun9124.github.io/index.xml">RSS Feed </a> </div>
-</div>
-</div>
+<nav>{{ range .Site.Menus.footer }}
+  {{ $active := or ($.IsMenuCurrent "footer" .) ($.HasMenuCurrent "footer" .) }}
+  <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
+{{- .Name -}}  </a>
+{{ end }}
+| <a href="https://arjun9124.github.io/index.xml">RSS Feed </a> 
+</nav>

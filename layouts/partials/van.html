@@ -1,0 +1,5 @@
+{{ range .Site.Menus.two }}
+  {{ $active := or ($.IsMenuCurrent "two" .) ($.HasMenuCurrent "two" .) }}
+  <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
+{{- .Name -}}  </a>
+{{ end }}
