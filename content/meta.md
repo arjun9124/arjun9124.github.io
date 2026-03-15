@@ -5,16 +5,8 @@ weight = 200
 +++
 
 # Changelog
+<p>
+<b> 2026-03-15 19:33 +05:30 - Added Meta Page + Changelog</b><br>
 
-<h3> 2026-03-15 19:29 +05:30 - test toost</h3>
-
-test vest
-<h3> 2026-03-15 19:28 +05:30 - CHANGGE ?</h3>
-
-SAB CHUNGUS SI ?
-<h3> 2026-03-15 19:26 +05:30 - Change log</h3>
-
-bade change log
-<br><h3> 2026-03-15 19:24 +05:30 - Added a meta page</h3>
-
-The meta page shall serve as a colophon/changelog. Generated with the help of a AI generated python script to append changes to the changelog and push commits to github.
+The meta page shall serve as a colophon/changelog. Generated with the help of a AI generated python script to append changes to the changelog and push commits to github. Yeah I know not very cool of me to use AI, but whatever.
+</p>
