@@ -1,5 +1,5 @@
 ﻿+++
-title = "How its made ? 👨‍🏭"
+title = "How its made ?"
 menu = "footer"
 weight = 200
 +++
