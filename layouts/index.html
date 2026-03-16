@@ -6,7 +6,7 @@ I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical En
 I’d appreciate if you read something. Even if you don’t, or if nobody ever does, this place shall continue to exist on principle.</p>
 <div class="container">
 <div class="column">
-<h3 class="recent">Recent Posts</h3> <small class="grey">some effort was made</small>
+<h3 class="recent">Recent Posts 📝</h3> <small class="grey">some effort was made</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/blog" }}
     {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
@@ -18,7 +18,7 @@ I’d appreciate if you read something. Even if you don’t, or if nobody ever d
 </div>
 </div>
 <div class="column">
-<h3 class="recent">Recent Thoughts</h3> <small class="grey">scribblings from my notes app</small>
+<h3 class="recent">Recent Thoughts 🤔</h3> <small class="grey">scribblings from my notes app</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/thoughts" }}
     {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}

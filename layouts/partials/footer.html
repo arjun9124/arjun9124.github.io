@@ -1,7 +1,7 @@
-<nav>{{ range .Site.Menus.footer }}
+{{ range .Site.Menus.footer }}
   {{ $active := or ($.IsMenuCurrent "footer" .) ($.HasMenuCurrent "footer" .) }}
   <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
 {{- .Name -}}  </a>
 {{ end }}
-| <a href="https://arjun9124.github.io/index.xml">RSS Feed </a> 
-</nav>
+| <a href="https://arjun9124.github.io/index.xml">RSS Feed 📰</a> 
+
