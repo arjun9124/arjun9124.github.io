@@ -3,11 +3,7 @@
 {{ with .Site.GetPage "/thoughts" }}
     {{ range first 1 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
   <blockquote class="smallquote">                          
-{{ if gt .WordCount 30 }}
-  {{ .Summary }} <a href="{{ .Permalink }}">(read more)</a>
-{{ else }}
-  {{ .Content }}
-{{ end }}
+{{ .Summary }}
 </blockquote>
 <small>- Arjun on {{ .PublishDate.Format "Jan. 2, 2006" }} | <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> | <a href="/thoughts">more thoughts</a>
 </small>
