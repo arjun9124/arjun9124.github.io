@@ -36,7 +36,7 @@ def append_entry(commit, desc):
     ts = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %z")
     ts = ts[:-2] + ":" + ts[-2:]
 
-    entry = f"\n### {ts} - {commit}\n\n{desc}\n"
+    entry = f"\n<b> {ts} - {commit}</b>\n\n{desc}\n"
 
     if "# Changelog" in body:
         head, tail = body.split("# Changelog", 1)
