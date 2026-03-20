@@ -1,37 +1,42 @@
 {{ define "main" }}
-
+<aside>
+<img src="/me.jpg">
+</aside>
 <p>
 I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul>
 </p><p>
 I’d appreciate if you read something. Even if you don’t, or if nobody ever does, this place shall continue to exist on principle.</p>
-<div class="container">
-<div class="column">
+
+     {{- partial "thoughts.html" . -}}
+
+
 <h3 class="recent">Recent Posts</h3> <small class="grey">some effort was made</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/blog" }}
     {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post" style="text-indent: ;">
-            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                            
+ <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> - {{ .Summary | safeHTML | truncate 60 }}
         </div>    
     {{ end }}
 {{ end }}
-</div>
-</div>
-<div class="column">
-<h3 class="recent">Recent Thoughts</h3> <small class="grey">scribblings from my notes app</small>
-<div class="posts-list">
-{{ with .Site.GetPage "/thoughts" }}
-    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post" style="text-indent: ;">
-            <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-        </div>    
-    {{ end }}
-{{ end }}
-</div>
-</div>
-</div>
 </div>
 
+
+
+</div>
+<h3 class="recent">Stuff I'm making</h3> <small class="grey">or have made already.</small>
+<div class="posts-list">
+{{ with .Site.GetPage "/projects" }}
+    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post" style="text-indent: ;">
+                            
+ <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> - {{ .Summary | safeHTML | truncate 60 }}
+        </div>    
+    {{ end }}
+{{ end }}
+
+</div>
 
 
 

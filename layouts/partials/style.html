@@ -28,6 +28,16 @@
   }
 }
 
+aside {
+  float: right;
+  max-width: 25%;
+padding: 5px 5px;
+
+  /* margin: 0px 0px 10px 20px;
+  border: 1px solid var(--link-color);*/
+
+}
+
 tml, body {
   height: 100%;
   margin: 0;
@@ -104,7 +114,9 @@ content a:hover {
     margin-right: 8px;
   }
 
- 
+ ul.blog-posts li a:visited {
+  text-decoration: line-through red;
+}
   strong,
   b {
     color: var(--heading-color);
@@ -147,7 +159,7 @@ content a:hover {
   blockquote {
     border-left: 1px solid #999;
     color: var(--blockquote-color);
-    padding-left: 20px;
+    padding-left: 15px;
     font-style: italic;
   }
 
@@ -226,7 +238,7 @@ footer {
 }
 
 .column {
-  flex: 1; /* Makes both columns share space equally */
+  flex: 1 1 80%; /* Makes both columns share space equally */
 }
 h3.recent {
 padding-bottom: 0px; 
@@ -252,18 +264,11 @@ nav a {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.webrings { 
-display: flex;
-gap: 15px;
-padding: 5px;
-flex-wrap: wrap;
-font-size: 0.7em;
-justify-content: center; /* Centers items along the main axis (horizontally by default) */
-  align-items: center;    
+.webrings{display:flex;gap:15px;padding:5px;flex-wrap:wrap;font-size:.7em;justify-content:center;align-items:center;margin-bottom:15px}
 
-/* border: 1px dashed var(--link-color); */
-margin-bottom: 15px;
+
+.smallquote {
+font-size: 0.9em;
 }
-
-
 </style>
+

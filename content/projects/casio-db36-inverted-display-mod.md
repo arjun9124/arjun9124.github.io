@@ -14,18 +14,18 @@ I had been meaning to try an inverted display mod on one of my Casio watches, an
 
 **time**..... with the reversed polarity.
 
-<center><img src="../pictures/casio2.jpg" style="width: 70%;"></center>
+<center><img src="../files/casio2.jpg" style="width: 70%;"></center>
 
 In simple terms this mod i.e. modification basically takes the display, and inverts its colours. Now what does that do ? It makes me a cooler person.  It is achieved by removing the old polarizing filter and putting on a new filter that blocks and allows the opposite directions of polarized light, generating this effect. I tried it on this watch since it is pretty old and beat up. Even though it may be beat up, I hold a lot of attachment for this watch and this modification adds some more to it. Below you can see the display without the filter, bear in mind that it is still running. Only the light in the black regions isn't blocked by the filter to produce the dark numbers.
 The pieces of filter above appear dark as they block some amount of the light from my lamp which is not polarized in the preferred direction. In the watch they do the same but in specific regions to produce the numbers.
 
-<center><img src="../pictures/casio1.jpg" style="width: 70%;"></center>
+<center><img src="../files/casio1.jpg" style="width: 70%;"></center>
 
 ### A bit of science for the nerds
 
 So light travels in planes, polarizing is simply taking the light and twisting it into a different plane of propagation. Don't confuse with refraction, here the light still travels in the same direction, only gets a twisted into a different plane. 
 
-<center><img src="../pictures/polarization.png" style="width: 70%;"></center>
+<center><img src="../files/polarization.png" style="width: 70%;"></center>
 
 
 ## What does it do in the display ?

@@ -19,6 +19,7 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
+summarylength = 20
 
 
 [permalinks]
