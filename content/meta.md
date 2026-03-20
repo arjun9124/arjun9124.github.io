@@ -20,6 +20,9 @@ Its just a page about this website, how its made etc.
 
 # Changelog
 
+### 2026-03-20 18:55 +05:30 - Projects
+
+Added some projects, restructured homepage, joined some webrings and added a picture of myself.
 <p>
 <b> 2026-03-15 19:34 +05:30 - Added Meta page + Changelog</b>
 
