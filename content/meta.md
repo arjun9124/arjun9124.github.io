@@ -20,9 +20,11 @@ Its just a page about this website, how its made etc.
 
 # Changelog
 
+
 <b> 2026-03-23 09:50 +05:30 - Added a scapbook !</b>
 
 Created a scrapbook page to serve as a digital scrapbook. Just uses the hugo image gallery plugin. Also removed the dither filter from the image gallery. Planning to add a Zibaldone to serve as a textual scrapbook.
+
 <b> 2026-03-20 18:55 +05:30 - Projects </b>
 
 Added some projects, restructured homepage, joined some webrings and added a picture of myself.
