@@ -5,5 +5,6 @@ weight = 200
 +++
 <h2>Images, of stuff</h2>
 
-{{< gallery globalMatch="/something/*" randomize=true rowHeight="250" margins="10" thumbnailResizeOptions="500x500 q100 Lanczos" showExif=true previewType="dither" embedPreview=false loadJQuery=true swipeboxParameters="hideBarsDelay: 0">}}
+{{< gallery globalMatch="/something/*" randomize=true rowHeight="250" margins="10" thumbnailResizeOptions="500x500 q100 Lanczos" showExif=true previewType="blur" embedPreview=false loadJQuery=true swipeboxParameters="hideBarsDelay: 0">}}
 
+ 
