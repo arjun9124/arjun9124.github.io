@@ -1,5 +1,10 @@
-{{ range .Site.Menus.two }}
-  {{ $active := or ($.IsMenuCurrent "two" .) ($.HasMenuCurrent "two" .) }}
-  <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
-{{- .Name -}}  </a>
+<br><strong>Misclaneous 
+</strong><br><small class="grey">Too cool to be categorized.</small>
+<div class="container">
+<nav>
+{{ range .Site.Menus.misc }}
+  {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
+  <a href="{{ .URL | relURL }}" class="misc">
+{{- .Name -}}</a>
 {{ end }}
+</nav></div>

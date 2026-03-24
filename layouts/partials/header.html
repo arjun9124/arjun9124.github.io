@@ -3,8 +3,6 @@
   <h1>
   {{ if .IsHome }}
     Arjun’s Webpage
-  {{ else if eq .Section "whats-going-on" }}
-  What’s Going On
   {{ else if .IsSection }}
     Arjun’s {{ .Section | humanize }}
   {{ else if eq .Title "about" }}
@@ -23,3 +21,4 @@
 
 
 <nav>{{- partial "nav.html" . -}}</nav>
+

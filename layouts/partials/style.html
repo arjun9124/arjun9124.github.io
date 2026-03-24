@@ -26,8 +26,12 @@
     --visited-color: #94befc;
     --highlight-color: #042659;
     --heading-color: #eaeaea;
+
   }
 }
+
+
+
 
 aside {
   float: right;
@@ -252,12 +256,32 @@ nav a {
 }
 
 nav a.active {
-  background-color: var(--link-color);
+  background-color: yellow;
   color: var(--background-color);
 }
 
 nav a {
   transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+background-color: yellow;
+  color: var(--background-color);}
+
+
+nav a.misc {
+background-color: var(--link-color);
+border-radius: 2px;
+padding: 3px;
+color: var(--background-color);
+ 
+}
+
+nav a.misc:hover {
+background-color: yellow;
+  color: var(--background-color);
+
+ 
 }
 
 .webrings{display:flex;gap:15px;padding:5px;flex-wrap:wrap;font-size:.7em;justify-content:center;align-items:center;margin-bottom:15px}

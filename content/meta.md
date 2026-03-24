@@ -19,8 +19,10 @@ Its just a page about this website, how its made etc.
 > Expressing my gratitude to all the चंगे लोग (good fellas)
 
 # Changelog
+<p>
+<b> 2026-03-24 13:48 +05:30 - Misclaneous pages and #FFFF00</b>
 
-
+Added some misclaneous pages, to give company to the scrapbook page. Mostly stuff that I can figure out what to do with but is cool enough to be here. And added some yellow.</p>
 <b> 2026-03-23 09:50 +05:30 - Added a scapbook !</b>
 
 Created a scrapbook page to serve as a digital scrapbook. Just uses the hugo image gallery plugin. Also removed the dither filter from the image gallery. Planning to add a Zibaldone to serve as a textual scrapbook.
