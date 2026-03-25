@@ -20,6 +20,12 @@ Its just a page about this website, how its made etc.
 
 # Changelog
 <p>
+<b> 2026-03-25 19:53 +05:30 - New changeloging script</b>
+
+Asked chat gpt to fix me a new changeloging script.
+
+Changed files: changelog1.py, static/humans.txt, static/images/share.png, static/meee.jpg</p>
+<p>
 <b> 2026-03-25 15:26 +05:30 - Themes!</b>
 
 Added 4 themes with a theme changer. Also added some stuff to one of the misclaneous pages.</p>
