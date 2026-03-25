@@ -1,0 +1,60 @@
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const pressedButtonSelector = '[data-theme][aria-pressed="true"]';
+  const defaultTheme = 'Dark';
+  const validThemes = ['Dark', 'CMYK', 'Light', 'Piss'];
+
+  const applyTheme = (theme) => {
+    if (!validThemes.includes(theme)) {
+      theme = defaultTheme;
+    }
+
+    const currentPressed = document.querySelector(pressedButtonSelector);
+    const target = document.querySelector(`[data-theme="${theme}"]`);
+    const profileImage = document.querySelector('#profile-image');
+
+    document.documentElement.setAttribute('data-selected-theme', theme);
+
+    if (currentPressed) {
+      currentPressed.setAttribute('aria-pressed', 'false');
+    }
+
+    if (target) {
+      target.setAttribute('aria-pressed', 'true');
+    }
+
+    if (profileImage) {
+      profileImage.src = `/me-${theme}.jpg`;
+    }
+  };
+
+  const handleThemeSelection = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+
+    const target = event.currentTarget;
+    const theme = target.getAttribute('data-theme');
+
+    if (target.getAttribute('aria-pressed') !== 'true') {
+      applyTheme(theme);
+      localStorage.setItem('selected-theme', theme);
+    }
+  };
+
+  const setInitialTheme = () => {
+    const savedTheme = localStorage.getItem('selected-theme');
+    applyTheme(validThemes.includes(savedTheme) ? savedTheme : defaultTheme);
+  };
+
+  const themeSwitcher = document.querySelector('.theme-switcher');
+  if (!themeSwitcher) return;
+
+  const buttons = themeSwitcher.querySelectorAll('button');
+  buttons.forEach((button) => {
+    button.setAttribute('type', 'button');
+    button.addEventListener('click', handleThemeSelection);
+  });
+
+  setInitialTheme();
+});
+</script>

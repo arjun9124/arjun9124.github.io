@@ -4,21 +4,10 @@
   --font-main: monospace;
   --font-secondary: monospace;
   --font-scale: 1.25em;
+   } 
 
-  /* Light appearance (from light-appearance mixin)
-  --background-color: #ffffff;        /* $--bg-color */
-  --text-color: #212121;              /* $--primary-text-color */
-  --blockquote-color: #dfedff;        /* $--secondary-text-color */
-  --link-color: #0066ff;              /* $--link-color */
-  --visited-color: #004dc1;           /* $--visited-link-color */
-  --highlight-color: #FFFF00;         /* $--highlight */
-  --heading-color: #212121;           /* $--title */
-}
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Dark appearance (from dark-appearance mixin) */
+:root, 
+[data-selected-theme="Dark"] { 
     --background-color: #0c0c0c;
     --text-color: #eaeaea;
     --blockquote-color: #646464;
@@ -26,11 +15,76 @@
     --visited-color: #94befc;
     --highlight-color: #042659;
     --heading-color: #eaeaea;
+    --yellow: #ffff00;
 
-  }
+}
+[data-selected-theme="CMYK"] { 
+--background-color: #000000;
+--text-color: #ffffff;
+--blockquote-color: #ffff00; /* magenta */
+--link-color: #00ffff;       /* cyan */
+--visited-color: #ffff00;    /* var(--yellow) */
+--highlight-color: #ff00ff;  /* magenta */
+--heading-color: #ff00ff;
+--subtext : #ffffff;
+--yellow: #ffff00;
+
+}
+[data-selected-theme="Light"] { 
+  --background-color: #ffffff;        /* $--bg-color */
+  --text-color: #212121;              /* $--primary-text-color */
+  --blockquote-color: #686868;        /* $--secondary-text-color */
+  --link-color: #0066ff;              /* $--link-color */
+  --visited-color: #004dc1;           /* $--visited-link-color */
+  --highlight-color: #FFFF00;         /* $--highlight */
+  --heading-color: #212121;  
+  --yellow: fuchsia;         /* $--title */
+}
+
+[data-selected-theme="Piss"] {
+  --background-color: #081820;
+  --text-color: #e0f8d0;
+  --blockquote-color: #88c070;
+  --link-color: #88c070;
+  --visited-color: #346856;
+  --highlight-color: #ffffff;
+  --heading-color: #e0f8d0;
+  --yellow: #88c070;
+
 }
 
 
+button[data-theme] {
+  font-family: var(--font-main);
+  margin: 0;
+  padding: 2px;
+  border: none;
+  background: transparent;
+  color: var(--text-color);
+}
+
+button[data-theme][aria-pressed="true"]:is(:hover) {
+color: var(--background-color);
+background-color: var(--heading-color);
+border: 1px solid var(--heading-color);
+
+}
+
+button[data-theme][aria-pressed="false"]:is(:hover) {
+color: var(--background-color);
+background-color: var(--yellow);
+border: 1px solid var(--yellow);
+} 
+
+button[data-theme][aria-pressed="false"] {
+  border: 1px solid var(--text-color);
+
+}
+
+button[data-theme][aria-pressed="true"] {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
 
 
 aside {
@@ -89,6 +143,7 @@ main {
     font-family: var(--font-main);
     color: var(--heading-color);
     font-size: var(--font-scale);
+    margin-bottom: 0.5em;
 
   }
 
@@ -99,13 +154,11 @@ main {
   }
 
   a:hover {
-    text-color: var(--background-color);
     background-color: var(--link-color);
     color: var(--background-color);
   }
 
 content a:hover {
-    text-color: var(--background-color);
     background-color: var(--link-color);
     color: var(--background-color);
   }
@@ -256,7 +309,7 @@ nav a {
 }
 
 nav a.active {
-  background-color: yellow;
+  background-color: var(--yellow);
   color: var(--background-color);
 }
 
@@ -265,7 +318,7 @@ nav a {
 }
 
 a:hover {
-background-color: yellow;
+background-color: var(--yellow);
   color: var(--background-color);}
 
 
@@ -278,7 +331,7 @@ color: var(--background-color);
 }
 
 nav a.misc:hover {
-background-color: yellow;
+background-color: var(--yellow);
   color: var(--background-color);
 
  

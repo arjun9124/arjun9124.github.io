@@ -20,6 +20,10 @@ Its just a page about this website, how its made etc.
 
 # Changelog
 <p>
+<b> 2026-03-25 15:26 +05:30 - Themes!</b>
+
+Added 4 themes with a theme changer. Also added some stuff to one of the misclaneous pages.</p>
+<p>
 <b> 2026-03-24 13:48 +05:30 - Misclaneous pages and #FFFF00</b>
 
 Added some misclaneous pages, to give company to the scrapbook page. Mostly stuff that I can figure out what to do with but is cool enough to be here. And added some yellow.</p>

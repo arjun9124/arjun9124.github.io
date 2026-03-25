@@ -1,7 +1,6 @@
 {{ define "main" }}
 <aside>
-<img src="/me.jpg" style="width: 150px;">
-</aside>
+<img id="profile-image" src="/me-Dark.jpg" alt="Me" width="150em;"></aside>
 <p>
 I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul>
 </p><p>
@@ -14,7 +13,7 @@ I’d appreciate if you read something. Even if you don’t, or if nobody ever d
 <div class="posts-list">
 {{ with .Site.GetPage "/blog" }}
     {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post" style="text-indent: ;">
+        <div class="post" >
                             
  <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> - {{ .Summary | safeHTML | truncate 60 }}
         </div>    
