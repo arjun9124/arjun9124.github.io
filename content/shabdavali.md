@@ -10,13 +10,15 @@ weight = 100
 
 
 
-Recce - Reki
 
-Clash - kalesh
 
-Matches - machis
+Reki - Recce
 
-aspatal - haspatal - hospital
+Kalesh - Clash
+
+Machis - Matches
+
+Aspatal - Haspatal - Hospital
 
 isepyse/icepice - i spy
 
@@ -33,7 +35,4 @@ kanastar - canister
 laced - lais
 
 traasdi - tragedy
-
-
-
 

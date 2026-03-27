@@ -20,6 +20,10 @@ Its just a page about this website, how its made etc.
 
 # Changelog
 <p>
+<b> 2026-03-27 09:47 +05:30 - Maps of Delhi</b>
+
+Added a new page featuring my collection of maps of delhi. Yet to figure out if it voilates any copyrights. Also added some more stuff to my scrapbook</p>
+<p>
 <b> 2026-03-25 19:53 +05:30 - New changeloging script</b>
 
 Asked chat gpt to fix me a new changeloging script.

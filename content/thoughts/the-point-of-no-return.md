@@ -3,9 +3,9 @@ title: The Point of No Return
 date: 2023-07-03T21:20:27+05:30
 slug: the-point-of-no-return
 type: posts
-draft: true
+draft: false
 categories:
-  - Life/Zindagi/General
+  - Life
 tags:
   - College
 ---
@@ -19,4 +19,7 @@ What's wrong in expecting though ? For mathematics I can still say, its a useful
 
 draft: false 
 
-Letting these thoughts run loose. Winter depression, seasonal affective disorder, purposelessness. Whatever it may be. Let the thoughts be free. The old thoughts, because newer ones aren't coming. 
+25-03-2026
+
+draft: false
+cringe: mostly removed

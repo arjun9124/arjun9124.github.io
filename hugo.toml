@@ -21,7 +21,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 summarylength = 20
 
-
+timeout = 60000
 [permalinks]
   blog = "/blog/:slug/"
   tags = "/tag/:slug"
