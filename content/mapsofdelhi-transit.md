@@ -14,7 +14,7 @@ Such maps were initially installed at major bus depots and bus stops in central 
 
 Find more <a href="https://www.facebook.com/delhibusmap/">here</a> 
 
-<img src="/maps/DTC.png/"> 
+<img src="/maps/DTC.png"> 
 
 ### Roads of Delhi 
 
