@@ -28,7 +28,28 @@ def get_frontmatter_and_body(text: str):
     return front, body
 
 
-def append_entry(commit, desc):
+def get_staged_files():
+    r = subprocess.run(
+        ["git", "diff", "--cached", "--name-only"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if r.returncode != 0:
+        sys.exit(r.returncode)
+
+    files = [line.strip() for line in r.stdout.splitlines() if line.strip()]
+
+    try:
+        meta_rel = str(META.relative_to(ROOT)).replace("\\", "/")
+        files = [f for f in files if f.replace("\\", "/") != meta_rel]
+    except ValueError:
+        pass
+
+    return files
+
+
+def append_entry(commit, desc, changed_files):
     raw = META.read_text(encoding="utf-8")
 
     front, body = get_frontmatter_and_body(raw)
@@ -36,7 +57,12 @@ def append_entry(commit, desc):
     ts = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %z")
     ts = ts[:-2] + ":" + ts[-2:]
 
-    entry = f"<p>\n<b> {ts} - {commit}</b>\n\n{desc}</p>\n"
+    files_text = ""
+    if changed_files:
+        file_list = ", ".join(changed_files)
+        files_text = f"\n\nChanged files: {file_list}"
+
+    entry = f"<p>\n<b> {ts} - {commit}</b>\n\n{desc}{files_text}</p>\n"
 
     if "# Changelog" in body:
         head, tail = body.split("# Changelog", 1)
@@ -70,8 +96,10 @@ def main():
         print("No changes.")
         return
 
-    print("Updating changelog…")
-    append_entry(commit, desc)
+    changed_files = get_staged_files()
+
+    print("Updating changelog...")
+    append_entry(commit, desc, changed_files)
 
     git(["git", "add", "-A"])
     git(["git", "commit", "-m", commit])

@@ -20,6 +20,12 @@ Its just a page about this website, how its made etc.
 
 # Changelog
 <p>
+<b> 2026-03-28 14:50 +05:30 - Updated maps of delhi</b>
+
+Updated maps of delhi, made the misclaneous menu a proper flexbox.
+
+Changed files: assets/modt/cdjtm7cqx0921.jpg, assets/modu/1952.jpg, assets/modu/1952.jpg.meta, assets/modu/1961.png, assets/modu/1961.png.meta, assets/modu/1962.png, assets/modu/1962.png.meta, assets/modu/2001.png, assets/modu/2001.png.meta, assets/modu/2021.jpg, assets/modu/2021.jpg.meta, assets/modu/2041.png.meta, assets/modu/Drainage 2020.png.meta, changelog.py, content/mapsofdelhi-transit.md, content/mapsofdelhi-urban.md, layouts/partials/style.html, layouts/partials/van.html, oldchangelog.py, static/maps/1952.jpg, static/maps/1961.png, static/maps/1962.png, static/maps/2001.png, static/maps/2021.jpg, static/maps/2041.png, static/maps/DTC.png, static/maps/roadsofdelhi.png, static/me-CMYK.jpg, static/memes/aawaz.png, static/memes/parchatti.png, static/memes/vivaad.png</p>
+<p>
 <b> 2026-03-27 09:47 +05:30 - Maps of Delhi</b>
 
 Added a new page featuring my collection of maps of delhi. Yet to figure out if it voilates any copyrights. Also added some more stuff to my scrapbook</p>
