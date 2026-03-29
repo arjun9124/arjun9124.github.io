@@ -4,7 +4,7 @@ menu = "footer"
 weight = 200
 +++
 
-# How its made ?
+## How its made ?
 
 This website is made using [Hugo](https://gohugo.io), a static site generator. The theme I use is based on [Hugo Bearblog](https://janraasch.github.io/hugo-bearblog/). Which in turn is based on [Bear blog](https://bearblog.dev). I borrowed the color scheme from [somestyleplease](https://github.com/jkkNl/somestyleplease), another minimal monospace Hugo theme. You could call this a Hugo Bearblog/somestyleplease hybrid. I also borrow some stuff from [Hugo Theme Console](https://github.com/mrmierzejewski/hugo-theme-console), which I was using prior to this for about two years. Additionally I use [hugo-shortcode-gallery](https://github.com/mfg92/hugo-shortcode-gallery/tree/master) with some tiny modifications to integrate hugo's inbuilt dithering to render the [image gallery](/images) on my website
 
@@ -12,19 +12,18 @@ This website is made using [Hugo](https://gohugo.io), a static site generator. T
 
 
 
-# What's a meta page ?
+## What's a meta page ?
 
 Its just a page about this website, how its made etc. 
 
 > Expressing my gratitude to all the चंगे लोग (good fellas)
 
-# Changelog
+## Changelog
 <p>
 <b> 2026-03-29 19:02 +05:30 - New Font</b>
 
 New font, increased width, the website is having its wide putin moment. Planning to streamline the content a bit more.
-
-Changed files: archetypes/images.md, assets/scrap/IMG_20260324_0001.png, assets/scrap/IMG_20260324_0001.png.meta, assets/scrap/IMG_20260324_0002.jpg, assets/scrap/IMG_20260324_0002.jpg.meta, assets/scrap/IMG_20260324_0003.jpg, assets/scrap/IMG_20260324_0003.jpg.meta, assets/scrap/IMG_20260326_0001.jpg, assets/scrap/IMG_20260326_0002.jpg, assets/scrap/IMG_20260326_0003.jpg, assets/scrap/IMG_20260326_0004.jpg, assets/scrap/IMG_20260326_0005.jpg, assets/scrap/Screenshot 2025-04-18 125505.png, assets/scrap/Screenshot 2025-04-18 125505.png.meta, assets/scrap/collage.png, assets/scrapbook/IMG_20260326_0006.jpg.meta, assets/scrapbook/IMG_20260326_0007.jpg.meta, assets/scrapbook/IMG_20260327_0005.jpg, assets/scrapbook/IMG_20260327_0005.jpg.meta, assets/scrapbook/bad financial decision - V2 .png, assets/scrapbook/bad financial decision - V2 .png.meta, layouts/_default/images/list.html, layouts/_default/images/single.html, layouts/index.html, layouts/partials/custom_head.html, layouts/partials/style.html</p>
+</p>
 <p>
 <b> 2026-03-28 14:50 +05:30 - Updated maps of delhi</b>
 

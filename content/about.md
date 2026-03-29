@@ -6,15 +6,15 @@ weight = 2
 
 ### Who am I ? 
 
-I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul>
+I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul> I blame this ineptitude on the system. 
 
-I'd appreciate if you read something. Even if you don't, or if nobody ever does, this place shall continue to exist on principle. 
+### What am I doing, NOW ? 
 
-### The reason/s you are reading this are: 
+Enjoying my last few months as an untaxed liability on my parents. (Until 06/2026)
 
-- I keep this webpage up
-- You accidentally strolled in here 
-- You are cooler than the average person who never bothered to open this website
+#### What I was doing, a while ago (for the record)
+
+
 
 ### What's the deal with this website ?
 
@@ -22,6 +22,11 @@ I'd appreciate if you read something. Even if you don't, or if nobody ever does,
 - It's my medium of self expression on the web.
 - It's where I post my stuff, I don't have any social media accounts.
 
+More about this webpage [here](/meta)
+
 In case I have ceased to maintain this page, then feel sad that one interesting bit of internet is gone. 
 > One broken GitHub pages repository for man is one giant leap for big tech
 
+### Contact
+
+the terminating station at the west of DMRC's red line at proton mail dot com

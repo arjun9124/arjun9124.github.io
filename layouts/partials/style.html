@@ -142,7 +142,7 @@ main {
   h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
-    font-size: var(--font-scale);
+    font-size: 1.25;
     margin-bottom: 0.5em;
 
   }
@@ -232,9 +232,12 @@ footer {
   }
 
   .title h1 {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
 
+  h2 {
+    font-size: 1.35em;
+  }
   .inline {
     width: auto !important;
   }
@@ -247,6 +250,9 @@ footer {
     overflow-x: auto;
   }
 
+  .post{
+    margin-bottom: 1em;
+  }
   /* blog post list */
   ul.blog-posts {
     list-style-type: none;
@@ -293,7 +299,8 @@ footer {
 .column {
   flex: 1 1 80%; /* Makes both columns share space equally */
 }
-h3.recent {
+h2.recent {
+padding-top: 1em;
 padding-bottom: 0px; 
 margin-bottom: 0px;
 }
