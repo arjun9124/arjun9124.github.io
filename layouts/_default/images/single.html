@@ -1,0 +1,167 @@
+{{ define "main" }}
+
+<article itemscope itemType="https://schema.org/BlogPosting">
+    <header>
+        <h1>{{ .Title }}</h1>
+        <section class="meta">
+            {{ $dataFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+            <span>Published:  <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format $dataFormat }}</time></span>
+            {{ if (and .Site.Params.showUpdated (ne .Lastmod .Date)) }}
+            <span>(Updated: <time datetime="{{ .Lastmod }}" itemprop="dateModified">{{ .Lastmod.Format $dataFormat }}</time>)</span>
+            {{ end }}
+
+            {{ with (.GetTerms "tags") }}
+            <ul class="tags">
+                {{ range . }}
+                <li class="tag">
+                    <span class="prefix">#</span>
+                    <a href="{{ .Permalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </section>
+    </header>
+
+    <main itemprop="articleBody" class="md">
+
+    {{ with .Resources.ByType "image" }}
+    {{ range . }}
+        {{ $image := .Fit "1024x1024" }}
+        <figure>
+            <img src="{{ $image.RelPermalink }}" alt="{{ $.Description }}">
+            <figcaption>{{ $.Description }}</figcaption>
+        </figure>
+
+        {{ if isset .Params "license" }}
+            {{ partial "cc-license.html" (dict "license" .Params.license "title" $image.Title "workURL" $.Page.Permalink "author" $.Site.Params.Author "authorURL" $.Site.BaseURL) }}
+        {{ else }}
+            {{ with $.Site.Params.photolicense }}
+            {{ partial "cc-license.html" (dict "license" $.Site.Params.photolicense "title" $image.Title "workURL" $.Page.Permalink "author" $.Site.Params.Author "authorURL" $.Site.BaseURL) }}
+            {{ end }}
+        {{ end }}
+
+        {{ with .Exif }}
+        <h2>Metadata</h2>
+        <table>
+            {{ with $image.Title }}
+            <tr>
+                <th>Title</th>
+                <td>{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ with .Date }}
+            <tr>
+                <th>Date</th>
+                <td>{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "Model" }}
+            <tr>
+                <th>Camera</th>
+                <td>{{ .Tags.Model }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "LensModel" }}
+            <tr>
+                <th>Lens</th>
+                <td>{{ .Tags.LensModel }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "ExposureTime" }}
+            <tr>
+                <th>Exposure Time</th>
+                <td>{{ .Tags.ExposureTime }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "FNumber" }}
+            <tr>
+                <th>F Number</th>
+                <td>{{ .Tags.FNumber }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "ISOSpeedRatings" }}
+            <tr>
+                <th>ISO</th>
+                <td>{{ .Tags.ISOSpeedRatings }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "FocalLength" }}
+            <tr>
+                <th>Focal Length</th>
+                <td>{{ .Tags.FocalLength }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "ExposureMode" }}
+            <tr>
+                <th>Exposure Mode</th>
+                <td>
+                    {{ with (eq .Tags.ExposureMode 1) }}Manual{{ end }}
+                    {{ with (eq .Tags.ExposureMode 0) }}Auto{{ end }}
+                </td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "ExposureProgram" }}
+            <tr>
+                <th>Exposure Program</th>
+                <td>
+                    {{ with (eq .Tags.WhiteBalance 1) }}Manual{{ end }}
+                    {{ with (eq .Tags.WhiteBalance 0) }}Auto{{ end }}
+                </td>
+            </tr>
+            {{ end }}
+            {{ with .Tags.ExposureBiasValue }}
+            <tr>
+                <th>Exposure Compensation</th>
+                <td>{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "WhiteBalance" }}
+            <tr>
+                <th>White Balance</th>
+                <td>
+                    {{ with (eq .Tags.WhiteBalance 1) }}Manual{{ end }}
+                    {{ with (eq .Tags.WhiteBalance 0) }}Auto{{ end }}
+                </td>
+            </tr>
+            {{ end }}
+            {{ if isset .Tags "MeteringMode" }}
+            <tr>
+                <th>Metering Mode</th>
+                <td>
+                    {{ with (eq .Tags.MeteringMode 0) }}Unknown{{ end }}
+                    {{ with (eq .Tags.MeteringMode 1) }}Average{{ end }}
+                    {{ with (eq .Tags.MeteringMode 2) }}Center Weighted Average{{ end }}
+                    {{ with (eq .Tags.MeteringMode 3) }}Spot{{ end }}
+                    {{ with (eq .Tags.MeteringMode 4) }}MultiSpot{{ end }}
+                    {{ with (eq .Tags.MeteringMode 5) }}Pattern{{ end }}
+                    {{ with (eq .Tags.MeteringMode 6) }}Partial{{ end }}
+                    {{ with (eq .Tags.MeteringMode 255) }}other{{ end }}
+                </td>
+            </tr>
+            {{ end }}
+        </table>
+        {{ end }}
+
+    {{ end }}
+    {{ end }}
+
+    {{ block "content" . }} {{- .Content }} {{- end }}
+    </main>
+
+    <footer style="border-bottom: none; margin-bottom: 1em; padding-top: 3em;">
+        <header style="background-color: var(--item-bg); border-bottom: none; margin: -1em; padding: 12px 24px; border-radius: 1em; margin-bottom: 1em;">
+            <h2 style="margin: 0;">Mentions</h2>
+            <p>Respond to this post on your own site. If you do, 
+            <a href="https://webmention.io/billglover.me/webmention">send me a webmention</a> here. Find out 
+            more about webmentions on the <a href="https://indieweb.org/Webmention">IndieWeb</a>.</p>
+        </header>
+        
+        {{ partial "webmentions.html" .}}
+    </footer>
+</article>
+{{- end }}
+
+{{ define "header" }}
+{{- partial "header" . -}}
+{{ end }}

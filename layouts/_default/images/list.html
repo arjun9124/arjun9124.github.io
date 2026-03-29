@@ -1,0 +1,28 @@
+{{ define "main" }}
+<header>
+    <h1>{{ .Title }}</h1>
+    {{.Content}}
+</header>
+<section>
+        {{ range .Pages.GroupByDate "Jan 2006" }}
+        <h4>{{ .Key }}</h4>
+        <ol class="photo-list">
+            {{ range .Pages }}
+            {{ $firstImage := index (.Resources.ByType "image") 0 }}
+            {{ $firstImage = $firstImage.Fit "480x480" }}
+            <li>
+                <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+                    <img src="{{ $firstImage.RelPermalink }}" alt="{{ .Description }}">
+                </a>
+            </li>
+            {{ end }}
+            <li></li>
+        </ol>
+        {{ end }}
+</section>
+<footer></footer>
+{{- end }}
+
+{{ define "header" }}
+{{- partial "header" . -}}
+{{ end }}
