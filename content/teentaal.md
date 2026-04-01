@@ -114,5 +114,5 @@ peer baba ke dam ka pan
 
 dehaavsan (देहावसान) is a Hindi/Sanskrit word meaning death, demise, or the end of the body (deh = body, avasan = end).
 
-
+Vaampanthi (वामपन्थी) or Left-wing politics refers to an ideology 
 
