@@ -20,6 +20,10 @@ Its just a page about this website, how its made etc.
 
 ## Changelog
 <p>
+<b> 2026-04-01 10:17 +05:30 - Upgraded Hugo</b>
+
+upgraded hugo workflow, removed ambiguity, standardized formats, appended suffixes, self expression : optimized.</p>
+<p>
 <b> 2026-03-29 19:02 +05:30 - New Font</b>
 
 New font, increased width, the website is having its wide putin moment. Planning to streamline the content a bit more.

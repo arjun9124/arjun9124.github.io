@@ -1,22 +1,18 @@
-+++
-
-title = "Parchatti"
-
-menu = "misc"
-
-weight = 1020
-
-+++
-
-
-
-
-
-
+---
+title: "परछत्ती - Parchatti"
+date: 2025-07-28T11:55:19+05:30
+slug: parchatti
+type: posts
+draft: false
+categories:
+  - default
+tags:
+  - Life
+  - Discord
+  - Hindi
+---
 
 
- 
-# परछत्ती - Parchatti 
 
 **arjun - 28/07/2025, 11:55**
 

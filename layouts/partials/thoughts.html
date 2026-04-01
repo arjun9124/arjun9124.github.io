@@ -1,11 +1,17 @@
 <div class="thought">
-<b>A recent thought...</b>
-{{ with .Site.GetPage "/thoughts" }}
+{{ with .Site.GetPage "/microblog" }}
     {{ range first 1 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+{{ if eq .Type "thought" }}
+  <b>A recent thought</b>
+{{ else if eq .Type "status" }}
+<b>Current status</b>
+{{ else }}
+  {{ .Type }}
+{{ end }}
   <blockquote class="smallquote">                          
-{{ .Summary }}
+{{ .Summary | plainify }}
 </blockquote>
-<small>- Arjun on {{ .PublishDate.Format "Jan. 2, 2006" }} | <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> | <a href="/thoughts">more thoughts</a>
+<small>{{ .PublishDate.Format "Jan. 2, 2006" }} | <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> | <a href="/microblog">more μ-blogging</a>
 </small>
     {{ end }}
 {{ end }}

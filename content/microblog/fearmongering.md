@@ -1,8 +1,8 @@
 ---
 title: "placement की fearmongering"
 date: 2026-03-06T21:40:53+05:30
-slug: 2026-03-06-fearmongering
-type: posts
+slug: fearmongering
+type: thought
 draft: false
 categories:
   - Life
