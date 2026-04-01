@@ -1,9 +1,9 @@
 ---
 title: Pentax DL-9000 - The Scamera
 date: 2026-03-24T13:09:47+05:30
-slug: parantha
+slug: pentax
 type: posts
-draft: true
+draft: false
 categories:
   - Culture
 tags:

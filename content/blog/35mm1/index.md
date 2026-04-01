@@ -7,7 +7,7 @@ draft: false
 categories:
   - default
 tags:
-  - default
+ - Analog Photography
 ---
 
 Pictures from my first roll of 35mm film. 
