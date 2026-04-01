@@ -1,12 +1,12 @@
 
-baseURL = "https://arjun9124.github.io"
+baseURL = "https://arjvn.xyz"
 
 
 theme = ["hugo-bearblog", "hugo-shortcode-gallery"]
 
 title = "Arjun's Webpage"
 author = "Arjun 9124"
-copyright = "Copyleft © 2025, Arjun 9124."
+copyright = "Copyleft © 2026, Arjun 9124."
 languageCode = "en-IN"
 
 enableRobotsTXT = true
@@ -17,6 +17,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 summarylength = 20
 
 timeout = 60000
+
 [permalinks]
   blog = "/blog/:slug/"
   tags = "/tag/:slug"
