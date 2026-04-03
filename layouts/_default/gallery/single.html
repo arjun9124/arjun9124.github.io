@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<article itemscope itemtype="https://schema.org/BlogPosting">
+  <header>
+    <h2>{{ .Title }}</h2>
+
+    <section class="meta">
+      {{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+      <span>
+        <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format $dateFormat }}</time>
+      </span>
+
+
+    </section>
+  </header>
+
+  <main itemprop="articleBody" class="md">
+    {{ .Content }}
+
+    {{ $page := . }}
+    {{ with $page.Resources.ByType "image" }}
+      <div class="post-images">
+        {{ range . }}
+          {{ $img := .Fit "1024x1024" }}
+          <figure>
+            <img src="{{ $img.RelPermalink }}" alt="{{ $page.Title }}">
+            {{ with $page.Description }}
+              <figcaption>{{ . }}</figcaption>
+            {{ end }}
+          </figure>
+        {{ end }}
+      </div>
+    {{ end }}
+  </main>
+</article>
+      {{ with .GetTerms "tags" }}
+  
+          {{ range . }}
+                           <span class="prefix">#</span><a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
+            
+          {{ end }}
+      {{ end }}
+
+{{ if .Param "enablePostNavigator" }}
+  {{ partial "post_navigator.html" . }}
+{{ end }}
+
+{{ end }}

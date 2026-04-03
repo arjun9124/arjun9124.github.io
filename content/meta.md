@@ -20,6 +20,10 @@ Its just a page about this website, how its made etc.
 
 ## Changelog
 <p>
+<b> 2026-04-03 23:29 +05:30 - Gallery</b>
+
+New galler based on https://billglover.me/2023/11/07/creating-a-photography-gallery-with-hugo/</p>
+<p>
 <b> 2026-04-01 10:17 +05:30 - Upgraded Hugo</b>
 
 upgraded hugo workflow, removed ambiguity, standardized formats, appended suffixes, self expression : optimized.</p>

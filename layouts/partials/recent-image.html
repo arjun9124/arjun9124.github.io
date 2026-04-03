@@ -1,0 +1,26 @@
+<div class="image-grid">
+  {{ $pages := slice }}
+
+  {{ with .Site.GetPage "/gallery" }}
+    {{ $pages = $pages | append .RegularPages }}
+  {{ end }}
+
+  {{ with .Site.GetPage "/scrapbook" }}
+    {{ $pages = $pages | append .RegularPages }}
+  {{ end }}
+
+  {{ range first 1 (sort $pages "Date" "desc") }}
+    {{ $page := . }}
+
+    <h4>{{ $page.Title }}</h4>
+
+    <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
+      {{ with $page.Resources.GetMatch $page.Params.image }}
+        {{ $thumb := .Resize "400x" }}
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" max-height="240px">
+      {{ end }}
+    </a>
+
+    <p>{{ $page.Plain | truncate 160 }}</p>
+  {{ end }}
+</div>

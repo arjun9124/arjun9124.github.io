@@ -9,7 +9,7 @@
   {{ .Type }}
 {{ end }}
   <blockquote class="smallquote">                          
-{{ .Summary | plainify }}
+{{ .Summary }}
 </blockquote>
 <small>{{ .PublishDate.Format "Jan. 2, 2006" }} | <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> | <a href="/microblog">more μ-blogging</a>
 </small>

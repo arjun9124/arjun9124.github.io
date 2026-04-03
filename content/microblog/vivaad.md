@@ -13,6 +13,6 @@ tags:
 
 सन २०२४ : कुत्ते विवाद से डरने लगे हैं।  
 
-![Image alt](/vivaad.png)
+![Image alt](/memes/vivaad.png)
 
  आप किस कुत्ते के पक्ष में हैं ? 
