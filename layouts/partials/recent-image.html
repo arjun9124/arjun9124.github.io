@@ -1,4 +1,4 @@
-<div class="image-grid" style="padding-left: 10px; border-left: 2px dashed var(--link-color);">
+<div class="image-grid" style="padding-left: 10px;">
   {{ $pages := slice }}
 
   {{ with .Site.GetPage "/gallery" }}
@@ -6,8 +6,7 @@
   {{ end }}
 
 
-<h4> Image Roll</h4>
-  {{ range first 4 (sort $pages "Date" "desc") }}
+  {{ range first 1 (sort $pages "Date" "desc") }}
     {{ $page := . }}
 
     <!--<h4>{{ $page.Title }}</h4>-->
