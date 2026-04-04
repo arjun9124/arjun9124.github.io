@@ -8,6 +8,7 @@ draft: false
 categories:
   - default
 tags:
-  - default
+  - Delhi
+  - Nature
 ---
 

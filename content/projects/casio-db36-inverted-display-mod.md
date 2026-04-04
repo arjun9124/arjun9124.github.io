@@ -7,6 +7,8 @@ categories:
 tags:
 
 - Horology
+- DIY
+- EDC
 
 ---
 

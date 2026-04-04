@@ -1,4 +1,5 @@
 ---
+image: "image.jpg"
 title: "35mm - I "
 date: 2025-10-01T20:59:28+05:30
 slug: 35mm-I

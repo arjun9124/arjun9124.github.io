@@ -9,6 +9,7 @@ categories:
   - Photography
 tags:
   - Photography
+  - Nature
 ---
 
 

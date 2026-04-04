@@ -11,6 +11,7 @@ tags:
   - 3D Printing
   - EDC 
   - Utility
+  - DIY
 ---
 <center><img src="../files/baghookthing/hook (3).jpeg" width="60%"></center>
 A backpack holder that can hold small backpacks <!-- more --> (like the Quechua 25L Pack I use) onto shelfs or tabletops upto 25mm thick. 

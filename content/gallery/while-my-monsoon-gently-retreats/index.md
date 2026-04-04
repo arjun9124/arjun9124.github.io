@@ -10,5 +10,6 @@ categories:
 tags:
   - Life
   - Photography
+  - Delhi
 ---
 <center><i>while my monsoon gently retreats</i></center>

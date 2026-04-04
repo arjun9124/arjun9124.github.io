@@ -7,7 +7,7 @@ draft: false
 categories:
   - thoughts
 tags:
-  - thoughts, random
+  - random
 ---
 
 things that are but aren't: 

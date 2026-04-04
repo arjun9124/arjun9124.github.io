@@ -1,4 +1,5 @@
 ---
+image: "image.jpg"
 title: "Album Art"
 date: 2025-05-13T20:52:10+05:30
 slug: albumart

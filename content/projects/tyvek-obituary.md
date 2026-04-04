@@ -9,6 +9,7 @@ categories:
 tags:
   - EDC
   - Utility
+  - DIY
 ---
 
 *An obituary for my wallet*

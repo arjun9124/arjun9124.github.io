@@ -20,6 +20,10 @@ Its just a page about this website, how its made etc.
 
 ## Changelog
 <p>
+<b> 2026-04-04 13:37 +05:30 - Images on the frontpage</b>
+
+Put images on the frontpage ! Like back in the day of hugo-console-theme. Kind of ripped of the same code.</p>
+<p>
 <b> 2026-04-03 23:29 +05:30 - Gallery</b>
 
 New galler based on https://billglover.me/2023/11/07/creating-a-photography-gallery-with-hugo/</p>

@@ -9,6 +9,7 @@ categories:
   - Photography
 tags:
   - Photography
+  - Nature
 ---
-Eucalyptus, "The God That Failed" as dubbed by the researcher N.C. Saxena.
+Eucalyptus, "The God That Failed" as dubbed by the policy maker N.C. Saxena.
 

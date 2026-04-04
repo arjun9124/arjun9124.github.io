@@ -6,11 +6,14 @@ menu = "misc"
 
 weight = 400
 
+tags = ["Satyr"]
+
+
 +++
 
 ### A glossary of terms I have heard in [DankRishu](https://www.youtube.com/@DankRishu) streams
 
-Also, checkout [Satyr](/thoughts/2024-02-17-satyr/)
+Also, checkout [Satyr](/microblog/satyr/)
 #### kataksh 
 Meaning :  satire ? criticism ?
 

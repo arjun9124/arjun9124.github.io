@@ -6,6 +6,9 @@ menu = "misc"
 
 weight = 102
 
+tags = ["Hindi"]
+
+
 +++
 
 

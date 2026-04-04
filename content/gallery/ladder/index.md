@@ -8,6 +8,6 @@ draft: false
 categories:
   - default
 tags:
-  - default
+  - Photography
 ---
 

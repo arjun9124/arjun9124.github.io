@@ -1,13 +1,10 @@
-<div class="image-grid" style="padding-left: 10px; border-left: 2px dashed var(--link-color);">
+<div class="scrap-grid" style="margin-top: 10px; border-top: 2px dashed var(--link-color);">
   {{ $pages := slice }}
-
-  {{ with .Site.GetPage "/gallery" }}
+  {{ with .Site.GetPage "/scrapbook" }}
     {{ $pages = $pages | append .RegularPages }}
   {{ end }}
-
-
-<h4> Image Roll</h4>
-  {{ range first 4 (sort $pages "Date" "desc") }}
+<h4> Scraps from my scrapbook</h4>
+  {{ range first 5 (sort $pages "Date" "desc") }}
     {{ $page := . }}
 
     <!--<h4>{{ $page.Title }}</h4>-->
@@ -15,7 +12,7 @@
     <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
       {{ with $page.Resources.GetMatch $page.Params.image }}
         {{ $thumb := .Resize "400x" }}
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" style="max-width:20%px; ">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" style="max-height: 200px;">
       {{ end }}
     </a>
 

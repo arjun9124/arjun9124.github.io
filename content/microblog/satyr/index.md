@@ -1,13 +1,13 @@
 ---
 title: "Satyr"
 date: 2024-02-17T18:16:31+05:30
-slug: 2024-02-17-satyr
+slug: satyr
 type: thoughts
 draft: false
 categories:
   - thoughts
 tags:
-  - thoughts
+  - Satyr
 ---
 
 Some esoteric thoughts I had that I am too uninspired to articulate anymore. 

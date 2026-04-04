@@ -2,13 +2,14 @@
 title = "Maps of Delhi - Transit"
 menu = "misc"
 weight = 11
+tags = ["Delhi", "Transit"]
 +++
 <h2> Maps of Delhi - Transit </h2>
 <p> Metro, roads, DTC getting around..<p>
-{{< gallery globalMatch="/modt/*" sortOrder="asc"  rowHeight="300" margins="10" thumbnailResizeOptions="600x600 q100 Lanczos" showExif=false previewType="blur" embedPreview=false loadJQuery=true swipeboxParameters="hideBarsDelay: 0">}}
+<div class="container"><div class="column"><img src="/maps/metro.png"></div><div class="column"><img src="/maps/traffic.png"></div></div>
 
 ### A map of DTC bus routes
-This map of DTC bus routes was created in the style of a metro map, now taken down on the web I had to do a lot of digging to find it. Created by Sudipto Ghosh and Shimonti Sinha of Citywise in 2016, project seems to have wrapped up by 2018. 
+This map of DTC bus routes was created in the style of a metro map, now taken down on the web I had to do a lot of digging to find it. Created by <cul>Sudipto Ghosh and Shimonti Sinha of Citywise in 2016</cul>. The project seems to have wrapped up by 2018. 
 
 Such maps were initially installed at major bus depots and bus stops in central as well as regions of outer Delhi. Compared to the current squared-off bus route maps we find in some regions of Delhi the maps designed by Citywise had a more natural circularity to it, much like the city. 
 

@@ -1,4 +1,5 @@
 ---
+image: "image.jpg"
 title: "Ultimate Dahi"
 date: 2025-11-14T20:52:32+05:30
 slug: ultimate-dahi
@@ -7,7 +8,8 @@ draft: false
 categories:
   - default
 tags:
-  - default
+  - College
+  - Life
 ---
 
 

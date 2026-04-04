@@ -2,6 +2,7 @@
 title = "Maps of Delhi - Urban"
 menu = "misc"
 weight = 12
+tags = ["Delhi"]
 +++
 <h1> Maps of Delhi - Urban</h1>
 

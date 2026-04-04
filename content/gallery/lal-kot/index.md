@@ -8,8 +8,11 @@ draft: false
 categories:
   - default
 tags:
-  - default
+  - Delhi
+  - History
 ---
-Quila Lal Kot
+The first walled city of Delhi.
 
-I dont know why it is disoriented. 
+The first walled city of the city of Delhi.
+
+The first walled city of seven or eight or nine cities of the city of Delhi
