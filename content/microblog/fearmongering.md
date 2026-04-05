@@ -15,6 +15,8 @@ tags:
 
 
 So long, placement की  fearmongering करके side income कमाने वाले  past years के  GATE toppers और  बाकी <b>घिस्सू</b> प्राणी।  इस <b>झक्की</b> आदमी को अब आपकी ज़रूरत नहीं।  
+
+<!-- more -->
 ~ 24-09-2025 
 
 <small>At least now I can say this officially.</small>

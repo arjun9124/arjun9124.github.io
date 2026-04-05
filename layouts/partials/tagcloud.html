@@ -1,7 +1,6 @@
-<div>
-<h2 class="recent">Tag Cloud</h2> 
-</h2><small class="grey">Too many to be uncategorized.</small></div>
-<div class="tag-cloud" style="flex-wrap:wrap"></div>
+<div><h2 class="recent">Tag Cloud</h2> 
+</h2><small class="grey">Too many to be uncategorized.</small>
+<nav>
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
 {{ $v1 := where $tags "Count" ">=" 2 }}
 {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss" "default") }}
@@ -11,5 +10,5 @@
 <a href="{{ $tagURL }}">{{ .Term }}({{ .Count }})</a>
 {{ end }}
 {{ end }}
-</div>
+<nav>
 </div>
