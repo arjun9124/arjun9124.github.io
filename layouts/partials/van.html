@@ -1,15 +1,24 @@
 <div>
   <div>
-<h2 class="recent">Misclaneous</h2> 
-</h2><small class="grey">Too cool to be categorized.</small></div>
-<nav>
-  <div class="menumisc">
+    <h2 class="recent">Misclaneous</h2>
+    <small class="grey">Too cool to be categorized.</small>
+  </div>
 
-{{ range .Site.Menus.misc }}
-  {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
-  <a href="{{ .URL | relURL }}" class="misc">
-{{- .Name -}}</a>
-{{ end }}
-</div>
-</nav>
+  <nav>
+    <div class="menumisc">
+      {{ range .Site.Menus.misc }}
+        {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
+        <a href="{{ .URL | relURL }}" class="misc">
+          {{ .Name }}
+          {{ with .Page }}
+            {{ if .Params.newpage }}
+              <span class="new-blink"> NEW!!</span>
+            {{ else if .Params.updated }}
+              <span class="new-update"> OEY!!</span>
+            {{ end }}
+          {{ end }}
+        </a>
+      {{ end }}
+    </div>
+  </nav>
 </div>

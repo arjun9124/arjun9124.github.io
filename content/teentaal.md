@@ -2,6 +2,8 @@
 
 title = "शब्दकोष - तीन ताल"
 
+updated = true
+
 menu = "misc"
 
 weight = 102

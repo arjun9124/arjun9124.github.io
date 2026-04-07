@@ -260,10 +260,11 @@ main {
   h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
-    font-size: 1em;
+    scale: 1em;
     margin-bottom: 0.5em;
 
   }
+
 
 
   .chnglog p{
@@ -477,6 +478,58 @@ background-color: var(--yellow);
   flex-direction: row;
   flex-wrap: wrap;
   gap: 3px;
+}
+.new-blink {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: red;
+  animation: blinkNew 0.9s steps(2, start) infinite;
+}
+
+.new-update {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: orange;
+  animation: blinkNew 0.9s steps(2, start) infinite;
+}
+
+.title-cursor::before {
+  content: "_";
+}
+
+.site-title-wrap {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.title-cursor {
+  display: inline-block;
+  margin-left: 0.08em;
+  opacity: 0;
+}
+
+.title-cursor::before {
+  content: "_";
+}
+
+.title-cursor.is-visible {
+  opacity: 1;
+  animation: titleCursorBlink 1s steps(1, end) infinite;
+}
+
+@keyframes titleCursorBlink {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinkNew {
+  to {
+    visibility: hidden;
+  }
 }
 
 /*

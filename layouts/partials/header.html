@@ -12,6 +12,8 @@
   {{ $pageTitle := "" }}
   {{ if .IsHome }}
     {{ $pageTitle = "Arjun’s Webpage" }}
+  {{ else if .Params.customtitle }}
+    {{ $pageTitle = .Title }}
   {{ else if .IsSection }}
     {{ $pageTitle = printf "Arjun’s %s" (.Section | humanize) }}
   {{ else if eq .Title "about" }}
@@ -25,12 +27,13 @@
   {{ end }}
 
   <h1>
-    <span
-      class="animated-site-title"
-      data-initial="Arjvn.xyz"
-      data-final="{{ $pageTitle }}"
-      aria-label="{{ $pageTitle }}"
-    >{{ $pageTitle }}</span>
+    <span class="site-title-wrap" aria-label="{{ $pageTitle }}">
+      <span
+        class="animated-site-title"
+        data-initial="Arjvn.xyz"
+        data-final="{{ $pageTitle }}"
+      >{{ $pageTitle }}</span><span class="title-cursor" aria-hidden="true"></span>
+    </span>
   </h1>
 </a>
 
@@ -69,7 +72,7 @@
     for (const ch of initial) {
       out += ch;
       render(el, out);
-      await delay(90);
+      await delay(60);
     }
   }
 
@@ -80,7 +83,7 @@
         out += Math.random() > 0.5 ? text[j] : rand();
       }
       render(el, out);
-      await delay(75);
+      await delay(50);
     }
   }
 
@@ -95,19 +98,28 @@
         }
       }
       render(el, out);
-      await delay(60);
+      await delay(45);
     }
   }
 
   async function animateTitle(el) {
     const initial = el.dataset.initial || "arjvd.xyz";
     const finalText = el.dataset.final || el.textContent.trim();
+    const cursor = el.parentElement.querySelector(".title-cursor");
+
+    if (cursor) {
+      cursor.classList.remove("is-visible");
+    }
 
     render(el, finalText);
     await typeInitial(el, initial);
     await delay(700);
-    await scramblePhase(el, initial, 10);
+    await scramblePhase(el, initial, 20);
     await resolveToFinal(el, finalText);
+
+    if (cursor) {
+      cursor.classList.add("is-visible");
+    }
   }
 
   titles.forEach((el) => {

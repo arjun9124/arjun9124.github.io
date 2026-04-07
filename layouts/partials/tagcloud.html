@@ -6,7 +6,7 @@
 {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss" "default") }}
 {{ range $v2 }}
 {{ if .Term }}
-{{ $tagURL := printf "tag/%s" .Term | relURL }}
+    {{ $tagURL := printf "tag/%s" (.Term | urlize) | relURL }}
 <a href="{{ $tagURL }}">{{ .Term }}({{ .Count }})</a>
 {{ end }}
 {{ end }}
