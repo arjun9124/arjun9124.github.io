@@ -141,3 +141,4 @@ Baratna (बरतना) is a Hindi verb meaning to use, employ, apply, or trea
 
 bahuaayami - aaloo bahuaayami hai kyoki iske ankhue sab taraf se nikalte hai
 
+laslasa
