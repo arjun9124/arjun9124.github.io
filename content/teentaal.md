@@ -121,3 +121,23 @@ dehaavsan (देहावसान) is a Hindi/Sanskrit word meaning death, dem
 
 Vaampanthi (वामपन्थी) or Left-wing politics refers to an ideology 
 
+
+rehvaasi
+
+internet ka swarnim kaal
+
+jan sailab
+
+Samaveshi (Inclusive) 
+
+bargad safede ko salah de rah hai
+
+aatmanirbhar batras 
+
+badastoor
+Ba-dastoor is an Urdu phrase meaning "as usual," "according to tradition," or "as per custom"
+
+Baratna (बरतना) is a Hindi verb meaning to use, employ, apply, or treat, often in the context of handling, dealing with someone, or using objects
+
+bahuaayami - aaloo bahuaayami hai kyoki iske ankhue sab taraf se nikalte hai
+
