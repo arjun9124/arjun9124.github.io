@@ -1,7 +1,7 @@
 +++
 title = "Maps of Delhi - Transit"
 menu = "misc"
-weight = 11
+weight = 190
 tags = ["Delhi", "Transit"]
 +++
 <h2> Maps of Delhi - Transit </h2>

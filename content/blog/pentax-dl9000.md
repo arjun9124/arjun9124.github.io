@@ -12,4 +12,4 @@ tags:
 
 A collection of Pentax DL9000 listings I've found on my hunt for a SLR camera. 
 
-{{< gallery globalMatch="/DL9000/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=false loadJQuery=true >}}
+{{< gallery globalMatch="/DL9000/\*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=false loadJQuery=true >}}
