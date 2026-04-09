@@ -1,0 +1,31 @@
+<style>
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+div.gallery a {
+    display: block;
+}
+
+div.gallery a img {
+    height: 200px;
+    width: auto;
+    display: block;
+}
+</style>
+
+<div class="gallery">
+  {{ $dir := .Get "src" }}
+  {{ $path := printf "static/%s" $dir }}
+
+  {{ range readDir $path }}
+    {{ if and (not .IsDir) (ne .Name ".DS_Store") }}
+      {{ $src := printf "/%s/%s" $dir .Name | relURL }}
+      <a data-fancybox="gallery" href="{{ $src }}">
+        <img src="{{ $src }}" alt="{{ .Name }}">
+      </a>
+    {{ end }}
+  {{ end }}
+</div>

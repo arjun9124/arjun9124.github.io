@@ -6,7 +6,7 @@
   {{ end }}
 
 
-  {{ range first 1 (sort $pages "Date" "desc") }}
+  {{ range first 2 (sort $pages "Date" "desc") }}
     {{ $page := . }}
 
     <!--<h4>{{ $page.Title }}</h4>-->
