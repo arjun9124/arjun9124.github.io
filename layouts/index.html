@@ -14,7 +14,7 @@ I’d appreciate if you read something. Even if you don’t, or if nobody ever d
 <h2 class="recent">Blog Posts</h2> <small class="grey">some effort was made</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/blog" }}
-    {{ range first 7 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post" >                   
  <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> <br> {{ .Summary | safeHTML | truncate 100 | plainify }}
         </div>    

@@ -24,7 +24,7 @@ tags:
 
 
 
-> <img src="/parchatti.png" width="500px">
+> <img src="/memes/parchatti.png" width="500px">
 
 
 
