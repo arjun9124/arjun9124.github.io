@@ -13,7 +13,7 @@
 
     <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
       {{ with $page.Resources.GetMatch $page.Params.image }}
-        {{ $thumb := .Resize "400x" }}
+        {{ $thumb := .Resize "300x" }}
         <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" style="max-width:20%px; ">
       {{ end }}
     </a>
