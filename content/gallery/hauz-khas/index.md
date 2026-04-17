@@ -10,3 +10,4 @@ categories:
 tags:
   - Delhi
 ---
+As of 2026 I hate south delhi.

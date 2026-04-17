@@ -7,3 +7,8 @@ tags = ["nature"]
 +++
 
 
+ka patta kadva hai 
+
+<!-- more >
+
+thank you samsung galaxy m21

@@ -15,7 +15,7 @@
   </header>
 
   <main itemprop="articleBody" class="md">
-    {{ .Content }}
+    {{ .Summary | truncate 50 }}
 
     {{ $page := . }}
     {{ with $page.Resources.ByType "image" }}
@@ -23,15 +23,16 @@
         {{ range . }}
           {{ $img := .Fit "1024x1024" }}
           <figure>
-            <img src="{{ $img.RelPermalink }}" alt="{{ $page.Title }}">
+            <img src="{{ $img.RelPermalink }}" alt="{{ $page.Title }}" style="max-height: 50vh;">
             {{ with $page.Description }}
               <figcaption>{{ . }}</figcaption>
             {{ end }}
           </figure>
         {{ end }}
       </div>
+
     {{ end }}
-  </main>
+{{ .Content }}  </main>
 </article>
       {{ with .GetTerms "tags" }}
   
@@ -40,6 +41,7 @@
             
           {{ end }}
       {{ end }}
+
 
 {{ if .Param "enablePostNavigator" }}
   {{ partial "post_navigator.html" . }}

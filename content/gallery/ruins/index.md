@@ -13,5 +13,3 @@ tags:
 ---
 
 at Mehrauli Archeological Park. 
-
-<image src="ruins.jpg">

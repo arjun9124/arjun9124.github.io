@@ -11,7 +11,7 @@
 
           <article class="folder-block">
             <h4>{{ $page.Title }}</h4>
-
+           <small>{{ $page.Summary | safeHTML | truncate 50}}</small>
             <div class="photo-list">
               {{ range $page.Resources.ByType "image" }}
                 {{ $img := .Fit "360x360" }}

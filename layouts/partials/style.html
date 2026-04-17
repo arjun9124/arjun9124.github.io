@@ -3,7 +3,7 @@
   --width: 1000px;
   --font-main: "IBM Plex Mono", monospace;
   --font-secondary: "IBM Plex Mono", monospace;
-  --font-scale: 1em;
+  --font-scale: 0.95em;
 
    } 
 
@@ -111,13 +111,16 @@ aside {
 
 .layout-shell {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   align-items: flex-start;
+  column-gap: 6rem;
+
 }
 
 .layout-main {
   flex: 1 1 auto;
   min-width: 0;
+  gap: 1.5rem;
 }
 
 .layout-sidebar {
@@ -146,6 +149,7 @@ aside {
 
   .layout-main {
     width: 100%;
+
   }
 
   .layout-sidebar {
@@ -402,7 +406,10 @@ footer {
   }
   .thought img {
     max-height: 200px;
+  
   }
+
+
   .post{
     margin-bottom: 1em;
   }
@@ -456,6 +463,8 @@ h2.recent {
 padding-top: 1em;
 padding-bottom: 0px; 
 margin-bottom: 0px;
+margin-top: 0px;
+
 }
 
 small.grey {

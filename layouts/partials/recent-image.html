@@ -1,4 +1,4 @@
-<div class="image-grid" style="padding-left: 10px;">
+<div class="image-grid">
   {{ $pages := slice }}
 
   {{ with .Site.GetPage "/gallery" }}
@@ -6,7 +6,7 @@
   {{ end }}
 
 
-  {{ range first 2 (sort $pages "Date" "desc") }}
+  {{ range first 4 (sort $pages "Date" "desc") }}
     {{ $page := . }}
 
     <!--<h4>{{ $page.Title }}</h4>-->
@@ -14,7 +14,7 @@
     <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
       {{ with $page.Resources.GetMatch $page.Params.image }}
         {{ $thumb := .Resize "300x" }}
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" style="max-width:20%px; ">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" style="max-width:47%; ">
       {{ end }}
     </a>
 

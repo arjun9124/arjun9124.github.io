@@ -119,3 +119,20 @@ Example: <blockquote> यह घटना एक बड़ी त्रासद
 <summary>प्लास  (Plaas) - Pliers</summary>
 Pliers in English become Plaas in Hindi.
 </details>
+
+<details>
+<summary>कंडम (Kandam) - Condemn</summary>
+बेकार, रद्दी, इस्तेमाल के लायक न होना, या नष्ट। जैसे 
+<blockquote>"यह मशीन कंडम हो चुकी है।" </blockquote>
+<blockquote>"this machine has been kandam-ed" </blockquote>
+
+Often used to either describe scrap, or to describe the process of scrapping. How it ended up meaning this is a mystery. Probably originates from a grandiose order given once upon a time by a British official in India to "condemn" some railroad engine or boiler or something "to scrap" which somehow diffused and stayed into the lexicon.
+<blockquote>
+"I hereby declare this engine to be <u>condemned as scrap.</u>" 
+</blockquote>
+Said some official, probably a gora or maybe even indian babu 
+<blockquote>
+Bade sahab ne bola hai engine ko <u>kabad me kandam</u> karwana hai
+</blockquote>
+Said some clerk to some thekedar.... Teaching him a new word that he did not fully understand himself.
+</details>

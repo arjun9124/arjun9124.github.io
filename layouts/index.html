@@ -10,11 +10,12 @@ I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical En
 I’d appreciate if you read something. Even if you don’t, or if nobody ever does, this place shall continue to exist on principle.</p>
 </div>
 </div>
+
      {{- partial "thoughts.html" . -}}
 <h2 class="recent">Blog Posts</h2> <small class="grey">some effort was made</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/blog" }}
-    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post" >                   
  <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> <br> {{ .Summary | safeHTML | truncate 100 | plainify }}
         </div>    
@@ -25,7 +26,7 @@ I’d appreciate if you read something. Even if you don’t, or if nobody ever d
 <h2 class="recent">Projects</h2> <small class="grey">Stuff I'm making or have made already.</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/projects" }}
-    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
                             
             

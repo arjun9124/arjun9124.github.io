@@ -14,5 +14,5 @@ tags:
 ---
 
 A collection of Pentax DL9000 listings I've found on my hunt for a SLR camera. 
-<!-- more -->
 {{< foldergallery src="DL9000" >}}
+

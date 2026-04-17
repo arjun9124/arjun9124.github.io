@@ -11,3 +11,8 @@ tags:
   - College
 ---
 
+Underrated life advice for 20 somethings
+
+<!-- more >
+
+Desh ka yuva, kuda kudedaan me nahi daal pa raha.
