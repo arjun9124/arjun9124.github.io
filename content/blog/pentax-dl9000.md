@@ -1,8 +1,9 @@
 ---
-title: Pentax DL-9000 - The Scamera
+title: "Pentax DL-9000 : The Scamera"
 date: 2026-03-24T13:09:47+05:30
 slug: pentax
 type: posts
+description: "A collection of Pentax DL9000 listings"
 draft: false
 categories:
   - Culture

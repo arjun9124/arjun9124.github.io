@@ -3,6 +3,7 @@ title: "baghookthing"
 date: 2026-03-14T12:35:02+05:30
 slug: 2026-03-14-baghookthing
 type: posts
+description: "trying to solve a real life problem"
 draft: false
 categories:
   - default

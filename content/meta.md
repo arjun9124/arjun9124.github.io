@@ -19,6 +19,10 @@ The original dark and light color schemes as explained before were borrowed from
 
 ## Changelog
 <p>
+<b> 2026-04-17 21:51 +05:30 - New font, Cleaner homepage</b>
+
+Inspired by https://rogs.me</p>
+<p>
 <b> 2026-04-09 18:55 +05:30 - FolderGallery</b>
 
 Scrapped the scrapbook, meet [Stick Mo' Bills](/stick-mo-bills) and a [new gallery script](https://www.ojisanseiuchi.com/2020/01/11/a-folder-based-image-gallery-for-hugo/)</p>

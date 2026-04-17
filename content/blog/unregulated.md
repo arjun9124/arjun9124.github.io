@@ -3,6 +3,7 @@ title: "Unregulated"
 date: 2024-06-28T10:34:02+05:30
 slug: 2024-06-28-unregulated
 type: posts
+description: "I support the unregulated part of the economy. I don't haggle with Rikshawalas."
 draft: false
 categories:
   - default

@@ -4,6 +4,7 @@ date: 2025-05-04
 slug: chemicalprocessingtechnolgy
 type: posts
 draft: false
+description: "An entry from my journal" 
 categories:
   - default
 tags:

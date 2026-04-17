@@ -1,6 +1,7 @@
 ---
 title: Casio DB-36 Inverted Display Mod
 date: 2023-05-05T10:21:20+05:30
+description: "modding my first casio"
 draft: false
 type: posts
 categories: 

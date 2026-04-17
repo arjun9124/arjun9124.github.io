@@ -1,36 +1,33 @@
 {{ define "main" }}
 <div class="layout-shell">
     <div class="layout-main">
-        <div class="profile-intro"><div class="profile-image">
-<img id="profile-image" src="/me-Dark.jpg" alt="Me" width="150em;"></div>
+        <div class="profile-intro">
 <div class="intro">
   <p>
-I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <br><cul>Do not test me on that.</cul>
-</p><p>
+<a href="">Hey!</a> I am Arjun. I live in <a href="/tag/delhi/">Delhi</a>, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul>
+<!-- 
 I’d appreciate if you read something. Even if you don’t, or if nobody ever does, this place shall continue to exist on principle.</p>
-</div>
+--></div>
 </div>
 
      {{- partial "thoughts.html" . -}}
-<h2 class="recent">Blog Posts</h2> <small class="grey">some effort was made</small>
+<h2 class="recent">Blog Posts</h2> <small class="grey">Some effort was made</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/blog" }}
-    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post" >                   
- <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> <br> {{ .Summary | safeHTML | truncate 100 | plainify }}
+ <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> - {{ .Description }}
         </div>    
     {{ end }}
 {{ end }}
 </div>
 
-<h2 class="recent">Projects</h2> <small class="grey">Stuff I'm making or have made already.</small>
+<h2 class="recent">My Projects</h2> <small class="grey">Stuff I'm making or have made already.</small>
 <div class="posts-list">
 {{ with .Site.GetPage "/projects" }}
-    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
-                            
-            
- <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> <br> {{ .Summary | safeHTML | truncate 100 | plainify }}
+ <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>  - {{ .Description }}
         </div>    
     {{ end }}
 {{ end }}
@@ -54,9 +51,7 @@ I’d appreciate if you read something. Even if you don’t, or if nobody ever d
       {{- partial "van.html" . -}}
     </div>
 
-    <div class="sidebar-block tagcloud-block">
-      {{- partial "tagcloud.html" . -}}
-    </div>
+
 	  </div>
 </div>
 </div>

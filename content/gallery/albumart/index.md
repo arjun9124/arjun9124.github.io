@@ -8,20 +8,68 @@ draft: false
 categories:
   - default
 tags:
-  - default
+  - Rocketry
 ---
 
 
-If we ever made music
+If we ever made music along with rockets
 
-<!--more--> 
+<!--more-->
 
-Track 1 
+## Album Title: Rocketry Anthology 2023-2025
+### Genre: Avant garde/Noisecore/Aeropunk
 
-*countdown*
+### Track 1 
 
-*WOOOOSH*
+> 1,2,3..
 
-***BEHENCHOD***
+> silence
 
-*applause*
+> *Hain?*
+
+> **BOOM**
+
+> *ISKI MAA KA-*
+
+### Track 2 
+
+> *1,2,3..*
+
+> *WOOOOSH*
+
+> ***BEHENCHod...***
+
+> *applause*
+
+### Track 3 
+
+> *1,2,3..*
+
+> *WOOOOSH*
+
+> ***BOOM***
+
+> *OEY NHI OEY-*
+
+### Track 4 
+
+> *1,2,3..*
+
+> *WOOOOSH*
+
+> *parachute opens*
+
+> *applause*
+
+### Track 5 
+
+> *1,2,3..*
+
+> *WOOOOSH*
+
+> *parachute opens*
+
+> *applause*
+
+> abey kaha gaya ?
+

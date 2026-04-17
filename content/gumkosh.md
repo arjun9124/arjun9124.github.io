@@ -12,7 +12,7 @@ tags = ["Hindi"]
 
 
 
-<h1>गुम-कोश (Lost-arry)</h1>
+<h2>गुम-कोश (Lost-arry)</h2>
 
 
 
@@ -126,11 +126,11 @@ Pliers in English become Plaas in Hindi.
 <blockquote>"यह मशीन कंडम हो चुकी है।" </blockquote>
 <blockquote>"this machine has been kandam-ed" </blockquote>
 
-Often used to either describe scrap, or to describe the process of scrapping. How it ended up meaning this is a mystery. Probably originates from a grandiose order given once upon a time by a British official in India to "condemn" some railroad engine or boiler or something "to scrap" which somehow diffused and stayed into the lexicon.
+Often used to either describe scrap, or to describe the process of scrapping. How it ended up meaning this is a mystery. Probably originates from a grandiose order given once upon a time by a British official in India to "condemn" some railroad engine or boiler or something "to scrap" which somehow diffused  into the lexicon.
 <blockquote>
 "I hereby declare this engine to be <u>condemned as scrap.</u>" 
 </blockquote>
-Said some official, probably a gora or maybe even indian babu 
+Said some official, probably a gora or maybe even an indian babu 
 <blockquote>
 Bade sahab ne bola hai engine ko <u>kabad me kandam</u> karwana hai
 </blockquote>

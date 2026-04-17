@@ -1,9 +1,11 @@
 ---
-title: "परछत्ती - Parchatti"
+title: "परछत्ती/Parchatti"
 date: 2025-07-28T11:55:19+05:30
 slug: parchatti
 type: posts
 draft: false
+description: "When the south delhi ki aakarshak mahila asks you about the store room"
+
 categories:
   - default
 tags:
@@ -49,7 +51,7 @@ tags:
 
 > Bukhari/Alyaa
 
-> But whys she asking about the storeroom <a href="/shabdavali/#reki">reki</a> kar ri he
+> But whys she asking about the storeroom <a href="/gumkosh/#reki">reki</a> kar ri he
 
 
 

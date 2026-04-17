@@ -2,7 +2,7 @@
 </h2><small class="grey">Too many to be uncategorized.</small>
 <nav>
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-{{ $v1 := where $tags "Count" ">=" 2 }}
+{{ $v1 := where $tags "Count" ">=" 1 }}
 {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss" "default") }}
 {{ range $v2 }}
 {{ if .Term }}

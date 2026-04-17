@@ -2,9 +2,9 @@
 {{ with .Site.GetPage "/microblog" }}
     {{ range first 1 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
 {{ if eq .Type "thought" }}
-  <b>A recent thought</b>
+  <h4>A recent thought</h4>
 {{ else if eq .Type "status" }}
-<b>Current status</b>
+<h4>Current status</h4>
 {{ else }}
   {{ .Type }}
 {{ end }}
