@@ -13,5 +13,5 @@ tags:
 ---
 
 I didn't make it.
-I made the ones that crashed and burnt. 
+I made the ones that crashed and burned. 
 

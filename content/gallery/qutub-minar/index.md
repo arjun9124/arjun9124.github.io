@@ -13,7 +13,10 @@ tags:
 ---
 
 
-<sul>even if your friend might be in a different place in life than you, you can still be on the same page with them.</sul>
+<s>even if your friend might be in a different place in life than you, you can still be on the same page with them.</s>
+
+As of 2026 i hate anything south of the blue line of DMRC.
+
  
 
 

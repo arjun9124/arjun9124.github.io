@@ -15,8 +15,8 @@ tags:
 If we ever made music along with rockets
 
 <!--more-->
-
-## Album Title: Rocketry Anthology 2023-2025
+## Artist: Shahbad Rocketry Team
+## Album: Anthology 2023-2025
 ### Genre: Avant garde/Noisecore/Aeropunk
 
 ### Track 1 

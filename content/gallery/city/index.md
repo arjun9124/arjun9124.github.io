@@ -9,6 +9,8 @@ categories:
   - Photography
 tags:
   - Photography
+  - Delhi
 ---
 
-Mumbai.
+Mumbai. Not Delhi.
+
