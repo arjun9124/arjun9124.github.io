@@ -1,8 +1,8 @@
 <header class="site-header">
-    <div class="profile-intro"><div class="profile-image">
-<img id="profile-image" src="/me-Dark.jpg" alt="Me" width="96;"></div>
-  <div class="site-header-top">
-    <a href="{{ "" | relURL }}" class="title-link">
+
+  <div class="header-left">
+    <img id="profile-image" src="/me-Dark.jpg" alt="Me">
+    <a href="{{ "" | relURL }}" class="site-title">
       {{ $pageTitle := "" }}
       {{ if .IsHome }}
         {{ $pageTitle = "Arjun’s Webpage" }}
@@ -20,104 +20,17 @@
         {{ $pageTitle = "Arjun’s Webpage" }}
       {{ end }}
 
-      <h1 class="site-title">
-        <span class="animated-site-title"
-          data-initial="Arjvn.xyz"
-          data-final="{{ $pageTitle }}"
-          aria-label="{{ $pageTitle }}">{{ $pageTitle }}</span>
-        <span class="title-cursor" aria-hidden="true"></span>
-      </h1>
+      {{ $pageTitle }}
     </a>
-  
-<div class="header-controls">
-    <div><nav class="site-nav">
-    {{- partial "nav.html" . -}}
-</nav></div>
-  <div class="theme-switcher">
-        <button data-theme="Dark" aria-pressed="true">Dark</button>
-        <button data-theme="Bleach" aria-pressed="false">Bleach</button>
-        <button data-theme="CMYK" aria-pressed="false">CMYK</button>
-        <button data-theme="Piss" aria-pressed="false">Piss</button>
-      </div>
-
-</div>
-    
   </div>
 
+  <nav class="site-nav">
+    {{- partial "nav.html" . -}}
+<div class="theme-switcher">
+    <button data-theme="Bleach" aria-pressed="false" title="Bleach">☀️</button>
+    <button data-theme="Dark" aria-pressed="true" title="Dark">🌑</button>
+    <button data-theme="Puke" aria-pressed="false" title="PUKE">🤢</button>
+    </div>
+  </nav>
+
 </header>
-
-<script>
-(function () {
-  const titles = document.querySelectorAll(".animated-site-title");
-  if (!titles.length) return;
-
-  const fixedCount = 3;
-  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-  const rand = () => chars[Math.floor(Math.random() * chars.length)];
-
-  function escapeHtml(text) {
-    return text
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
-  }
-
-  function render(el, text) {
-    const safe = escapeHtml(text);
-    const left = safe.slice(0, fixedCount);
-    const right = safe.slice(fixedCount);
-
-    el.innerHTML =
-      '<span class="title-head">' + left + '</span>' +
-      '<span class="title-tail">' + right + '</span>';
-  }
-
-  async function typeInitial(el, initial) {
-    let out = "";
-    for (const ch of initial) {
-      out += ch;
-      render(el, out);
-      await delay(60);
-    }
-  }
-
-  async function scramblePhase(el, text) {
-    for (let i = 0; i < 6; i++) {
-      let out = text.slice(0, fixedCount);
-      for (let j = fixedCount; j < text.length; j++) {
-        out += Math.random() > 0.6 ? text[j] : rand();
-      }
-      render(el, out);
-      await delay(45);
-    }
-  }
-
-  async function resolveToFinal(el, finalText) {
-    for (let step = fixedCount; step <= finalText.length; step++) {
-      let out = "";
-      for (let i = 0; i < finalText.length; i++) {
-        if (i < step) {
-          out += finalText[i];
-        } else {
-          out += rand();
-        }
-      }
-      render(el, out);
-      await delay(30);
-    }
-  }
-
-  async function animateTitle(el) {
-    const initial = el.dataset.initial || "Arjvn.xyz";
-    const finalText = el.dataset.final || el.textContent.trim();
-
-    await typeInitial(el, initial);
-    await delay(250);
-    await scramblePhase(el, initial);
-    await resolveToFinal(el, finalText);
-  }
-
-  titles.forEach((el) => animateTitle(el));
-})();
-</script>
