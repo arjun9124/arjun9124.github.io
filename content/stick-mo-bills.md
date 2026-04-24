@@ -3,6 +3,7 @@
 newpage = true
 
 title = "Stick Mo' Bills"
+type = "misc"
 
 menu = "misc"
 

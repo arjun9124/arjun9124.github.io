@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rocketry on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/rocketry/</link>
+    <description>Recent content in Rocketry on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Tue, 13 May 2025 20:52:10 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/rocketry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Album Art</title>
+      <link>http://localhost:1313/gallery/albumart/</link>
+      <pubDate>Tue, 13 May 2025 20:52:10 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/albumart/</guid>
+      <description>&lt;p&gt;If we ever made music along with rockets&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rocket</title>
+      <link>http://localhost:1313/gallery/2024-02-28-rocket/</link>
+      <pubDate>Wed, 28 Feb 2024 17:08:11 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-02-28-rocket/</guid>
+      <description>&lt;p&gt;I didn&amp;rsquo;t make it.&#xA;I made the ones that crashed and burned.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

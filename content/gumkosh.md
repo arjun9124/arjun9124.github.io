@@ -2,6 +2,8 @@
 
 title = "गुम-कोश (Lost-arry)"
 
+type = "misc"
+
 menu = "misc"
 
 weight = 100

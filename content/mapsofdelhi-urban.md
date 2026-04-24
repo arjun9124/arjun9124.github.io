@@ -1,6 +1,7 @@
 +++
 title = "Maps of Delhi - Urban"
 menu = "misc"
+type = "misc"
 weight = 195
 tags = ["Delhi"]
 +++

@@ -20,8 +20,12 @@ As I used to write my about sections here, starting with the never changing prel
 
 * **2025** - I am currently in that awkward phase in life where you've finished 3 years of college and are waiting for any opportunities that allow you to leave college on someones payroll. 
 * **2024** - I am currently in that awkward phase in life where you have finished two years in college and are trying to pivot yourself around a point to what you think is more feasible as a career option than whatever understanding of a career you had as a fresher/sophomore.
-* **2023** - I am currently in that awkward phase in life where you've nearly finished a year of college and have no clue what you're doing and end up doing about everything but what you're supposed to do and realize its too late and just go with it. 
-* **2022-2020** - A product of the combined efforts of COVID-19 Pandemic, Reddit, JEE, NTA, NIC, CBSE.
+* **2023** - I am currently in that awkward phase in life where you have spent about a year in college and haven’t entirely figured out what to do, are anxious about the direction you are taking. I am a student of Engineering.
+* **2022-2020** - A product of the combined efforts of COVID-19 Pandemic, Reddit, JEE, NTA, NIC, JAC, CBSE.
+
+<!-- Retrospectively: I am currently in that awkward phase in life where you've nearly finished a year of college and have no clue what you're doing and end up doing about everything but what you're supposed to do and realize its too late and just go with it. 
+
+The actual intro from back then found in a random backup:-->  
 
 ### What's the deal with this website ?
 

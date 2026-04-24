@@ -5,6 +5,7 @@ title = "What's going on?"
 menu = "misc"
 
 weight = 200
+type = "misc"
 
 draft = "true"
 

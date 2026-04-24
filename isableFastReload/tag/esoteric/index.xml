@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esoteric on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/esoteric/</link>
+    <description>Recent content in Esoteric on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Fri, 11 Oct 2024 23:16:48 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/esoteric/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>कुत्ते - आवाज़ </title>
+      <link>http://localhost:1313/microblog/kutte-aawaz/</link>
+      <pubDate>Fri, 11 Oct 2024 23:16:48 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/kutte-aawaz/</guid>
+      <description>&lt;p&gt;सन २०२५* : कुत्ते लोगों की आवाज़ दबा रहे हैं।&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/aawaz.png&#34; alt=&#34;Image alt&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;small&gt;*करीबन &lt;/small&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>कुत्ते</title>
+      <link>http://localhost:1313/microblog/2024-01-26-kutte/</link>
+      <pubDate>Fri, 26 Jan 2024 12:53:02 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2024-01-26-kutte/</guid>
+      <description>&lt;p&gt;सन २०२४ : सभी कुत्ते कोट पेहेन्ने लगे है।&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,6 +1,7 @@
 +++
 title = "Maps of Delhi - Transit"
 menu = "misc"
+type = "misc"
 weight = 190
 tags = ["Delhi", "Transit"]
 +++
@@ -21,5 +22,6 @@ Find more <a href="https://www.facebook.com/delhibusmap/">here</a>
 
 A map of Delhi's roads, largely for aesthetic reasons. Made using <a href="https://anvaka.github.io/city-roads/">City Roads</a> 
 <img src="/maps/roadsofdelhi.png"> 
-Undeveloped and agricultural lands are a clean white, unauthorized and unorganized colonies make a black splatter, authorized colonies a fine mesh of perpendicular lines and posh colonies have their distinct ergonomic roundedness. 
+
+Undeveloped and agricultural lands are a clean white, dotted with tiny nodes that are Delhi's remaining "villages", unauthorized and unorganized colonies make a black splatter, authorized colonies a fine mesh of perpendicular lines and posh colonies have their distinct ergonomic roundedness. 
 

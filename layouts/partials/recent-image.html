@@ -11,12 +11,12 @@
 
     <!--<h4>{{ $page.Title }}</h4>-->
 
-    <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
-      {{ with $page.Resources.GetMatch $page.Params.image }}
-        {{ $thumb := .Resize "300x" }}
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" style="max-width:47%; ">
-      {{ end }}
-    </a>
+ <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
+  {{ with $page.Resources.GetMatch $page.Params.image }}
+    {{ $thumb := .Resize "300x" }}
+    <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive theme-filtered" style="max-width:47%;">
+  {{ end }}
+</a>
 
     <!--  <p>{{ $page.Plain | truncate 160 }}</p> */-->
   {{ end }}

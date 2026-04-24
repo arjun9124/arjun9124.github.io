@@ -8,16 +8,15 @@
     <div class="menumisc">
       {{ range .Site.Menus.misc }}
         {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
-        <a href="{{ .URL | relURL }}" class="misc">
-          {{ .Name }}
-          {{ with .Page }}
-            {{ if .Params.newpage }}
-              <span class="new-blink"> NEW!!</span>
-            {{ else if .Params.updated }}
-              <span class="new-update"> OEY!!</span>
-            {{ end }}
-          {{ end }}
-        </a>
+        <a href="{{ .URL | relURL }}" 
+   class="misc
+   {{ with .Page }}
+     {{ if .Params.newpage }} is-new
+     {{ else if .Params.updated }} is-updated
+     {{ end }}
+   {{ end }}">
+  {{ .Name }}
+</a>
       {{ end }}
     </div>
   </nav>

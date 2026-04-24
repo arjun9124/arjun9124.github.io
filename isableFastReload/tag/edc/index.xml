@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EDC on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/edc/</link>
+    <description>Recent content in EDC on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Fri, 20 Mar 2026 12:08:03 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/edc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tyvek Wallet</title>
+      <link>http://localhost:1313/projects/2026-03-20-tyvek-obituary/</link>
+      <pubDate>Fri, 20 Mar 2026 12:08:03 +0530</pubDate>
+      <guid>http://localhost:1313/projects/2026-03-20-tyvek-obituary/</guid>
+      <description>&lt;p&gt;&lt;em&gt;An obituary for my wallet&lt;/em&gt;&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Tyvek is one of the coolest materials I&amp;rsquo;ve worked with. It&amp;rsquo;s a fibrous sheet of plastic that by itself it doesn&amp;rsquo;t feel like much, but when made into a wallet seems to defy the rules of physics. I carried one such Tyvek wallet for over a year. The wallet was completely made by hand and all you need to make one is a sheet of Tyvek, a trusty utility blade (that later found its place inside a concealed pocket in the wallet), a ruler and some high viscosity CA glue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>baghookthing</title>
+      <link>http://localhost:1313/projects/2026-03-14-baghookthing/</link>
+      <pubDate>Sat, 14 Mar 2026 12:35:02 +0530</pubDate>
+      <guid>http://localhost:1313/projects/2026-03-14-baghookthing/</guid>
+      <description>&lt;center&gt;&lt;img src=&#34;../files/baghookthing/hook (3).jpeg&#34; width=&#34;60%&#34;&gt;&lt;/center&gt;&#xD;&#xA;A backpack holder that can hold small backpacks &lt;!-- more --&gt; (like the Quechua 25L Pack I use) onto shelfs or tabletops upto 25mm thick. &#xD;&#xA;&lt;p&gt;In my testing it took up to 5kgs. I have printed it in PLA with 8 wall lines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Casio DB-36 Inverted Display Mod</title>
+      <link>http://localhost:1313/projects/casio-db36-inverted-display-mod/</link>
+      <pubDate>Fri, 05 May 2023 10:21:20 +0530</pubDate>
+      <guid>http://localhost:1313/projects/casio-db36-inverted-display-mod/</guid>
+      <description>&lt;p&gt;I had been meaning to try an inverted display mod on one of my Casio watches, and now finally I had the time and money to get a polarizing filer and do it and see for myself&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

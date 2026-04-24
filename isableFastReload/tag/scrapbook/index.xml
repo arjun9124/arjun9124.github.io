@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scrapbook on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/scrapbook/</link>
+    <description>Recent content in Scrapbook on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <atom:link href="http://localhost:1313/tag/scrapbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stick Mo&#39; Bills</title>
+      <link>http://localhost:1313/stick-mo-bills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stick-mo-bills/</guid>
+      <description>&lt;h2 id=&#34;stick-mo-bills&#34;&gt;Stick Mo&amp;rsquo; Bills&lt;/h2&gt;&#xA;&lt;h3 id=&#34;an-open-invitation-contrary-to-the-average-boundary-wall-or-metro-pillar&#34;&gt;An open invitation, contrary to the average boundary wall or metro pillar.&lt;/h3&gt;&#xA;&lt;p&gt;Adverts, labels, packaging, flyers and other items with cool typography and graphic design.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

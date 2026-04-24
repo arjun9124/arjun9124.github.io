@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Retro on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/retro/</link>
+    <description>Recent content in Retro on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Thu, 17 Feb 2022 17:30:54 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/retro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wearing A Mechanical Watch</title>
+      <link>http://localhost:1313/blog/mechanical-watch/</link>
+      <pubDate>Thu, 17 Feb 2022 17:30:54 +0530</pubDate>
+      <guid>http://localhost:1313/blog/mechanical-watch/</guid>
+      <description>&lt;p&gt;This article was made on my old blog on 17 February 2022.&lt;br&gt;&#xA;Having worn almost all sorts of watches, around a month ago I finally decided to make the leap to a mechanical watch. This leap of mine which truly felt like a leap of faith in the beginning, was a lot more reliable than I had expected it to be.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

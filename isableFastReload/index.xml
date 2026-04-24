@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>home on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in home on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Fri, 17 Apr 2026 12:09:12 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h3 id=&#34;who-am-i-&#34;&gt;Who am I ?&lt;/h3&gt;&#xA;&lt;p&gt;I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. &lt;cul&gt;Do not test me on that.&lt;/cul&gt; I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>गुम-कोश (Lost-arry)</title>
+      <link>http://localhost:1313/gumkosh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gumkosh/</guid>
+      <description>&lt;h2&gt;गुम-कोश (Lost-arry)&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;अनुवाद में खो गए शब्दों का कोष| A glossary of words lost in translation.&lt;/p&gt;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;रेकी (Reki) - Recce&lt;/summary&gt;&#xD;&#xA;British informal shorthand for reconnaissance, used in context of planning. In the north indian context it&#39;s usually used to describe the act of checking out a flat or plot of land before you buy it.&#xD;&#xA;&lt;p&gt;Example: &lt;blockquote&gt; आज फ्लैट  की रेकी कर के आये &lt;/blockquote&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>शब्दकोष - तीन ताल</title>
+      <link>http://localhost:1313/teentaal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teentaal/</guid>
+      <description>&lt;h2&gt;शब्दकोष - तीन ताल&lt;/h2&gt;&#xD;&#xA;&lt;h3&gt; जय हो! जय हो! जय हो! &lt;/h3&gt;&#xD;&#xA;&lt;p&gt;तीन ताल पॉडकास्ट में सुने कुछ रोचक शब्दों और भाषा प्रयोगों का छोटा सा कोष&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stick Mo&#39; Bills</title>
+      <link>http://localhost:1313/stick-mo-bills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/stick-mo-bills/</guid>
+      <description>&lt;h2 id=&#34;stick-mo-bills&#34;&gt;Stick Mo&amp;rsquo; Bills&lt;/h2&gt;&#xA;&lt;h3 id=&#34;an-open-invitation-contrary-to-the-average-boundary-wall-or-metro-pillar&#34;&gt;An open invitation, contrary to the average boundary wall or metro pillar.&lt;/h3&gt;&#xA;&lt;p&gt;Adverts, labels, packaging, flyers and other items with cool typography and graphic design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maps of Delhi - Transit</title>
+      <link>http://localhost:1313/mapsofdelhi-transit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mapsofdelhi-transit/</guid>
+      <description>&lt;h2&gt; Maps of Delhi - Transit &lt;/h2&gt;&#xD;&#xA;&lt;p&gt; Metro, roads, DTC getting around..&lt;p&gt;&#xD;&#xA;&lt;div class=&#34;container&#34;&gt;&lt;div class=&#34;column&#34;&gt;&lt;img src=&#34;http://localhost:1313/maps/metro.png&#34;&gt;&lt;/div&gt;&lt;div class=&#34;column&#34;&gt;&lt;img src=&#34;http://localhost:1313/maps/traffic.png&#34;&gt;&lt;/div&gt;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;a-map-of-dtc-bus-routes&#34;&gt;A map of DTC bus routes&lt;/h3&gt;&#xA;&lt;p&gt;This map of DTC bus routes was created in the style of a metro map, now taken down on the web I had to do a lot of digging to find it. Created by &lt;cul&gt;Sudipto Ghosh and Shimonti Sinha of Citywise in 2016&lt;/cul&gt;. The project seems to have wrapped up by 2018.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maps of Delhi - Urban</title>
+      <link>http://localhost:1313/mapsofdelhi-urban/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mapsofdelhi-urban/</guid>
+      <description>&lt;h1&gt; Maps of Delhi - Urban&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;A collection of maps of urban Delhi I&#39;ve collected over my internet rabbitholeing on the websites of Delhi Development Authority and Municipal Corporation of Delhi. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How its made ?</title>
+      <link>http://localhost:1313/meta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/meta/</guid>
+      <description>&lt;h2 id=&#34;how-its-made-&#34;&gt;How its made ?&lt;/h2&gt;&#xA;&lt;p&gt;This website is made using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, a static site generator. The theme I use is based on &lt;a href=&#34;https://janraasch.github.io/hugo-bearblog/&#34;&gt;Hugo Bearblog&lt;/a&gt;. Which in turn is based on &lt;a href=&#34;https://bearblog.dev&#34;&gt;Bear blog&lt;/a&gt;. I borrowed the color scheme from &lt;a href=&#34;https://github.com/jkkNl/somestyleplease&#34;&gt;somestyleplease&lt;/a&gt;, another minimal monospace Hugo theme. You could call this a Hugo Bearblog/somestyleplease hybrid. I saw &lt;a href=&#34;https://rogs.me&#34;&gt;Rogs&lt;/a&gt; use the Archie theme and I liked it so I took inspiration from there for the Monospace/Sans-serif jugalbandi and the really neat header. Rogs in the neighbourhood somewhere in all those webrings. I also borrow some stuff from &lt;a href=&#34;https://github.com/mrmierzejewski/hugo-theme-console&#34;&gt;Hugo Theme Console&lt;/a&gt;, which I was using prior to this for about two years. The &lt;a href=&#34;http://localhost:1313/gallery&#34;&gt;Gallery&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/stick-mo-bills&#34;&gt;Scrapbook&lt;/a&gt; use a layout based on &lt;a href=&#34;https://billglover.me/2023/11/07/creating-a-photography-gallery-with-hugo/&#34;&gt;Bill Glover&amp;rsquo;s Image Gallery&lt;/a&gt;. I was inspired to make a  &lt;a href=&#34;http://localhost:1313/humans.txt&#34;&gt;humans.txt&lt;/a&gt; file from &lt;a href=&#34;https://lukealexdavis.co.uk/&#34;&gt;Luke Davis&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kaancept</title>
+      <link>http://localhost:1313/kaancept/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kaancept/</guid>
+      <description>&lt;h3 id=&#34;a-glossary-of-terms-i-have-heard-in-dankrishu-streams&#34;&gt;A glossary of terms I have heard in &lt;a href=&#34;https://www.youtube.com/@DankRishu&#34;&gt;DankRishu&lt;/a&gt; streams&lt;/h3&gt;&#xA;&lt;p&gt;Also, checkout &lt;a href=&#34;http://localhost:1313/microblog/satyr/&#34;&gt;Satyr&lt;/a&gt;&lt;/p&gt;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;कटाक्ष (Kataksh)&lt;/summary&gt;&#xD;&#xA;Meaning: satire? criticism?&#xD;&#xA;&lt;p&gt;Usage: Used to refer to any social critique made on the stream, usually in an “I’m not implying anything but&amp;hellip;” manner.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>One Task a Day</title>
+      <link>http://localhost:1313/microblog/2026-04-17-one-task-a-day/</link>
+      <pubDate>Fri, 17 Apr 2026 12:09:12 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2026-04-17-one-task-a-day/</guid>
+      <description>&lt;p&gt;Stuck in a one task a day unproductive productivity regime. &lt;br&gt; Summer depression ?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bad Financial Decision on 4 Wheels</title>
+      <link>http://localhost:1313/projects/2026-04-10-bad-financial-decision/</link>
+      <pubDate>Fri, 10 Apr 2026 10:54:56 +0530</pubDate>
+      <guid>http://localhost:1313/projects/2026-04-10-bad-financial-decision/</guid>
+      <description>&lt;p&gt;My plans/ideation resto-modding a Maruti Suzuki Esteem.&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;img src=&#34;../files/bfd1.png&#34; style=&#34;width:400px;&#34;&gt;&#xD;&#xA;&lt;img src=&#34;../files/bfd2.png&#34;  style=&#34;width:400px;&#34;&gt;&#xD;&#xA;&lt;p&gt;A baleno (the real one made before 2006) would be a simultaneous better but worse financial decision&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pentax DL-9000 : The Scamera</title>
+      <link>http://localhost:1313/blog/pentax/</link>
+      <pubDate>Tue, 24 Mar 2026 13:09:47 +0530</pubDate>
+      <guid>http://localhost:1313/blog/pentax/</guid>
+      <description>&lt;p&gt;A collection of Pentax DL9000 listings I&amp;rsquo;ve found on my hunt for a SLR camera.&#xA;&lt;style&gt;&#xD;&#xA;div.gallery {&#xD;&#xA;    display: flex;&#xD;&#xA;    flex-wrap: wrap;&#xD;&#xA;    gap: 1em;&#xD;&#xA;    align-items: center;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;div.gallery a {&#xD;&#xA;    display: block;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;div.gallery a img {&#xD;&#xA;   &#xD;&#xA;    max-height: 200px;&#xD;&#xA;    max-width: 300px;&#xD;&#xA;    display: block;&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;gallery&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202025-12-08%20140618.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202025-12-08%20140618.png&#34; alt=&#34;Screenshot 2025-12-08 140618.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-07%20130117.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-07%20130117.png&#34; alt=&#34;Screenshot 2026-03-07 130117.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-07%20130137.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-07%20130137.png&#34; alt=&#34;Screenshot 2026-03-07 130137.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171032.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171032.png&#34; alt=&#34;Screenshot 2026-03-14 171032.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171059.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171059.png&#34; alt=&#34;Screenshot 2026-03-14 171059.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171307.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171307.png&#34; alt=&#34;Screenshot 2026-03-14 171307.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171354.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171354.png&#34; alt=&#34;Screenshot 2026-03-14 171354.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171422.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171422.png&#34; alt=&#34;Screenshot 2026-03-14 171422.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &lt;a data-fancybox=&#34;gallery&#34; href=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171438.png&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;http://localhost:1313/DL9000/Screenshot%202026-03-14%20171438.png&#34; alt=&#34;Screenshot 2026-03-14 171438.png&#34;&gt;&#xD;&#xA;      &lt;/a&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;&lt;/div&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tyvek Wallet</title>
+      <link>http://localhost:1313/projects/2026-03-20-tyvek-obituary/</link>
+      <pubDate>Fri, 20 Mar 2026 12:08:03 +0530</pubDate>
+      <guid>http://localhost:1313/projects/2026-03-20-tyvek-obituary/</guid>
+      <description>&lt;p&gt;&lt;em&gt;An obituary for my wallet&lt;/em&gt;&lt;/p&gt;&#xA;&lt;!-- more --&gt;&#xD;&#xA;&lt;p&gt;Tyvek is one of the coolest materials I&amp;rsquo;ve worked with. It&amp;rsquo;s a fibrous sheet of plastic that by itself it doesn&amp;rsquo;t feel like much, but when made into a wallet seems to defy the rules of physics. I carried one such Tyvek wallet for over a year. The wallet was completely made by hand and all you need to make one is a sheet of Tyvek, a trusty utility blade (that later found its place inside a concealed pocket in the wallet), a ruler and some high viscosity CA glue.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>baghookthing</title>
+      <link>http://localhost:1313/projects/2026-03-14-baghookthing/</link>
+      <pubDate>Sat, 14 Mar 2026 12:35:02 +0530</pubDate>
+      <guid>http://localhost:1313/projects/2026-03-14-baghookthing/</guid>
+      <description>&lt;center&gt;&lt;img src=&#34;../files/baghookthing/hook (3).jpeg&#34; width=&#34;60%&#34;&gt;&lt;/center&gt;&#xD;&#xA;A backpack holder that can hold small backpacks &lt;!-- more --&gt; (like the Quechua 25L Pack I use) onto shelfs or tabletops upto 25mm thick. &#xD;&#xA;&lt;p&gt;In my testing it took up to 5kgs. I have printed it in PLA with 8 wall lines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>placement की fearmongering</title>
+      <link>http://localhost:1313/microblog/fearmongering/</link>
+      <pubDate>Fri, 06 Mar 2026 21:40:53 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/fearmongering/</guid>
+      <description>&lt;p&gt;So long, placement की  fearmongering करके side income कमाने वाले  past years के  GATE toppers और  बाकी &lt;b&gt;घिस्सू&lt;/b&gt; प्राणी।  इस &lt;b&gt;झक्की&lt;/b&gt; आदमी को अब आपकी ज़रूरत नहीं।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Creativity</title>
+      <link>http://localhost:1313/microblog/2026-02-27-creativity/</link>
+      <pubDate>Fri, 27 Feb 2026 15:37:17 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2026-02-27-creativity/</guid>
+      <description>&lt;p&gt;I operate in short bursts of either creativity or monotonity. Most days pass by in a haze, with nothing more than half-assed bullet journaling at best. Making of lists and plans, browsing the web and collecting trivial information while living walter mitty-esque fantasies of creative fulfilment. Sometimes these menial activities get caught up in an outburst of inspiration telling me to get busy and to get my hands tied in either making a creative fantasy come true or in committing to my state mandated monotony.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notes to self</title>
+      <link>http://localhost:1313/microblog/2025-11-20-notestoself/</link>
+      <pubDate>Thu, 20 Nov 2025 23:43:06 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2025-11-20-notestoself/</guid>
+      <description>&lt;p&gt;Typing notes to self into a chatbox just feels better because there&amp;rsquo;s always the possibility that there might be someone on the other side.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ultimate Dahi</title>
+      <link>http://localhost:1313/gallery/ultimate-dahi/</link>
+      <pubDate>Fri, 14 Nov 2025 20:52:32 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/ultimate-dahi/</guid>
+      <description>&lt;p&gt;More fat than regular dahi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rot</title>
+      <link>http://localhost:1313/gallery/rot/</link>
+      <pubDate>Fri, 07 Nov 2025 20:51:48 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/rot/</guid>
+      <description>&lt;p&gt;The neural center rots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ender 3</title>
+      <link>http://localhost:1313/blog/ender3/</link>
+      <pubDate>Mon, 06 Oct 2025 10:03:49 +0530</pubDate>
+      <guid>http://localhost:1313/blog/ender3/</guid>
+      <description>&lt;p&gt;An Ender 3 is the rite of passage for all 3D Printing enthusiasts. Yes a Bambu lab may be refined, convenient and clean but to become the ultimate hobbyist and maker one must burn their hands cleaning the clogged extruder of an Ender 3. One must blow more money on repairs than the actual cost of the printer in order to get it running.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Things That Are but Arent</title>
+      <link>http://localhost:1313/microblog/2025-10-05-things-that-are-but-arent/</link>
+      <pubDate>Sun, 05 Oct 2025 18:49:13 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2025-10-05-things-that-are-but-arent/</guid>
+      <description>&lt;p&gt;things that are but aren&amp;rsquo;t:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Schrodinger&amp;rsquo;s cat&lt;/li&gt;&#xA;&lt;li&gt;fight club&lt;/li&gt;&#xA;&lt;li&gt;Godel&amp;rsquo;s incompleteness theorem&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>35mm - I </title>
+      <link>http://localhost:1313/gallery/35mm-i/</link>
+      <pubDate>Wed, 01 Oct 2025 20:59:28 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/35mm-i/</guid>
+      <description>&lt;p&gt;Pictures from my first roll of 35mm film.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spider</title>
+      <link>http://localhost:1313/gallery/spider/</link>
+      <pubDate>Mon, 25 Aug 2025 20:52:46 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/spider/</guid>
+      <description>&lt;p&gt;Under a bench&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>परछत्ती/Parchatti</title>
+      <link>http://localhost:1313/blog/parchatti/</link>
+      <pubDate>Mon, 28 Jul 2025 11:55:19 +0530</pubDate>
+      <guid>http://localhost:1313/blog/parchatti/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;arjun - 28/07/2025, 11:55&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;what do you guys call this place ?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;img src=&#34;http://localhost:1313/memes/parchatti.png&#34; width=&#34;500px&#34;&gt;&#xD;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;we call it parchatti&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;amanakeet - 01/08/2025, 08:14&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Bukhari/Alyaa&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Album Art</title>
+      <link>http://localhost:1313/gallery/albumart/</link>
+      <pubDate>Tue, 13 May 2025 20:52:10 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/albumart/</guid>
+      <description>&lt;p&gt;If we ever made music along with rockets&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CPT</title>
+      <link>http://localhost:1313/blog/chemicalprocessingtechnolgy/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/chemicalprocessingtechnolgy/</guid>
+      <description>&lt;p&gt;An entry from my journal, written in a midnight writers unblock initiated by Sarveshwar Dayal Saxena&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;कल पेपर है। और कल चंद मिनटों में आ जाएगा।&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windtunnel</title>
+      <link>http://localhost:1313/gallery/2024-10-29-windtunnel/</link>
+      <pubDate>Tue, 29 Oct 2024 22:23:00 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-10-29-windtunnel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>कुत्ते - आवाज़ </title>
+      <link>http://localhost:1313/microblog/kutte-aawaz/</link>
+      <pubDate>Fri, 11 Oct 2024 23:16:48 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/kutte-aawaz/</guid>
+      <description>&lt;p&gt;सन २०२५* : कुत्ते लोगों की आवाज़ दबा रहे हैं।&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/aawaz.png&#34; alt=&#34;Image alt&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;small&gt;*करीबन &lt;/small&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unregulated</title>
+      <link>http://localhost:1313/blog/2024-06-28-unregulated/</link>
+      <pubDate>Fri, 28 Jun 2024 10:34:02 +0530</pubDate>
+      <guid>http://localhost:1313/blog/2024-06-28-unregulated/</guid>
+      <description>&lt;p&gt;I like to support the untaxed, unregulated part of the economy. I don&amp;rsquo;t haggle with Rikshawalas. They aren&amp;rsquo;t technically unregulated, they are self regulating. They are perfect order within the lack of order. Nobody decided their prices, nobody made their laws. They operate a thin plane above supply and demand. Ethics and regulations when they exist are based on their morality. They have license plates, but who&amp;rsquo;s checking ?! Even when anarchy befalls, banks, governments and their issued tokens become obsolete I bet Rikshawalas would still be roaming on their screeching whining rikshaws, charged with stolen electricity. [1] [2]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>कुत्ते - विवाद</title>
+      <link>http://localhost:1313/microblog/2024-05-28-vivaad/</link>
+      <pubDate>Tue, 28 May 2024 20:40:17 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2024-05-28-vivaad/</guid>
+      <description>&lt;p&gt;सन २०२४ : कुत्ते विवाद से डरने लगे हैं।&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/memes/vivaad.png&#34; alt=&#34;Image alt&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;आप किस कुत्ते के पक्ष में हैं ?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Offering</title>
+      <link>http://localhost:1313/gallery/2024-05-28-you-got-one-part-of-that-wrong/</link>
+      <pubDate>Tue, 28 May 2024 20:26:30 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-05-28-you-got-one-part-of-that-wrong/</guid>
+      <description>&lt;p&gt;You got one part of that wrong.&lt;/p&gt;&#xA;&lt;p&gt;This is not meth.&lt;/p&gt;&#xA;&lt;p&gt;Its potassium nitrate.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Metro</title>
+      <link>http://localhost:1313/gallery/2024-05-05-metro/</link>
+      <pubDate>Sun, 05 May 2024 12:09:41 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-05-05-metro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semal</title>
+      <link>http://localhost:1313/gallery/2024-04-23-semal/</link>
+      <pubDate>Tue, 23 Apr 2024 17:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-04-23-semal/</guid>
+      <description>&lt;p&gt;I missed the double rainbow.&lt;/p&gt;&#xA;&lt;p&gt;Also for the longest time in my life I used to think that these are gulmohar trees.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Peepal</title>
+      <link>http://localhost:1313/gallery/2024-03-02-peepal/</link>
+      <pubDate>Sat, 02 Mar 2024 08:45:38 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-03-02-peepal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rocket</title>
+      <link>http://localhost:1313/gallery/2024-02-28-rocket/</link>
+      <pubDate>Wed, 28 Feb 2024 17:08:11 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-02-28-rocket/</guid>
+      <description>&lt;p&gt;I didn&amp;rsquo;t make it.&#xA;I made the ones that crashed and burned.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hauz Khas</title>
+      <link>http://localhost:1313/gallery/2024-02-24-hauz-khas/</link>
+      <pubDate>Sat, 24 Feb 2024 21:08:32 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-02-24-hauz-khas/</guid>
+      <description>&lt;p&gt;As of 2026 I hate south delhi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Satyr</title>
+      <link>http://localhost:1313/microblog/satyr/</link>
+      <pubDate>Sat, 17 Feb 2024 18:16:31 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/satyr/</guid>
+      <description>&lt;p&gt;Some esoteric thoughts I had that I am too uninspired to articulate anymore.&lt;/p&gt;&#xA;&lt;center&gt;&lt;img src=&#34;satyr1.png&#34; width=500px &gt;&#xD;&#xA;&lt;img src=&#34;satyr2.png&#34; width=500px&gt;&#xD;&#xA;&lt;img src=&#34;satyr3.png&#34;  height=500px&gt;&#xD;&#xA;&lt;video width=&#34;500&#34; autoplay loop muted &gt;&#xD;&#xA;  &lt;source src=&#34;lost0.mp4&#34; type=&#34;video/mp4&#34;&gt; &#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;video width=&#34;500&#34; autoplay loop muted&gt;&#xD;&#xA;  &lt;source src=&#34;lost1.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;video width=&#34;500&#34;  autoplay loop muted&gt;&#xD;&#xA;  &lt;source src=&#34;lost2.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;video width=&#34;500&#34;  autoplay loop muted&gt;&#xD;&#xA;  &lt;source src=&#34;lost3.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;/center&gt;&#xD;&#xA;&lt;p&gt;But hey, at least I made all this cool shit in canva 2 years ago.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruins</title>
+      <link>http://localhost:1313/gallery/2024-02-11-ruins/</link>
+      <pubDate>Sun, 11 Feb 2024 21:08:21 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-02-11-ruins/</guid>
+      <description>&lt;p&gt;at Mehrauli Archeological Park.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Qutub (Minar?)</title>
+      <link>http://localhost:1313/gallery/2024-02-11-qutub/</link>
+      <pubDate>Sun, 11 Feb 2024 21:08:11 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-02-11-qutub/</guid>
+      <description>&lt;p&gt;&lt;s&gt;even if your friend might be in a different place in life than you, you can still be on the same page with them.&lt;/s&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>कुत्ते</title>
+      <link>http://localhost:1313/microblog/2024-01-26-kutte/</link>
+      <pubDate>Fri, 26 Jan 2024 12:53:02 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2024-01-26-kutte/</guid>
+      <description>&lt;p&gt;सन २०२४ : सभी कुत्ते कोट पेहेन्ने लगे है।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>City</title>
+      <link>http://localhost:1313/gallery/2024-01-03-city/</link>
+      <pubDate>Wed, 03 Jan 2024 03:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-01-03-city/</guid>
+      <description>&lt;p&gt;Mumbai. Not Delhi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>चर्चा</title>
+      <link>http://localhost:1313/blog/charcha/</link>
+      <pubDate>Tue, 02 Jan 2024 10:08:21 +0530</pubDate>
+      <guid>http://localhost:1313/blog/charcha/</guid>
+      <description>&lt;p&gt;बात होती है तो केवल उसकी जो स्पष्ट रूप से सभी की इंद्रियों में पंजिकृत &lt;sup&gt;[1]&lt;/sup&gt; हो। तापमान, वायु का रुख, कुत्तों का भौंकना, विविद्ध प्रकार की गंधें वगैरा इस वार्तालाप के लिए  उत्तम विष्य हैं।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mr. Sisyphus</title>
+      <link>http://localhost:1313/gallery/mr-sisyphus/</link>
+      <pubDate>Thu, 14 Dec 2023 08:16:11 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/mr-sisyphus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ladder</title>
+      <link>http://localhost:1313/gallery/2023-10-29-ladder/</link>
+      <pubDate>Sun, 29 Oct 2023 08:39:24 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-10-29-ladder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The God That Failed</title>
+      <link>http://localhost:1313/gallery/2023-10-04-the-god-that-failed/</link>
+      <pubDate>Wed, 04 Oct 2023 20:59:39 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-10-04-the-god-that-failed/</guid>
+      <description>&lt;p&gt;Eucalyptus, &amp;ldquo;The God That Failed&amp;rdquo; as dubbed by the policy maker N.C. Saxena.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clouds</title>
+      <link>http://localhost:1313/gallery/2023-09-18-clouds/</link>
+      <pubDate>Mon, 18 Sep 2023 19:43:19 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-09-18-clouds/</guid>
+      <description>&lt;center&gt;&lt;i&gt;while my monsoon gently retreats&lt;/i&gt;&lt;/center&gt;</description>
+    </item>
+    <item>
+      <title>Aloo Tikki</title>
+      <link>http://localhost:1313/blog/aloo-tikki/</link>
+      <pubDate>Mon, 31 Jul 2023 11:19:53 +0530</pubDate>
+      <guid>http://localhost:1313/blog/aloo-tikki/</guid>
+      <description>&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/blog/pictures/tikki.png&#34; height=&#34;400px&#34;&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;Its the conflicting flavours, red caramelized chutney with its heavy spicy taste and the green, sour tangy  refreshing coriander chutney. The hot tikki just out of the wok, straight into some chilled yoghurt. A contrast of temperature. The depth and texture of the brown deep fried tikki  being contrasted by the homogenous white yoghurt. On top it may be graced by a salad dressing, of chopped onions, cabbage and pomegranate further producing opposition to the deep fried carbohydrates of the tikki.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Padyatri</title>
+      <link>http://localhost:1313/microblog/2023-07-19-padyatri/</link>
+      <pubDate>Wed, 19 Jul 2023 21:37:59 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2023-07-19-padyatri/</guid>
+      <description>&lt;p&gt;पदयात्री मां &lt;strike&gt;चुदाए&lt;/strike&gt;, बड़ा बड़ा लिख देना चाहिए हर सड़क पर। मोटे मोटे अक्षरों में।&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Point of No Return</title>
+      <link>http://localhost:1313/microblog/the-point-of-no-return/</link>
+      <pubDate>Mon, 03 Jul 2023 21:20:27 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/the-point-of-no-return/</guid>
+      <description>&lt;p&gt;Fuck it.&#xA;Its no point studying now. Its quite interesting that I&amp;rsquo;ve appeared for the most difficult and challenging courses of my life with close to no preparation, and I am still expecting a good score.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sanjay Van</title>
+      <link>http://localhost:1313/gallery/2023-06-28-sanjay-van/</link>
+      <pubDate>Wed, 28 Jun 2023 11:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-06-28-sanjay-van/</guid>
+      <description>&lt;p&gt;We need more unsupervised access to nature reserves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dustbin</title>
+      <link>http://localhost:1313/gallery/2023-06-28-dustbin/</link>
+      <pubDate>Wed, 28 Jun 2023 10:58:23 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-06-28-dustbin/</guid>
+      <description>&lt;p&gt;Underrated life advice for 20 somethings&lt;/p&gt;&#xA;&lt;!-- more--&gt;&#xA;&lt;p&gt;Desh ka yuva, kuda kudedaan me nahi daal pa raha.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lal Kot</title>
+      <link>http://localhost:1313/gallery/2023-06-28-lal-kot/</link>
+      <pubDate>Wed, 28 Jun 2023 10:52:30 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-06-28-lal-kot/</guid>
+      <description>&lt;p&gt;The first walled city of Delhi.&lt;/p&gt;&#xA;&lt;p&gt;The first walled city of the city of Delhi.&lt;/p&gt;&#xA;&lt;p&gt;The first walled city of seven or eight or nine cities of the city of Delhi&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Music Reaction Channels</title>
+      <link>http://localhost:1313/blog/music-reaction-channels/</link>
+      <pubDate>Sun, 25 Jun 2023 18:33:38 +0530</pubDate>
+      <guid>http://localhost:1313/blog/music-reaction-channels/</guid>
+      <description>&lt;p&gt;In the recent years, music reaction channels on YouTube have become quite a thing. These channels mainly react to forms of alternative music such as rock, metal and other genres that like to go with the &amp;ldquo;its &lt;strong&gt;not&lt;/strong&gt; pop music&amp;rdquo; identity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Make Youtube Distraction Free</title>
+      <link>http://localhost:1313/blog/2023-06-24-make-youtube-distraction-free/</link>
+      <pubDate>Sat, 24 Jun 2023 14:05:25 +0530</pubDate>
+      <guid>http://localhost:1313/blog/2023-06-24-make-youtube-distraction-free/</guid>
+      <description>&lt;p&gt;Over the years, it has become increasingly hard to focus on the web. With websites and serveices now being designed to make you shuttle from one red dot to another, it has become necessary for us users to preserve our integrities as users and to not become consumers.&#xA;This article will guide you to removing all sorts of distractions from YouTube, a popular video sharing website which houses a library of videos ranging from casual entertainment to perhaps the best lectures in calculus. For the ones who use this as a tool to study, it is not possible to use the platform while keeping together their focus on what&amp;rsquo;s important.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Short Video Format</title>
+      <link>http://localhost:1313/blog/short-video-format/</link>
+      <pubDate>Sat, 24 Jun 2023 13:47:49 +0530</pubDate>
+      <guid>http://localhost:1313/blog/short-video-format/</guid>
+      <description>&lt;h2 id=&#34;against-the-short-video-format&#34;&gt;Against the short video format&lt;/h2&gt;&#xA;&lt;p&gt;The short video format is a non consensual, habit forming, freedom infringing video format that destroys the users attention span. It takes away the users right to consent, delivers them trivial information in bite sized bits of novelty along with a hit of hormones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Casio DB-36 Inverted Display Mod</title>
+      <link>http://localhost:1313/projects/casio-db36-inverted-display-mod/</link>
+      <pubDate>Fri, 05 May 2023 10:21:20 +0530</pubDate>
+      <guid>http://localhost:1313/projects/casio-db36-inverted-display-mod/</guid>
+      <description>&lt;p&gt;I had been meaning to try an inverted display mod on one of my Casio watches, and now finally I had the time and money to get a polarizing filer and do it and see for myself&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Site</title>
+      <link>http://localhost:1313/blog/2023-04-30-new-site/</link>
+      <pubDate>Sun, 30 Apr 2023 17:29:57 +0530</pubDate>
+      <guid>http://localhost:1313/blog/2023-04-30-new-site/</guid>
+      <description>&lt;p&gt;newsite!&lt;/p&gt;&#xA;&lt;p&gt;using hugo this time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>नीम </title>
+      <link>http://localhost:1313/gallery/neem/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery/neem/</guid>
+      <description>&lt;p&gt;ka patta kadva hai&lt;/p&gt;&#xA;&lt;!-- more &gt;&#xA;&#xA;thank you samsung galaxy m21</description>
+    </item>
+    <item>
+      <title>College</title>
+      <link>http://localhost:1313/blog/college/</link>
+      <pubDate>Sat, 28 Jan 2023 17:31:10 +0530</pubDate>
+      <guid>http://localhost:1313/blog/college/</guid>
+      <description>&lt;h2 id=&#34;a-series-of-incoherent-thoughts-i-have-had-since-joining-college&#34;&gt;A series of (incoherent) thoughts I have had since joining college.&lt;/h2&gt;&#xA;&lt;p&gt;The curriculum is merely a carcass every student is assigned to drag behind them for the next four years of their life. Even the administration knows this, and they don&amp;rsquo;t put too much effort into not letting the world know about it.&lt;br&gt;&#xA;Exams and academics only exist to provide a goal to those who don&amp;rsquo;t have a purpose to live up to (yet).&lt;br&gt;&#xA;Extra-curricular activities exist, yet as a curriculum themselves. The creative outlet of extra-curricular activities is just reduced to gaining credentials to add after ones name on their resume. Perhaps a form of totalitarianism, imposed by their political correctness. Giving us the freedom to have such collectives yet also prioritizing our careers and placements. Making it much harder to rebel against them. It is easy to rebel against tyranny but tough to rebel against the conformism enforced by the very freedom of choice. It is tough to realise when some granted freedoms of extra-curricular activities become the slaveries of imposed curriculum. This brings me to the question, shall we ever be truly free ? I tried to fit in, in fact if it has been noticed this webpage was reskinned (shall I say stripped of skin, or soul). For the purposes of looking more professional, to be more squared for professional life I had butchered my own creativity. Now that I have realised the status quo, I am no longer afraid of offending people by merely being not squared. This is some paranoia&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post Jee Feels</title>
+      <link>http://localhost:1313/blog/post-jee-feels/</link>
+      <pubDate>Fri, 17 Jun 2022 17:31:18 +0530</pubDate>
+      <guid>http://localhost:1313/blog/post-jee-feels/</guid>
+      <description>&lt;p&gt;So my first JEE attempt is complete and now I am here, writing a blog post in a (sucessfull) attempt of relaxing and chilling for one day in what seems like months since I have walked without a head full of stress. This I belive must be my reward. The only proof that I need to strengthen this belife is that today, ladies and gentlemen is the day when the south western monsoon finally arrived here in Delhi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wearing A Mechanical Watch</title>
+      <link>http://localhost:1313/blog/mechanical-watch/</link>
+      <pubDate>Thu, 17 Feb 2022 17:30:54 +0530</pubDate>
+      <guid>http://localhost:1313/blog/mechanical-watch/</guid>
+      <description>&lt;p&gt;This article was made on my old blog on 17 February 2022.&lt;br&gt;&#xA;Having worn almost all sorts of watches, around a month ago I finally decided to make the leap to a mechanical watch. This leap of mine which truly felt like a leap of faith in the beginning, was a lot more reliable than I had expected it to be.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parantha Teir List</title>
+      <link>http://localhost:1313/blog/parantha/</link>
+      <pubDate>Sun, 06 Feb 2022 17:31:03 +0530</pubDate>
+      <guid>http://localhost:1313/blog/parantha/</guid>
+      <description>&lt;p&gt;This post was originally published on my blogger blog on 6 February 2022. This is a revised version of that post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Only Day Your Dad Will Ever Ask You To Watch TV</title>
+      <link>http://localhost:1313/blog/republic-day/</link>
+      <pubDate>Thu, 27 Jan 2022 17:30:09 +0530</pubDate>
+      <guid>http://localhost:1313/blog/republic-day/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post was originally published on 27 January 2022 on my old blog. This is a revised version of the post.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>http://localhost:1313/gallery/physics/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery/physics/</guid>
+      <description>&lt;p&gt;Found at Central Library, Shahbad Engineering College&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

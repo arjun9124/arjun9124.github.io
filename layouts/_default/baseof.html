@@ -36,6 +36,9 @@
   </main>
 
   <footer>
+   {{ if eq .Type "misc" }}
+{{- partial "misc.html" . -}}
+{{ end }}
 	     {{- partial "webrings.html" . -}}
 
     {{- partial "footer.html" . -}}

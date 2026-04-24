@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/random/</link>
+    <description>Recent content in Random on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Sun, 05 Oct 2025 18:49:13 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/random/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Things That Are but Arent</title>
+      <link>http://localhost:1313/microblog/2025-10-05-things-that-are-but-arent/</link>
+      <pubDate>Sun, 05 Oct 2025 18:49:13 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/2025-10-05-things-that-are-but-arent/</guid>
+      <description>&lt;p&gt;things that are but aren&amp;rsquo;t:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Schrodinger&amp;rsquo;s cat&lt;/li&gt;&#xA;&lt;li&gt;fight club&lt;/li&gt;&#xA;&lt;li&gt;Godel&amp;rsquo;s incompleteness theorem&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

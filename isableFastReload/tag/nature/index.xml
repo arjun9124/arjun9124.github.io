@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/nature/</link>
+    <description>Recent content in Nature on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Mon, 25 Aug 2025 20:52:46 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/nature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spider</title>
+      <link>http://localhost:1313/gallery/spider/</link>
+      <pubDate>Mon, 25 Aug 2025 20:52:46 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/spider/</guid>
+      <description>&lt;p&gt;Under a bench&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Peepal</title>
+      <link>http://localhost:1313/gallery/2024-03-02-peepal/</link>
+      <pubDate>Sat, 02 Mar 2024 08:45:38 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2024-03-02-peepal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The God That Failed</title>
+      <link>http://localhost:1313/gallery/2023-10-04-the-god-that-failed/</link>
+      <pubDate>Wed, 04 Oct 2023 20:59:39 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-10-04-the-god-that-failed/</guid>
+      <description>&lt;p&gt;Eucalyptus, &amp;ldquo;The God That Failed&amp;rdquo; as dubbed by the policy maker N.C. Saxena.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sanjay Van</title>
+      <link>http://localhost:1313/gallery/2023-06-28-sanjay-van/</link>
+      <pubDate>Wed, 28 Jun 2023 11:00:28 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-06-28-sanjay-van/</guid>
+      <description>&lt;p&gt;We need more unsupervised access to nature reserves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>नीम </title>
+      <link>http://localhost:1313/gallery/neem/</link>
+      <pubDate>Sun, 05 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gallery/neem/</guid>
+      <description>&lt;p&gt;ka patta kadva hai&lt;/p&gt;&#xA;&lt;!-- more &gt;&#xA;&#xA;thank you samsung galaxy m21</description>
+    </item>
+  </channel>
+</rss>

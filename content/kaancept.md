@@ -4,6 +4,9 @@ title = "Kaancept"
 
 menu = "misc"
 
+type = "misc"
+
+
 weight = 500
 
 tags = ["Satyr"]

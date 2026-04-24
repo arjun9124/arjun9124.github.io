@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>History on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/history/</link>
+    <description>Recent content in History on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Wed, 28 Jun 2023 10:52:30 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lal Kot</title>
+      <link>http://localhost:1313/gallery/2023-06-28-lal-kot/</link>
+      <pubDate>Wed, 28 Jun 2023 10:52:30 +0530</pubDate>
+      <guid>http://localhost:1313/gallery/2023-06-28-lal-kot/</guid>
+      <description>&lt;p&gt;The first walled city of Delhi.&lt;/p&gt;&#xA;&lt;p&gt;The first walled city of the city of Delhi.&lt;/p&gt;&#xA;&lt;p&gt;The first walled city of seven or eight or nine cities of the city of Delhi&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

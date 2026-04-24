@@ -1,6 +1,7 @@
 ﻿+++
 title = "How its made ?"
 menu = "footer"
+type = "misc"
 weight = 200
 +++
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Satyr on Arjun&#39;s Webpage</title>
+    <link>http://localhost:1313/tag/satyr/</link>
+    <description>Recent content in Satyr on Arjun&#39;s Webpage</description>
+    <generator>Hugo</generator>
+    <language>en-IN</language>
+    <copyright>Copyleft © 2026, Arjun.</copyright>
+    <lastBuildDate>Sat, 17 Feb 2024 18:16:31 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/satyr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kaancept</title>
+      <link>http://localhost:1313/kaancept/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kaancept/</guid>
+      <description>&lt;h3 id=&#34;a-glossary-of-terms-i-have-heard-in-dankrishu-streams&#34;&gt;A glossary of terms I have heard in &lt;a href=&#34;https://www.youtube.com/@DankRishu&#34;&gt;DankRishu&lt;/a&gt; streams&lt;/h3&gt;&#xA;&lt;p&gt;Also, checkout &lt;a href=&#34;http://localhost:1313/microblog/satyr/&#34;&gt;Satyr&lt;/a&gt;&lt;/p&gt;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;कटाक्ष (Kataksh)&lt;/summary&gt;&#xD;&#xA;Meaning: satire? criticism?&#xD;&#xA;&lt;p&gt;Usage: Used to refer to any social critique made on the stream, usually in an “I’m not implying anything but&amp;hellip;” manner.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Satyr</title>
+      <link>http://localhost:1313/microblog/satyr/</link>
+      <pubDate>Sat, 17 Feb 2024 18:16:31 +0530</pubDate>
+      <guid>http://localhost:1313/microblog/satyr/</guid>
+      <description>&lt;p&gt;Some esoteric thoughts I had that I am too uninspired to articulate anymore.&lt;/p&gt;&#xA;&lt;center&gt;&lt;img src=&#34;satyr1.png&#34; width=500px &gt;&#xD;&#xA;&lt;img src=&#34;satyr2.png&#34; width=500px&gt;&#xD;&#xA;&lt;img src=&#34;satyr3.png&#34;  height=500px&gt;&#xD;&#xA;&lt;video width=&#34;500&#34; autoplay loop muted &gt;&#xD;&#xA;  &lt;source src=&#34;lost0.mp4&#34; type=&#34;video/mp4&#34;&gt; &#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;video width=&#34;500&#34; autoplay loop muted&gt;&#xD;&#xA;  &lt;source src=&#34;lost1.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;video width=&#34;500&#34;  autoplay loop muted&gt;&#xD;&#xA;  &lt;source src=&#34;lost2.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;video width=&#34;500&#34;  autoplay loop muted&gt;&#xD;&#xA;  &lt;source src=&#34;lost3.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xD;&#xA;&lt;/video&gt;&#xD;&#xA;&lt;/center&gt;&#xD;&#xA;&lt;p&gt;But hey, at least I made all this cool shit in canva 2 years ago.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

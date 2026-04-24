@@ -372,6 +372,11 @@ content a:hover {
   background-color: var(--link-color);
   color: var(--background-color);
 }
+
+menumisc.a {
+  margin: 10px 0 10px 0;
+}
+
 /*
   nav a {
     margin-right: 8px;
@@ -420,6 +425,28 @@ hr {
 
 img {
   max-width: 90%;
+}
+
+img.theme-filtered {
+  filter: var(--theme-image-filter);
+  transition: filter 0.25s ease;
+}
+
+img.theme-filtered:hover {
+  filter: none;
+}
+
+:root,
+[data-selected-theme="Dark"] {
+  --theme-image-filter: grayscale(1) brightness(0.7) contrast(0.75);
+}
+
+[data-selected-theme="Bleach"] {
+  --theme-image-filter: sepia(0.5) hue-rotate(300deg) saturate(0.7) brightness(0.9);
+}
+
+[data-selected-theme="Puke"] {
+  --theme-image-filter: sepia(0.5) hue-rotate(40deg) saturate(0.7) brightness(0.9);
 }
 
 code {
@@ -563,18 +590,26 @@ h2.misc {
   flex-wrap: wrap;
   gap: 3px;
 }
-.new-blink {
-  font-size: 0.75em;
-  font-weight: 700;
-  color: red;
-  animation: blinkNew 0.9s steps(2, start) infinite;
+
+a.misc{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--highlight-color);
 }
 
-.new-update {
-  font-size: 0.75em;
-  font-weight: 700;
-  color: greenyellow;
-  animation: blinkNew 0.9s steps(2, start) infinite;
+.misc.is-new,
+.misc.is-updated {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  animation: blink-underline 1s steps(2, start) infinite;
+}
+
+@keyframes blink-underline {
+  0%   { text-decoration-color: currentColor; }
+  50%  { text-decoration-color: transparent; }
+  100% { text-decoration-color: var(--yellow); }
 }
 
 .title-cursor::before {
