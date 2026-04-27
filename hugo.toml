@@ -49,3 +49,4 @@ timeout = 60000
     [markup.goldmark.renderer]
       unsafe = true
 
+enableGitInfo = true

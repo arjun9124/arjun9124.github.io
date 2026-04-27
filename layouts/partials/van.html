@@ -4,8 +4,6 @@
     <small class="grey">Too cool to be categorized.</small>
   </div>
 
-  <nav>
-    <div class="menumisc">
       {{ range .Site.Menus.misc }}
         {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
         <a href="{{ .URL | relURL }}" 
@@ -16,8 +14,6 @@
      {{ end }}
    {{ end }}">
   {{ .Name }}
-</a>
+</a><br>
       {{ end }}
-    </div>
-  </nav>
 </div>

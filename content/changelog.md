@@ -1,6 +1,5 @@
 ﻿+++
 title = "Changelog"
-type = "misc"
 weight = 2000
 +++
 

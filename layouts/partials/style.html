@@ -113,7 +113,9 @@ button[data-theme][aria-pressed="true"] {
   font-family: var(--font-main);
   font-size: 1.8rem;
   font-weight: 600;
+  align-self: last baseline;
 }
+
 
 /* RIGHT SIDE (NAV + THEME) */
 .site-nav {
@@ -121,6 +123,8 @@ button[data-theme][aria-pressed="true"] {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.75rem;
+    align-self: first baseline;
+
 }
 
 /* LINKS */
@@ -572,7 +576,8 @@ nav a.active {
 
 nav a {
   transition: background-color 0.2s ease, color 0.2s ease;
-  padding: 0.1em;
+  padding: 0 0.25em 0 0.25em;
+
 }
 
 a:hover {
