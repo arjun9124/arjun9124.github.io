@@ -5,7 +5,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parent
-META = ROOT / "content" / "meta.md"
+META = ROOT / "content" / "changelog.md"
 
 
 def git(cmd):
@@ -38,11 +38,11 @@ def append_entry(commit, desc):
 
     entry = f"<p>\n<b> {ts} - {commit}</b>\n\n{desc}</p>\n"
 
-    if "# Changelog" in body:
-        head, tail = body.split("# Changelog", 1)
-        new_body = head + "# Changelog\n" + entry + tail.lstrip("\n")
+    if "<!-- CHNG -->" in body:
+        head, tail = body.split("<!-- CHNG -->", 1)
+        new_body = head + "<!-- CHNG -->\n" + entry + tail.lstrip("\n")
     else:
-        new_body = body.rstrip() + "\n\n# Changelog\n" + entry
+        new_body = body.rstrip() + "\n\n<!-- CHNG -->\n" + entry
 
     META.write_text(front + new_body, encoding="utf-8")
 
