@@ -21,16 +21,17 @@
       {{ end }}
 
       {{ $pageTitle }}
-    </a>
+    <span class="title-cursor"></span></a>
   </div>
-
-  <nav class="site-nav">
-    {{- partial "nav.html" . -}}
+  <div class="site-nav-wrap">
+    <nav class="site-nav">
+      {{- partial "nav.html" . -}}
+    
 <div class="theme-switcher">
     <button data-theme="Bleach" aria-pressed="false" title="Bleach">☀️</button>
-    <button data-theme="Dark" aria-pressed="true" title="Dark">🌑</button>
+    <button data-theme="Dark" aria-pressed="true" title="Dark">🌙</button>
     <button data-theme="Puke" aria-pressed="false" title="PUKE">🤢</button>
     </div>
   </nav>
-
+</div>
 </header>

@@ -1,23 +1,16 @@
-<div>
-  <div>
-    <h3 class="misc">More Miscllaneous Pages 🫃</h3>
+<section class="misc-more">
+  <header>
+    <h3 class="misc">More Miscellaneous Pages</h3>
     <small class="grey">unordered. randomness. chaos.</small>
-  </div>
+  </header>
 
-  <nav>
-    <div class="menumisc">
-      {{ range .Site.Menus.misc }}
-        {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
-        <a href="{{ .URL | relURL }}" 
-   class="misc
-   {{ with .Page }}
-     {{ if .Params.newpage }} is-new
-     {{ else if .Params.updated }} is-updated
-     {{ end }}
-   {{ end }}">
-  {{ .Name }}
-</a>
-      {{ end }}
-    </div>
+  <nav aria-label="More miscellaneous pages">
+    {{ range $index, $item := .Site.Menus.misc }}
+      {{ $active := or ($.IsMenuCurrent "misc" $item) ($.HasMenuCurrent "misc" $item) }}
+      <a href="{{ $item.URL | relURL }}"
+         class="misc{{ if $active }} active{{ end }}{{ with $item.Page }}{{ if .Params.newpage }} is-new{{ else if .Params.updated }} is-updated{{ end }}{{ end }}">
+        {{ $item.Name }}
+      </a>{{ if not (eq (add 1 $index) (len $.Site.Menus.misc)) }} / {{ end }}
+    {{ end }}
   </nav>
-</div>
+</section>

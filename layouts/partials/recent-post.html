@@ -1,0 +1,28 @@
+<section class="section-block posts-block">
+  <div class="section-heading">
+    <h2 class="recent">Blog Posts</h2>
+    <small class="grey">Some effort was made</small>
+  </div>
+
+  <div class="posts-list">
+    {{ with .Site.GetPage "/blog" }}
+      {{ range first 5 (where .Pages ".Params.private" "!=" true).ByLastmod.Reverse }}
+        {{ $isUpdated := ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+
+        <article class="post">
+          <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="post-title">
+            {{ .Title }}
+            
+          </a>
+
+          {{ with .Description }}
+            <span class="post-desc"> {{ . }}</span>
+            {{ if $isUpdated }}
+              <sup class="post-updated">updated!!</sup>
+            {{ end }}
+          {{ end }}
+        </article>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>

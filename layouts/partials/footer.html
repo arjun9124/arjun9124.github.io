@@ -1,8 +1,24 @@
-{{ range .Site.Menus.footer }}
-  {{ $active := or ($.IsMenuCurrent "footer" .) ($.HasMenuCurrent "footer" .) }}
-  <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
-{{- .Name -}}  </a>
-{{ end }}
-| <a href="/changelog">changelog</a> | <a href="/index.xml">RSS Feed </a> | <a href="/humans.txt">humans.txt</a> | <a href="/about/#contact">contact</a> 
+<footer class="site-footer">
+  <div class="footer-row">
+    <div class="footer-links">
+      {{ range .Site.Menus.footer }}
+        {{ $active := or ($.IsMenuCurrent "footer" .) ($.HasMenuCurrent "footer" .) }}
+        <a href="{{ .URL | relURL }}" class="{{ if $active }}active{{ end }}">
+          {{- .Name -}}
+        </a>
+      {{ end }}
 
+      <a href="/changelog">changelog</a>
+      <a href="/index.xml">RSS Feed</a>
+      <a href="/humans.txt">humans.txt</a>
+      <a href="/about/#contact">contact</a>
+    </div>
 
+    {{ with .Site.Copyright }}
+      <div class="footer-copyright">
+        {{ . | safeHTML }}
+      </div>
+    {{ end }}
+    
+  </div>
+</footer>

@@ -1,19 +1,18 @@
-<div>
-  <div>
-    <h2 class="misc">Miscllaneous</h2>
+<section class="misc-block">
+  <header class="misc-heading">
+    <h2 class="misc-title">Miscellaneous</h2>
     <small class="grey">Too cool to be categorized.</small>
-  </div>
+  </header>
 
-      {{ range .Site.Menus.misc }}
-        {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
-        <a href="{{ .URL | relURL }}" 
-   class="misc
-   {{ with .Page }}
-     {{ if .Params.newpage }} is-new
-     {{ else if .Params.updated }} is-updated
-     {{ end }}
-   {{ end }}">
-  {{ .Name }}
-</a><br>
-      {{ end }}
-</div>
+  <nav class="misc-links" aria-label="Miscellaneous links">
+    {{ range .Site.Menus.misc }}
+      {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
+      <a
+        href="{{ .URL | relURL }}"
+        class="misc-link {{ if $active }}active{{ end }}{{ with .Page }}{{ if .Params.newpage }} is-new{{ else if .Params.updated }} is-updated{{ end }}{{ end }}"
+      >
+        {{ .Name }}
+      </a>
+    {{ end }}
+  </nav>
+</section>

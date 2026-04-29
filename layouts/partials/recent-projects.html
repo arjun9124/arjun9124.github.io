@@ -1,0 +1,28 @@
+<section class="section-block projects-block">
+  <div class="section-heading">
+    <h2 class="recent">My Projects</h2>
+    <small class="grey">Stuff I'm making or have made already.</small>
+  </div>
+
+  <div class="posts-list">
+   {{ with .Site.GetPage "/projects" }}
+      {{ range first 5 (where .Pages ".Params.private" "!=" true).ByLastmod.Reverse }}
+        {{ $isUpdated := ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+
+        <article class="post">
+          <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="post-title">
+            {{ .Title }}
+            
+          </a>
+
+          {{ with .Description }}
+            <span class="post-desc"> {{ . }}</span>
+            {{ if $isUpdated }}
+              <sup class="post-updated">updated!!</sup>
+            {{ end }}
+          {{ end }}
+        </article>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>

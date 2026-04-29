@@ -10,6 +10,10 @@ weight = 2000
 <div class="chnglog">
 <!-- CHNG -->
 <p>
+<b> 2026-04-29 16:01 +05:30 - Footer, Header</b>
+
+Improved the footer and header layouts.</p>
+<p>
 <b> 2026-04-27 10:08 +05:30 - Meta, About etc.</b>
 
 Changed the meta page layout, put the changelog onto a seperate page. Added a RIP section for obituaries in the meta page. And so on..</p>

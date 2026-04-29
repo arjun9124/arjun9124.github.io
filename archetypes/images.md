@@ -10,6 +10,8 @@ type: posts
 
 draft: true
 
+description: 
+
 categories:
 
 &#x20; - default

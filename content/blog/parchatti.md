@@ -4,7 +4,7 @@ date: 2025-07-28T11:55:19+05:30
 slug: parchatti
 type: posts
 draft: false
-description: "When the south delhi ki aakarshak mahila asks you about the store room"
+description: "When the south delhi ki mahila asks you about the store room"
 
 categories:
   - default

@@ -32,12 +32,12 @@
 
 
     {{- block "main" . }}{{- end }}
-
+   {{ if eq .Type "misc" }}
+{{- partial "misc.html" . -}}
   </main>
 
   <footer>
-   {{ if eq .Type "misc" }}
-{{- partial "misc.html" . -}}
+
 {{ end }}
 	     {{- partial "webrings.html" . -}}
 
