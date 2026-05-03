@@ -138,3 +138,9 @@ Bade sahab ne bola hai engine ko <u>kabad me kandam</u> karwana hai
 </blockquote>
 Said some clerk to some thekedar.... Teaching him a new word that he did not fully understand himself.
 </details>
+
+<details>
+<summary>raseed (Raseed) - Receipt</summary>
+
+Receipt in English become Raseed in Hindi. 
+</details>

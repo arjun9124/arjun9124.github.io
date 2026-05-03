@@ -1,18 +1,18 @@
 <div class="thought">
 {{ with .Site.GetPage "/microblog" }}
-    {{ range first 1 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-{{ if eq .Type "thought" }}
-  <h4>A recent thought</h4>
-{{ else if eq .Type "status" }}
-<h4>Current status</h4>
-{{ else }}
-  {{ .Type }}
-{{ end }}
-  <blockquote class="smallquote">                          
-{{ .Summary }}
-</blockquote>
-<small>{{ .PublishDate.Format "Jan. 2, 2006" }} | <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a> | <a href="/microblog">more μ-blogging</a>
-</small>
-    {{ end }}
+  {{ range first 1 (where .Pages ".Params.private" "!=" true).ByDate.Reverse }}
+    <span>
+      {{ if eq .Type "thought" }}<b>Thought:</b>
+      {{ else if eq .Type "status" }}</b>Status:</b>
+      {{ else }}{{ .Type }}:
+      {{ end }}
+      {{ .Summary | plainify | replaceRE "\n+" " " }}
+      <small>
+        ({{ .PublishDate.Format "Jan 2" }} ·
+        <a href="{{ .Permalink }}">{{ .Title }}</a> ·
+        <a href="/microblog">more</a>)
+      </small>
+    </span>
+  {{ end }}
 {{ end }}
 </div>

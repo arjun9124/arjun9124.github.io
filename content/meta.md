@@ -11,13 +11,12 @@ This website is made using [Hugo](https://gohugo.io), a static site generator. T
 
 <b>Some (excessive) notes about the color scheme and theme</b>
 
-The website at the moment has three themes, Dark 🌑, Bleach ☀️ (Light) and Puke 🤢 (Piss)
+The website at the moment has three themes, Dark 🌙, Bleach 👨‍🏭 and Puke 🤢 
 
 The original dark and light color schemes as explained before were borrowed from  [somestyleplease](https://github.com/jkkNl/somestyleplease). Later, I've employed a theme switcher based on [Sarah Fosshiem's Theme Switcher](https://github.com/sarahfossheim/theme-switcher/tree/main). I was inspired to do this while dithering a picture of myself for the front page (for asthetics and space savings and maybe privacy even). I liked the different color pallets of [ditherit.com](https://ditherit.com) (not to be confused with [dither.it](https://dither.it) another cool dithering website btw). I thought to myself, what if the profile image switches with the theme that would be cool !? *Eventually* the Gameboy theme was made, *eventually* the gameboy theme was named piss (Even though it was too green for that, [House MD](https://house.fandom.com/wiki/Here_Kitty)?) ***Eventually***, I renamed piss to puke, <u>I like <s>piss</s> **puke**, <s>piss</s> **puke** is my favourite theme.</u> 
 
-Also, I've modified the Light theme and renamed it to Bleach, because why not it feels like pouring bleach into my eyes. Well, not so much since I changed the background color from ```#ffffff```  to ```#bcbcbc``` which complements the fact that this is a website written in Delhi. But still, given the toxic nature of bleach I've taken to wearing some PPE whilist you make me handle the chemicals. Also dont mind while I have my institutional snack of tea in a microplastic laced papercup while I am not staring at you from the backseat. Bleach in my opinion was the best album Nirvana made (not really). 
+Also, I've modified the Light theme and renamed it to Bleach, because why not it feels like pouring bleach into my eyes. Well, not so much since I changed the background color from ```#ffffff```  to ```#bcbcbc``` which complements the fact that this is a website written in Delhi. But still, given the toxic nature of bleach I've taken to wearing some PPE whilist you make me handle the chemicals. Bleach in my opinion was the best album Nirvana made (not really). 
 
-****Drink bleach, Puke🤢.****
 
 ## RIP 🥀
 🪦CMYK Theme (2026-03-25 to 2026-04-17)

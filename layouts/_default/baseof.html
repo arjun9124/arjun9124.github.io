@@ -34,13 +34,10 @@
     {{- block "main" . }}{{- end }}
    {{ if eq .Type "misc" }}
 {{- partial "misc.html" . -}}
+{{ end }}
   </main>
 
   <footer>
-
-{{ end }}
-	     {{- partial "webrings.html" . -}}
-
     {{- partial "footer.html" . -}}
 
   </footer>

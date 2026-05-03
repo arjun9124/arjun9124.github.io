@@ -6,7 +6,7 @@ weight = 2
 
 ### Who am I ? 
 
-I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul> I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier)
+I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul> <!-- I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier) -->
 
 I’d appreciate if you read something. Even if you don’t, or if nobody ever does, this place shall continue to exist on principle.
 ### What am I doing, NOW ? 
