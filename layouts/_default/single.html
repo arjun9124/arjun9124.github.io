@@ -41,6 +41,10 @@
 {{- partial "post_navigator.html" . -}}
 {{ end }}
 
+{{ if eq .Type "thoughts" }}
+{{- partial "post_navigator.html" . -}}
+{{ end }}
+
 {{ if eq .Type "microblog" }}
 {{- partial "post_navigator.html" . -}}
 {{ end }}

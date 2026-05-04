@@ -2,11 +2,11 @@
 {{ with .Site.GetPage "/microblog" }}
   {{ range first 1 (where .Pages ".Params.private" "!=" true).ByDate.Reverse }}
     <span>
-      {{ if eq .Type "thought" }}<b>Thought:</b>
-      {{ else if eq .Type "status" }}</b>Status:</b>
-      {{ else }}{{ .Type }}:
+      {{ if eq .Type "thought" }}
+      {{ else if eq .Type "status" }}
       {{ end }}
       {{ .Summary | plainify | replaceRE "\n+" " " }}
+      <br>
       <small>
         ({{ .PublishDate.Format "Jan 2" }} ·
         <a href="{{ .Permalink }}">{{ .Title }}</a> ·

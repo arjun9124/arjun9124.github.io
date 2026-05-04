@@ -2,18 +2,22 @@
   <p>
     {{ if .PrevInSection }}
     <a href="{{ .PrevInSection.Permalink }}">
-      << Previous Post</a>
-        {{ else }}
-        <strike>
-          << Previous Post</strike>
-            {{ end }}
+      &lt;&lt; Previous Post<br>
+      <strong>{{ .PrevInSection.Title }}</strong>
+    </a>
+    {{ else }}
+    <strike>&lt;&lt; Previous Post</strike>
+    {{ end }}
   </p>
   <p>|</p>
   <p>
     {{ if .NextInSection }}
-    <a href="{{ .NextInSection.Permalink }}">Next Post >></a>
+    <a href="{{ .NextInSection.Permalink }}">
+      Next Post &gt;&gt;<br>
+      <strong>{{ .NextInSection.Title }}</strong>
+    </a>
     {{ else }}
-    <strike>Next Post >></strike>
+    <strike>Next Post &gt;&gt;</strike>
     {{ end }}
   </p>
 </div>

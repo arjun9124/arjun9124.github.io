@@ -2,7 +2,7 @@
 title: "placement की fearmongering"
 date: 2026-03-06T21:40:53+05:30
 slug: fearmongering
-type: thought
+type: posts
 draft: false
 categories:
   - Life
