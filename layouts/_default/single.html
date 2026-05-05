@@ -33,6 +33,12 @@
   {{ .Content }}
 </content>
 
+{{ if or (eq .Section "blog") (eq .Section "projects") }}
+<p class="post-signature">
+  - <a href="{{ "" | relURL }}">Arjun</a>
+</p>
+{{ end }}
+
 {{ if eq .Type "posts" }}
 {{- partial "post_navigator.html" . -}}
 {{ end }}
@@ -49,9 +55,4 @@
 {{- partial "post_navigator.html" . -}}
 {{ end }}
 
-<p>
-  {{ range (.GetTerms "tags") }}
-  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
-  {{ end }}
-</p>
 {{ end }}

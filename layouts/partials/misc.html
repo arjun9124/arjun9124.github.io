@@ -1,16 +1,19 @@
-<section class="misc-more">
-  <header>
-    <h3 class="misc">More Miscellaneous Pages</h3>
-    <small class="grey">unordered. randomness. chaos.</small>
+<section class="misc-block">
+  <header class="misc-heading">
+    <small class="misc-title">More Miscellaneous Pages</small>
   </header>
 
-  <nav aria-label="More miscellaneous pages">
-    {{ range $index, $item := .Site.Menus.misc }}
+  <nav class="misc-links" aria-label="More miscellaneous pages">
+    {{ range $item := .Site.Menus.misc }}
       {{ $active := or ($.IsMenuCurrent "misc" $item) ($.HasMenuCurrent "misc" $item) }}
-      <a href="{{ $item.URL | relURL }}"
-         class="misc{{ if $active }} active{{ end }}{{ with $item.Page }}{{ if .Params.newpage }} is-new{{ else if .Params.updated }} is-updated{{ end }}{{ end }}">
+      <span class="misc-link-item">
+      <a
+        href="{{ $item.URL | relURL }}"
+        class="misc-link{{ if $active }} active{{ end }}{{ with $item.Page }}{{ if .Params.newpage }} is-new{{ else if .Params.updated }} is-updated{{ end }}{{ end }}"
+      >
         {{ $item.Name }}
-      </a>{{ if not (eq (add 1 $index) (len $.Site.Menus.misc)) }} / {{ end }}
+      </a>
+      </span>
     {{ end }}
   </nav>
 </section>

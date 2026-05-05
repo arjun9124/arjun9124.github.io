@@ -1,23 +1,27 @@
-<div style="font-size:0.8em;display:flex;gap:16px;justify-content:center;">
-  <p>
-    {{ if .PrevInSection }}
-    <a href="{{ .PrevInSection.Permalink }}">
-      &lt;&lt; Previous Post<br>
-      <strong>{{ .PrevInSection.Title }}</strong>
-    </a>
-    {{ else }}
+<div class="post-nav">
+  {{ if .PrevInSection }}
+  <a class="post-nav-cell post-nav-prev" href="{{ .PrevInSection.Permalink }}">
+    &lt;&lt; Previous Post<br>
+    <strong>{{ .PrevInSection.Title }}</strong>
+  </a>
+  {{ else }}
+  <div class="post-nav-cell post-nav-prev">
     <strike>&lt;&lt; Previous Post</strike>
+  </div>
+  {{ end }}
+  <div class="post-nav-cell post-nav-tags">
+    {{ range (.GetTerms "tags") }}
+    <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
     {{ end }}
-  </p>
-  <p>|</p>
-  <p>
-    {{ if .NextInSection }}
-    <a href="{{ .NextInSection.Permalink }}">
-      Next Post &gt;&gt;<br>
-      <strong>{{ .NextInSection.Title }}</strong>
-    </a>
-    {{ else }}
+  </div>
+  {{ if .NextInSection }}
+  <a class="post-nav-cell post-nav-next" href="{{ .NextInSection.Permalink }}">
+    Next Post &gt;&gt;<br>
+    <strong>{{ .NextInSection.Title }}</strong>
+  </a>
+  {{ else }}
+  <div class="post-nav-cell post-nav-next">
     <strike>Next Post &gt;&gt;</strike>
-    {{ end }}
-  </p>
+  </div>
+  {{ end }}
 </div>

@@ -24,11 +24,12 @@
 
 <body>
 {{- partial "theme.html" . -}}
- 
+  {{ if not (or (and .IsPage (eq .Section "blog")) (eq .Section "projects")) }}
   <header>
     {{- partial "header.html" . -}}   
 
   </header>
+  {{ end }}
   <main>
 
 

@@ -474,7 +474,6 @@ img.theme-filtered:hover {
   border-left: dashed 2px var(--blockquote-color);
 }
 
-
 /* MISC */
 s {
   text-decoration: line-through solid red;
@@ -522,6 +521,46 @@ details > summary {
   font-size: 0.6em;
   color: var(--yellow);
   text-transform: lowercase;
+}
+
+.post-signature {
+  font-family: var(--font-main);
+  font-size: 1em;
+  font-weight: var(--main-font-wt);
+}
+
+.post-nav {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+.post-nav-cell {
+  border: 1px dashed var(--blockquote-color);
+  box-sizing: border-box;
+  flex: 1;
+  min-width: 0;
+  padding: 0.5rem 0.65rem;
+}
+
+a.post-nav-cell:hover {
+  background: var(--yellow);
+  border-color: transparent;
+  color: var(--background-color);
+}
+
+.post-nav-prev {
+  text-align: left;
+}
+
+.post-nav-tags {
+  border: 0;
+  text-align: center;
+}
+
+.post-nav-next {
+  text-align: right;
 }
 
 .container,
@@ -585,6 +624,12 @@ a.misc {
 .misc-link:hover {
   background: var(--yellow);
   color: var(--background-color);
+}
+
+.misc-link-item:not(:last-child)::after {
+  content: "/";
+  margin-left: 0.35rem;
+  color: var(--blockquote-color);
 }
 
 .misc-link.is-new::after {
@@ -669,6 +714,14 @@ a.misc {
 }
 
 @media (max-width: 700px) {
+  .post-nav {
+    flex-direction: column;
+  }
+
+  .post-nav-cell {
+    text-align: left;
+  }
+
   .post-desc {
     display: block;
   }
