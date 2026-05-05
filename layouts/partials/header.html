@@ -11,7 +11,7 @@
       {{ else if .IsSection }}
         {{ $pageTitle = printf "Arjun’s %s" (.Section | humanize) }}
       {{ else if eq .Title "about" }}
-        {{ $pageTitle = "About Arjun" }}
+        {{ $pageTitle = "About Me" }}
       {{ else if eq .Title "images" }}
         {{ $pageTitle = "Arjun's Images" }}
       {{ else if eq .Title "scrapbook" }}

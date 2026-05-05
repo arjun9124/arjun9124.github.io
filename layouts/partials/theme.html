@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const currentPressed = document.querySelector(pressedButtonSelector);
     const target = document.querySelector(`[data-theme="${theme}"]`);
-    const profileImage = document.querySelector('#profile-image');
+    const profileImages = document.querySelectorAll('#profile-image, .theme-profile-image');
+    const favicon = document.querySelector('link[rel="icon"]');
 
     document.documentElement.setAttribute('data-selected-theme', theme);
 
@@ -23,8 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
       target.setAttribute('aria-pressed', 'true');
     }
 
-    if (profileImage) {
+    profileImages.forEach((profileImage) => {
       profileImage.src = `/me/me-${theme}.jpg`;
+    });
+
+    if (favicon) {
+      favicon.href = `/me/me-${theme}-32.jpg`;
     }
   };
 

@@ -4,6 +4,10 @@ menu = "main"
 weight = 2
 +++
 
+<div style="float: right; width: min(220px, 34vw); margin: 0 0 0.6rem 1rem;">
+  <img class="theme-profile-image" src="/me/me-Dark.jpg" alt="Arjun" style="width: 100%; max-width: 100%; border: 1px solid var(--blockquote-color);">
+</div>
+
 ### Who am I ? 
 
 I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul> <!-- I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier) -->
