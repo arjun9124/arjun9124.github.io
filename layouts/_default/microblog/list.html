@@ -1,0 +1,105 @@
+{{ define "main" }}
+<content>
+  {{ if .Data.Singular }}
+  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <small>
+    <a href="{{ "blog" | relURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+  <style>
+    .microblog-feed {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .microblog-entry {
+      border-bottom: 1px dashed var(--blockquote-color);
+      padding-bottom: 0.75rem;
+    }
+
+    .microblog-entry:last-child {
+      border-bottom: 0;
+    }
+
+    .microblog-meta {
+      display: flex;
+      align-items: baseline;
+      gap: 0.55rem;
+      flex-wrap: wrap;
+      margin: 0 0 0.2rem;
+      line-height: 1.35;
+    }
+
+    .microblog-tags {
+      color: var(--blockquote-color);
+      font-size: 0.9em;
+    }
+
+    .microblog-meta time,
+    .microblog-title {
+      font-family: var(--font-main);
+      font-size: 1em;
+      font-weight: var(--main-font-wt);
+    }
+
+    .microblog-meta time {
+      color: var(--blockquote-color);
+    }
+
+    .microblog-body p,
+    .microblog-body ul,
+    .microblog-body ol,
+    .microblog-body blockquote {
+      margin-top: 0.35rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .microblog-body > :first-child {
+      margin-top: 0;
+    }
+
+    .microblog-body > :last-child {
+      margin-bottom: 0;
+    }
+
+    .microblog-body img {
+      max-height: 50vh;
+    }
+
+    .microblog-tags {
+      margin: 0.35rem 0 0;
+    }
+  </style>
+
+  <div class="microblog-feed">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="microblog-entry">
+      <header class="microblog-meta">
+        <time datetime='{{ .Date.Format "2006-01-02" }}'>
+          {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+        </time> | 
+        <a class="microblog-title" href="{{ .Permalink }}">{{ .Title }}</a>
+      </header>
+
+      <div class="microblog-body">
+        {{ .Content }}
+      </div>
+
+      {{ with .GetTerms "tags" }}
+      <p class="microblog-tags">
+        {{ range . }}
+        <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+        {{ end }}
+      </p>
+      {{ end }}
+    </article>
+    {{ else }}
+    <p>
+      No posts yet
+    </p>
+    {{ end }}
+  </div>
+
+</content>
+{{ end }}
