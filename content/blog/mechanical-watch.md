@@ -80,5 +80,3 @@ The HMT Pilot, well you guessed it right, it was issued to pilots back in the da
 Unlike other HMT's I own, this one happens to be shockproof ! A contender for the G-Shock perhaps ? Well no, this sleek beauty is no match for the chonky G-Shocks. The teal lettering on the black face, saying Pilot in a smooth streamlined manner as that of a aircraft fuselage.  
 Now, this has been a long post. And being fairly honest, there have been things that I have missed and couldn't really have integrated into just one post. So for more things about HMT, I guess you'd have to wait for a while.  
 PS: The pictures arent too great, I couldn't figure out the lighting. Which is surely a tragedy coming from a person who has photography up on his hobby portfolio.
-
-by **[Arjun](https://arjun9124.github.io/)**

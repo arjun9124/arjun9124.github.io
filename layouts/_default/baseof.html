@@ -24,7 +24,7 @@
 
 <body>
 {{- partial "theme.html" . -}}
-  {{ if not (or (and .IsPage (eq .Section "blog")) (eq .Section "projects")) }}
+  {{ if not (and .IsPage (or (eq .Section "blog") (eq .Section "projects") (eq .Section "gallery"))) }}
   <header>
     {{- partial "header.html" . -}}   
 

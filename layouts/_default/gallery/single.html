@@ -3,15 +3,12 @@
 <article itemscope itemtype="https://schema.org/BlogPosting">
   <header>
     <h2>{{ .Title }}</h2>
-
-    <section class="meta">
-      {{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
-      <span>
-        <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format $dateFormat }}</time>
-      </span>
-
-
-    </section>
+    <p class="post-signature">
+      by <a href="{{ "" | relURL }}">Arjun</a> on
+      <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">
+        {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+      </time>
+    </p>
   </header>
 
   <main itemprop="articleBody" class="md">
@@ -32,14 +29,6 @@
     {{ end }}
 {{ .Content }}  </main>
 </article>
-      {{ with .GetTerms "tags" }}
-  
-          {{ range . }}
-                           <span class="prefix">#</span><a href="{{ .RelPermalink }}" title="{{ .LinkTitle }}">{{ .LinkTitle }}</a>
-            
-          {{ end }}
-      {{ end }}
-
 
 {{ if .Param "enablePostNavigator" }}
   {{ partial "post_navigator.html" . }}

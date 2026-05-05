@@ -28,4 +28,3 @@ Being born in the 2000's I can only imagine what kind of an event the parade mus
 
 I do really wonder, will the excitement ever end once and for all ? Will people ever forget to tune into Door Darshan that one and only time of the year ? Will the parade ever become a thing of the past ?
 
-by **[Arjun](https://arjun9124.github.io/)**

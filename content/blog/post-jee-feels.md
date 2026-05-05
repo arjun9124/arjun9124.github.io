@@ -28,5 +28,3 @@ The seat I was alloted was a corner seat and was pretty airy, I was chilling in 
 Coming to the test, It wasn't anything exceptional. I think did pretty well in physics, maths wasn't bad either. I could have done a bit better in chemistry though.
 
 Now all's well that ends well, this attempt of JEE wasn't my best surely but wasn't the last either. Hopefully I'd do a bit better at the next attempt whenever I have it. Untill then, I guess stay put folks. I'll try to survive too.
-
-by **[Arjun](https://arjun9124.github.io/)**

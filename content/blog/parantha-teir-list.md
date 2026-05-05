@@ -56,4 +56,3 @@ And that ladies and gentlemen was my parantha tier list. Don't get too triggered
 
 PS: This is my personal scale of grading. Will not apply to everyone. If you think that the lakui parantha is the best or something please dont get butthurt.
 
-by **[Arjun](https://arjun9124.github.io/)

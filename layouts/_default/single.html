@@ -1,22 +1,20 @@
 {{ define "main" }}
 {{ if eq .Type "blog" }}{{ if not .Params.menu }}
 <h2>{{ .Title }}</h2>
-<p>
-  <i>
-    <time datetime='{{ .Date.Format "2006-01-02" }}'>
-      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-    </time>
-  </i>
+<p class="post-signature">
+  by <a href="{{ "" | relURL }}">Arjun</a> on
+  <time datetime='{{ .Date.Format "2006-01-02" }}'>
+    {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+  </time>
 </p>
 {{ end }}{{ end }}
 {{ if eq .Type "posts" }}{{ if not .Params.menu }}
 <h2>{{ .Title }}</h2>
-<p>
-  <i>
-    <time datetime='{{ .Date.Format "2006-01-02" }}'>
-      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-    </time>
-  </i>
+<p class="post-signature">
+  by <a href="{{ "" | relURL }}">Arjun</a> on
+  <time datetime='{{ .Date.Format "2006-01-02" }}'>
+    {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+  </time>
 </p>
 {{ end }}{{ end }}
 {{ if eq .Type "thoughts" }}{{ if not .Params.menu }}
@@ -32,12 +30,6 @@
 <content>
   {{ .Content }}
 </content>
-
-{{ if or (eq .Section "blog") (eq .Section "projects") }}
-<p class="post-signature">
-  - <a href="{{ "" | relURL }}">Arjun</a>
-</p>
-{{ end }}
 
 {{ if eq .Type "posts" }}
 {{- partial "post_navigator.html" . -}}
