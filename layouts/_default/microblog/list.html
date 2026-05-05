@@ -15,6 +15,8 @@
 
     .microblog-entry {
       border-bottom: 1px dashed var(--blockquote-color);
+      display: flex;
+      gap: 0.75rem;
       padding-bottom: 0.75rem;
     }
 
@@ -23,12 +25,17 @@
     }
 
     .microblog-meta {
-      display: flex;
-      align-items: baseline;
-      gap: 0.55rem;
-      flex-wrap: wrap;
       margin: 0 0 0.2rem;
       line-height: 1.35;
+    }
+
+    .microblog-date {
+      flex: 0 0 130px;
+    }
+
+    .microblog-content {
+      flex: 1;
+      min-width: 0;
     }
 
     .microblog-tags {
@@ -75,24 +82,31 @@
   <div class="microblog-feed">
     {{ range .Pages.ByDate.Reverse }}
     <article class="microblog-entry">
-      <header class="microblog-meta">
-        <time datetime='{{ .Date.Format "2006-01-02" }}'>
-          {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-        </time> | 
-        <a class="microblog-title" href="{{ .Permalink }}">{{ .Title }}</a>
-      </header>
+      <span class="microblog-date">
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
 
-      <div class="microblog-body">
-        {{ .Content }}
-      </div>
+      <div class="microblog-content">
+        <header class="microblog-meta">
+          <a class="microblog-title" href="{{ .Permalink }}">{{ .Title }}</a>
+        </header>
 
-      {{ with .GetTerms "tags" }}
-      <p class="microblog-tags">
-        {{ range . }}
-        <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+        <div class="microblog-body">
+          {{ .Content }}
+        </div>
+
+        {{ with .GetTerms "tags" }}
+        <p class="microblog-tags">
+          {{ range . }}
+          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+          {{ end }}
+        </p>
         {{ end }}
-      </p>
-      {{ end }}
+      </div>
     </article>
     {{ else }}
     <p>
