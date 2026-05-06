@@ -10,9 +10,7 @@ import subprocess
 import sys
 
 
-ROOT = Path(__file__).resolve().parent
 DEFAULT_COMMIT_TITLE = 11340507042043
-CHANGELOG_FILE = Path("content/changelog.md")
 LASTMOD_FILES = [
     Path("content/about.md"),
     Path("content/apni-rasoi.md"),
@@ -30,17 +28,12 @@ LASTMOD_FILES = [
 
 def run(command: list[str]) -> subprocess.CompletedProcess[str]:
     print("+ " + " ".join(command))
-    return subprocess.run(command, cwd=ROOT, text=True, check=True)
-
-
-def relative_path(path: Path) -> Path:
-    return path if path.is_absolute() else ROOT / path
+    return subprocess.run(command, text=True, check=True)
 
 
 def git_status_paths(paths: list[Path]) -> set[Path]:
     result = subprocess.run(
         ["git", "status", "--porcelain", "--", *(str(path) for path in paths)],
-        cwd=ROOT,
         text=True,
         capture_output=True,
         check=True,
@@ -57,7 +50,6 @@ def git_status_paths(paths: list[Path]) -> set[Path]:
 
 
 def read_text_preserving_bom(path: Path) -> tuple[str, bool]:
-    path = relative_path(path)
     raw = path.read_bytes()
     has_bom = raw.startswith(b"\xef\xbb\xbf")
     if has_bom:
@@ -66,7 +58,6 @@ def read_text_preserving_bom(path: Path) -> tuple[str, bool]:
 
 
 def write_text_preserving_bom(path: Path, text: str, has_bom: bool) -> None:
-    path = relative_path(path)
     raw = text.encode("utf-8")
     if has_bom:
         raw = b"\xef\xbb\xbf" + raw
@@ -104,7 +95,7 @@ def upsert_toml_front_matter_field(text: str, field: str, value: str) -> str:
 
 
 def update_lastmod_fields() -> None:
-    existing_files = [path for path in LASTMOD_FILES if relative_path(path).exists()]
+    existing_files = [path for path in LASTMOD_FILES if path.exists()]
     changed_paths = git_status_paths(existing_files)
     timestamp = datetime.now().astimezone().isoformat(timespec="seconds")
 
@@ -123,106 +114,9 @@ def update_lastmod_fields() -> None:
             write_text_preserving_bom(path, updated_text, has_bom)
 
 
-def timestamp_for_changelog(now: datetime) -> str:
-    timestamp = now.strftime("%Y-%m-%d %H:%M %z")
-    return timestamp[:-2] + ":" + timestamp[-2:]
-
-
-def git_status_lines() -> list[str]:
-    result = subprocess.run(
-        ["git", "status", "--porcelain"],
-        cwd=ROOT,
-        text=True,
-        capture_output=True,
-        check=True,
-    )
-    return result.stdout.splitlines()
-
-
-def changed_files_for_summary() -> list[Path]:
-    files: list[Path] = []
-    for line in git_status_lines():
-        path = line[3:]
-        if " -> " in path:
-            path = path.rsplit(" -> ", 1)[1]
-        if path and path != str(CHANGELOG_FILE):
-            files.append(Path(path))
-    return files
-
-
-def autogen_changelog_title(files: list[Path]) -> str:
-    if not files:
-        return "Site update"
-
-    top_level = sorted({path.parts[0] for path in files if path.parts})
-    if top_level == ["content"]:
-        sections = sorted({path.parts[1] for path in files if len(path.parts) > 2})
-        if sections:
-            return "Updated " + ", ".join(sections[:3])
-        return "Updated content"
-
-    return "Updated " + ", ".join(top_level[:3])
-
-
-def autogen_changelog_comment(files: list[Path]) -> str:
-    if not files:
-        return "Updated the site."
-
-    shown_files = ", ".join(str(path).replace("\\", "/") for path in files[:5])
-    if len(files) > 5:
-        shown_files += f", and {len(files) - 5} more"
-
-    return f"Updated {shown_files}."
-
-
-def prompt_optional(prompt: str) -> str:
-    if not sys.stdin.isatty():
-        return ""
-
-    try:
-        return input(prompt).strip()
-    except EOFError:
-        return ""
-
-
-def upsert_changelog_entry(title: str, comment: str) -> None:
-    changelog_path = relative_path(CHANGELOG_FILE)
-    text, has_bom = read_text_preserving_bom(changelog_path)
-    now = datetime.now().astimezone()
-    entry = f"<p>\n<b> {timestamp_for_changelog(now)} - {title}</b>\n\n{comment}</p>\n"
-
-    marker = "<!-- CHNG -->"
-    if marker in text:
-        head, tail = text.split(marker, 1)
-        updated_text = head + marker + "\n" + entry + tail.lstrip("\n")
-    else:
-        updated_text = text.rstrip() + "\n\n" + marker + "\n" + entry
-
-    write_text_preserving_bom(changelog_path, updated_text, has_bom)
-
-
-def update_changelog(title: str | None, comment: str | None, prompt: bool) -> None:
-    files = changed_files_for_summary()
-    if not files:
-        return
-
-    generated_title = autogen_changelog_title(files)
-    generated_comment = autogen_changelog_comment(files)
-
-    if prompt:
-        title = title or prompt_optional(f"Changelog title [{generated_title}]: ")
-        comment = comment or prompt_optional(f"Changelog comment [{generated_comment}]: ")
-
-    upsert_changelog_entry(
-        title.strip() if title else generated_title,
-        comment.strip() if comment else generated_comment,
-    )
-
-
 def latest_commit_title() -> str | None:
     result = subprocess.run(
         ["git", "log", "-1", "--pretty=%s"],
-        cwd=ROOT,
         text=True,
         capture_output=True,
     )
@@ -263,35 +157,11 @@ def main() -> int:
         default="main",
         help="Git branch to push. Default: main",
     )
-    parser.add_argument(
-        "--changelog-title",
-        help="Optional title for the generated changelog entry.",
-    )
-    parser.add_argument(
-        "--changelog-comment",
-        help="Optional comment/body for the generated changelog entry.",
-    )
-    parser.add_argument(
-        "--no-changelog",
-        action="store_true",
-        help="Skip writing the generated changelog entry.",
-    )
-    parser.add_argument(
-        "--no-changelog-prompt",
-        action="store_true",
-        help="Use autogenerated changelog text without prompting.",
-    )
     args = parser.parse_args()
 
     commit_title = next_commit_title(args.start)
 
     try:
-        if not args.no_changelog:
-            update_changelog(
-                args.changelog_title,
-                args.changelog_comment,
-                prompt=not args.no_changelog_prompt,
-            )
         update_lastmod_fields()
         run(["git", "add", "-A"])
         run(["git", "commit", "-m", commit_title])

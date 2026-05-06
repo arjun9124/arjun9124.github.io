@@ -1,4 +1,8 @@
 <footer class="site-footer">
+          {{ if eq .Type "misc" }}
+            {{- partial "misc.html" . -}}
+            <hr>
+          {{ end }}
       	  {{- partial "webrings.html" . -}}
           <hr>
 
