@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-06T12:04:32+05:30"
+lastmod = "2026-05-06T16:55:22+05:30"
 
 menu = "misc"
 
@@ -22,7 +22,7 @@ its beyond me. [Queue Marvin Gaye?](https://www.youtube.com/watch?v=H-kA3UtBj4M)
 
 So here are things ranging from stuff that attracts BBC and Al jazeera headlines, nationwide hysteria, regime changes, social unrest and netflix documentaries to material for <a href="https://podcasts.aajtak.in/comedy/teen-taal">Teen Taal</a>'s Bizarre Khabarien or <a href="https://www.youtube.com/gursimrankhamba">Gursimran Khamba</a>'s The Nation Want's To Guess. 
 
-
+<img src="/memes/samaj.png" style="float:right; max-height:40vh; width:auto; opacity:0.5" >
 <ul style="padding-left: 0; margin-left: 0;">
 
 ### May 2026
@@ -38,3 +38,4 @@ So here are things ranging from stuff that attracts BBC and Al jazeera headlines
 <li>🥱 People boring a borewell bore it down to Pune metro's underground tracks. <a href="https://www.indiatoday.in/india/story/borewell-drilling-hits-pune-metro-tunnel-case-against-contractor-homeowner-2886782-2026-03-25">source</a></li>
 <li>😔 Man in Delhi's Uttam Nagar killed on Holi after his toddler cousin accidentally threw a waterbaloon at their neighbour. <a href="https://timesofindia.indiatimes.com/city/delhi/18-charged-in-uttam-nagar-holi-murder-2-minors-also-involved/articleshow/130841569.cms">source</a></li>
 </ul>
+
