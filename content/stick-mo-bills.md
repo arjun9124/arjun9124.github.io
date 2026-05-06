@@ -3,6 +3,8 @@
 newpage = true
 
 title = "Stick Mo' Bills"
+date = "2026-04-09T18:13:33+05:30"
+lastmod = "2026-05-06T09:55:55+05:30"
 type = "misc"
 
 menu = "misc"

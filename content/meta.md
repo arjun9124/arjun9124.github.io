@@ -1,5 +1,7 @@
 ﻿+++
 title = "how its made ?"
+date = "2026-03-15T10:12:26+05:30"
+lastmod = "2026-05-06T09:55:55+05:30"
 menu = "footer"
 type = "misc"
 weight = 200

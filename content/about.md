@@ -1,5 +1,7 @@
 +++
 title = "about"
+date = "2024-06-23T08:47:28+05:30"
+lastmod = "2026-05-06T09:55:55+05:30"
 menu = "main"
 weight = 2
 +++

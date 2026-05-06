@@ -1,6 +1,8 @@
 +++
 
 title = "Kaancept"
+date = "2026-03-24T13:48:02+05:30"
+lastmod = "2026-05-06T09:55:55+05:30"
 
 menu = "misc"
 

@@ -1,6 +1,8 @@
 +++
 
 title = "What's going on?"
+date = "2024-06-23T08:47:28+05:30"
+lastmod = "2026-05-06T09:55:55+05:30"
 
 menu = "misc"
 
@@ -25,7 +27,7 @@ Too lazy to figure it out....  Its beyond me.
 
 
 
-So here are things worthy of being featured on <a href="https://podcasts.aajtak.in/comedy/teen-taal">Teen Taal</a>'s Bizarre Khabarien or <a href="https://www.youtube.com/gursimrankhamba">Gursimran Khamba</a>'s The Nation Want's To Guess
+So here are ranging from materal relavent to <a href="https://podcasts.aajtak.in/comedy/teen-taal">Teen Taal</a>'s Bizarre Khabarien or <a href="https://www.youtube.com/gursimrankhamba">Gursimran Khamba</a>'s The Nation Want's To Guess to stuff that attracts BBC headlines and nationwide hysteria. 
 
 
 
