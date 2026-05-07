@@ -5,7 +5,7 @@
   </header>
 
   <nav class="misc-links" aria-label="Miscellaneous links">
-    {{ range .Site.Menus.misc }}
+    {{ range sort .Site.Menus.misc "Page.Lastmod" "desc" }}
       {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
       <a
         href="{{ .URL | relURL }}"

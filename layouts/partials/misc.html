@@ -4,7 +4,7 @@
   </header>
 
   <nav class="misc-links" aria-label="More miscellaneous pages">
-    {{ range $item := .Site.Menus.misc }}
+    {{ range $item := sort .Site.Menus.misc "Page.Lastmod" "desc" }}
       {{ $active := or ($.IsMenuCurrent "misc" $item) ($.HasMenuCurrent "misc" $item) }}
       <span class="misc-link-item">
       <a
