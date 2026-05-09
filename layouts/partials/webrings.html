@@ -45,4 +45,13 @@
     <a href="https://webri.ng/webring/punk/random?via=https%3A%2F%2Farjun9124.github.io%2F">[?]</a>
     <a href="https://webri.ng/webring/punk/next?via=https%3A%2F%2Farjun9124.github.io%2F">&gt;&gt;</a>
   </span>
+  {{ range sort .Site.Menus.webrings "Page.Lastmod" "desc" }}
+      {{ $active := or ($.IsMenuCurrent "misc" .) ($.HasMenuCurrent "misc" .) }}
+      <a
+        href="{{ .URL | relURL }}"
+        class="misc-link {{ if $active }}active{{ end }}{{ with .Page }}{{ if .Params.newpage }} is-new{{ else if .Params.updated }} is-updated{{ end }}{{ end }}"
+      >
+        {{ .Name }}
+      </a>
+    {{ end }}
 </div>
