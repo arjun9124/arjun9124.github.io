@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-07T17:46:45+05:30"
+lastmod = "2026-05-12T18:48:43+05:30"
 
 menu = "misc"
 
@@ -41,3 +41,5 @@ So here are things ranging from stuff that attracts BBC and Al jazeera headlines
 <li>😔 Man in Delhi's Uttam Nagar killed on Holi after his toddler cousin accidentally threw a waterbaloon at their neighbour. <a href="https://timesofindia.indiatimes.com/city/delhi/18-charged-in-uttam-nagar-holi-murder-2-minors-also-involved/articleshow/130841569.cms">source</a></li>
 </ul> 
 
+While this is a shitty iceberg made by an half edgelord half normie idiot, it still has some cool shit and could be rearranged to perfection. 
+![the india iceberg](/memes/34wxw558mdyf1.png)
