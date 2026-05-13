@@ -1,9 +1,9 @@
 ---
 title: "Bad Financial Decision on 4 Wheels"
 date: 2026-04-10T10:54:56+05:30
-lastmod: 2026-05-04T14:18:45+05:30
-slug: 2026-04-10-bad-financial-decision
-description: "My ideation resto-modding a Suzuki Esteem."
+lastmod: 2026-05-13T20:59:02+05:30
+slug: bad-financial-decision
+description: "Ideating on resto-modding a Suzuki Esteem."
 type: posts
 draft: false
 categories:

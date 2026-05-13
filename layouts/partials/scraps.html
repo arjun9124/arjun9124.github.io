@@ -1,23 +1,17 @@
-<div class="image-grid" style="padding-left: 10px; padding-top: 10px;">
-  {{ $pages := slice }}
+{{ $scrapDir := "scrap" }}
+{{ $images := slice }}
 
-  {{ with .Site.GetPage "/scrapbook" }}
-    {{ $pages = $pages | append .RegularPages }}
+{{ range readDir (printf "static/%s" $scrapDir) }}
+  {{ if and (not .IsDir) (in (slice ".gif" ".jpeg" ".jpg" ".png" ".webp") (lower (path.Ext .Name))) }}
+    {{ $images = $images | append . }}
   {{ end }}
+{{ end }}
 
-
-  {{ range first 1 (sort $pages "Date" "desc") }}
-    {{ $page := . }}
-
-    <!--<h4>{{ $page.Title }}</h4>-->
-
-    <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
-      {{ with $page.Resources.GetMatch $page.Params.image }}
-        {{ $thumb := .Resize "400x" }}
-        <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive" style="max-width:20%px; ">
-      {{ end }}
+<div class="image-grid" style="padding-left: 10px; padding-top: 10px;">
+  {{ range first 1 (sort $images "ModTime" "desc") }}
+    {{ $src := printf "/%s/%s" $scrapDir .Name }}
+    <a href="/stick-mo-bills/" title="Latest scrap">
+      <img src="{{ $src | relURL }}" alt="Latest scrap" class="img-responsive" style="max-width: 100%;">
     </a>
-
-    <!--  <p>{{ $page.Plain | truncate 160 }}</p> */-->
   {{ end }}
 </div>

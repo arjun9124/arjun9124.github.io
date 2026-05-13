@@ -1,0 +1,92 @@
+{{ define "main" }}
+<content>
+  {{ if .Data.Singular }}
+  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+  <small>
+    <a href="{{ "blog" | relURL }}">Remove filter</a>
+  </small>
+  {{ end }}
+  <style>
+    .blog-feed {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      list-style-type: none;
+      padding: unset;
+    }
+
+    .blog-entry {
+      border-bottom: 1px dashed var(--blockquote-color);
+      display: flex;
+      gap: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+
+    .blog-entry:last-child {
+      border-bottom: 0;
+    }
+
+    .blog-date {
+      flex: 0 0 130px;
+    }
+
+    .blog-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .blog-title {
+      font-family: var(--font-main);
+      font-size: 1em;
+      font-weight: var(--main-font-wt);
+    }
+
+    .blog-summary {
+      color: var(--text-color);
+      margin-top: 0.35rem;
+    }
+
+  </style>
+
+  <div class="blog-feed">
+    {{ range .Pages }}
+    <article class="blog-entry">
+      <span class="blog-date">
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+
+      <div class="blog-content">
+        <a class="blog-title" href="{{ .Permalink }}">{{ .Title }}</a>
+
+        {{ $summary := .Summary | plainify | htmlUnescape }}
+        {{ $words := split $summary " " }}
+        <p class="blog-summary">
+          {{- if gt (len $words) 50 -}}
+          {{ delimit (first 50 $words) " " }}...
+          {{- else -}}
+          {{ $summary }}
+          {{- end -}}
+        </p>
+      </div>
+    </article>
+    {{ else }}
+    <p>
+      No posts yet
+    </p>
+    {{ end }}
+  </div>
+  {{ if not .Data.Singular }}
+  <small>
+    <div>
+      {{ range .Site.Taxonomies.tags }}
+      <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+      {{ end }}
+    </div>
+  </small>
+  {{ end }}
+</content>
+{{ end }}

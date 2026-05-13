@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-12T18:48:43+05:30"
+lastmod = "2026-05-13T20:59:02+05:30"
 
 menu = "misc"
 
@@ -27,6 +27,7 @@ So here are things ranging from stuff that attracts BBC and Al jazeera headlines
 
 
 ### May 2026
+<li>😟 PM Modi asks people to reduce fuel useage, WFH, cut foregin trips and stop buying gold to save oil and forex. <a href="https://www.indiatoday.in/business/story/pm-modi-gold-warning-not-buy-urged-families-to-avoid-gold-wedding-amid-oil-crisis-us-iran-hormuz-2909711-2026-05-11">source</a></li>
 <li>🥸 PM Modi's BJP won WB's 2026  vidhan sabha chunaav. <a href="https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election">source</a></li>
 <li>🥸 Actor Vijay's TVK won TN's 2026 vidhan sabha chunaav. <a href="https://en.wikipedia.org/wiki/2026_Tamil_Nadu_Legislative_Assembly_election">source</a></li>
 <li>😔 A three year old kid assaulted and murdered by a 65 year old man.<a href="https://timesofindia.indiatimes.com/india/rape-murder-of-3-year-old-kin-seek-death-protest-shuts-down-pune-district/articleshow/130743653.cms">source</a></li>
