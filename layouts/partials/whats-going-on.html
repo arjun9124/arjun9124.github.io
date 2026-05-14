@@ -1,14 +1,11 @@
 <h2>Whats going on ?</h2>
-<div class="thought">
 {{ with .Site.GetPage "/whats-going-on" }}
-  {{ $items := findRE `<li>.*?</li>` .Content 1 }}
-  {{ with index $items 0 }}
+  {{ range first 2 (sort .Params.items "date" "desc") }}
       <span>
-        {{ . | replaceRE `^<li>` "" | replaceRE `\s*<a href="[^"]+">source</a>\s*</li>$` "" | safeHTML }}
+        {{ .emoji }} {{ .text }}
         <small>
           (<a href="/whats-going-on/">more</a>)
         </small>
       </span>
   {{ end }}
 {{ end }}
-    </div>

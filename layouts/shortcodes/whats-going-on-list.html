@@ -1,0 +1,16 @@
+{{ $currentMonth := "" }}
+{{ range sort .Page.Params.items "date" "desc" }}
+  {{ $date := time .date }}
+  {{ $month := $date.Format "January 2006" }}
+  {{ if ne $month $currentMonth }}
+    {{ if ne $currentMonth "" }}</ul>{{ end }}
+    <h3>{{ $month }}</h3>
+    <ul style="padding-left: 0; margin-left: 0;">
+    {{ $currentMonth = $month }}
+  {{ end }}
+  <li>
+    {{ .emoji }} {{ .text }}
+    {{ with .source }}<a href="{{ . }}">source</a>{{ end }}
+  </li>
+{{ end }}
+{{ if ne $currentMonth "" }}</ul>{{ end }}

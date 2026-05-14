@@ -24,12 +24,13 @@ def git_status_paths(paths: list[Path]) -> set[Path]:
     result = subprocess.run(
         ["git", "status", "--porcelain=v1", "-z", "--", *(str(path) for path in paths)],
         text=True,
-        capture_output=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
         check=True,
     )
 
     changed_paths: set[Path] = set()
-    entries = result.stdout.split("\0")
+    entries = (result.stdout or "").split("\0")
     index = 0
     while index < len(entries):
         entry = entries[index]
