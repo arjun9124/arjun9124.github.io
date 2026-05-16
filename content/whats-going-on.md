@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-13T20:59:02+05:30"
+lastmod = "2026-05-16T11:08:21+05:30"
 
 menu = "misc"
 
@@ -42,12 +42,6 @@ text = "Actor Vijay's TVK won TN's 2026 vidhan sabha chunaav."
 source = "https://en.wikipedia.org/wiki/2026_Tamil_Nadu_Legislative_Assembly_election"
 
 [[items]]
-date = "2026-05-01"
-emoji = "😔"
-text = "A three year old kid assaulted and murdered by a 65 year old man."
-source = "https://timesofindia.indiatimes.com/india/rape-murder-of-3-year-old-kin-seek-death-protest-shuts-down-pune-district/articleshow/130743653.cms"
-
-[[items]]
 date = "2026-04-01"
 emoji = "😕"
 text = "Family of four in Mumbai dies after eating a \"poisoned\" watermelon."
@@ -74,18 +68,17 @@ source = "https://timesofindia.indiatimes.com/city/delhi/18-charged-in-uttam-nag
 
 ## What's going on?
 
-It's beyond me.
+<a href="https://www.youtube.com/watch?v=UYeV7jLBXvA">I read the news today, oh boy....</a>
 
-So here are things ranging from stuff that attracts BBC and Al Jazeera headlines, nationwide hysteria, regime changes, social unrest and Netflix documentaries to material for <a href="https://podcasts.aajtak.in/comedy/teen-taal">Teen Taal</a>'s Bizarre Khabarien or <a href="https://www.youtube.com/gursimrankhamba">Gursimran Khamba</a>'s The Nation Want's To Guess.
+So here are things ranging from stuff that attracts BBC and Al Jazeera headlines, nationwide hysteria, regime changes, social unrest and Netflix documentaries to material for Teen Taal's Bizarre Khabarien or Gursimran Khamba's The Nation Want's To Guess.
 
-Stuff that made me wonder - Whats going on ?
-
-<a href="https://www.youtube.com/watch?v=H-kA3UtBj4M">Queue Marvin Gaye</a>
-
+Stuff that made me wonder - <a href="https://www.youtube.com/watch?v=H-kA3UtBj4M">What's going on ?</a>
 
 <img src="/memes/samaj.png" style="float:right; max-height:40vh; width:auto; opacity:0.5" alt="Samaj meme">
 
 {{< whats-going-on-list >}}
+
+ ---
 
 While this is a shitty iceberg made by a half edgelord half normie idiot, it still has some cool shit and could be rearranged to perfection.
 
