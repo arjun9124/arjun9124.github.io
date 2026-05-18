@@ -5,7 +5,7 @@
       {{ if eq .Type "thought" }}
       {{ else if eq .Type "status" }}
       {{ end }}
-      {{ .Summary | plainify | replaceRE "\n+" " " }}
+      {{ .Summary | plainify }}
       <br>
       <small>
         ({{ .PublishDate.Format "Jan 2" }} ·

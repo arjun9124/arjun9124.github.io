@@ -1,0 +1,46 @@
+{{- /*
+Custom RSS feed that treats lastmod as the feed date.
+
+Home feed: all regular pages across the site, sorted by Lastmod.
+Section feeds: regular pages below that section, sorted by Lastmod.
+*/ -}}
+{{- $pages := .RegularPagesRecursive -}}
+{{- if .IsHome -}}
+  {{- $pages = .Site.RegularPages -}}
+{{- end -}}
+{{- $pages = sort $pages "Lastmod" "desc" -}}
+{{- with .Site.Config.Services.RSS.Limit -}}
+  {{- if ge . 1 -}}
+    {{- $pages = first . $pages -}}
+  {{- end -}}
+{{- end -}}
+{{- $lastBuildDate := .Lastmod -}}
+{{- range first 1 $pages -}}
+  {{- $lastBuildDate = .Lastmod -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recently updated pages from {{ .Site.Title }}</description>
+    <generator>Hugo -- custom Lastmod RSS</generator>
+    <language>{{ .Site.Language.LanguageCode }}</language>
+    {{- with .Site.Copyright }}
+    <copyright>{{ . }}</copyright>
+    {{- end }}
+    <lastBuildDate>{{ $lastBuildDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- with .OutputFormats.Get "RSS" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="{{ .MediaType.Type }}" />
+    {{- end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 from datetime import datetime
+from html import escape
 from pathlib import Path
 import subprocess
 import sys
@@ -13,6 +14,8 @@ import sys
 DEFAULT_COMMIT_TITLE = 11340507042043
 CONTENT_DIR = Path("content")
 CONTENT_FILE_GLOB = "*.md"
+CHANGELOG_PATH = CONTENT_DIR / "changelog.md"
+CHANGELOG_MARKER = "<!-- CHNG -->"
 
 
 def run(command: list[str]) -> subprocess.CompletedProcess[str]:
@@ -70,6 +73,40 @@ def write_text_preserving_bom(path: Path, text: str, has_bom: bool) -> None:
     if has_bom:
         raw = b"\xef\xbb\xbf" + raw
     path.write_bytes(raw)
+
+
+def append_changelog_entry(title: str, comment: str) -> None:
+    if not title and not comment:
+        return
+
+    text, has_bom = read_text_preserving_bom(CHANGELOG_PATH)
+    timestamp = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M %z")
+    timestamp = timestamp[:-2] + ":" + timestamp[-2:]
+
+    safe_title = escape(title)
+    safe_comment = escape(comment)
+    heading = f"{timestamp} - {safe_title}" if safe_title else timestamp
+    body = f"\n\n{safe_comment}" if safe_comment else ""
+    entry = f"<p>\n<b> {heading}</b>{body}</p>\n"
+
+    if CHANGELOG_MARKER in text:
+        head, tail = text.split(CHANGELOG_MARKER, 1)
+        updated_text = head + CHANGELOG_MARKER + "\n" + entry + tail.lstrip("\n")
+    else:
+        updated_text = text.rstrip() + "\n\n" + CHANGELOG_MARKER + "\n" + entry
+
+    write_text_preserving_bom(CHANGELOG_PATH, updated_text, has_bom)
+
+
+def prompt_for_changelog_entry() -> None:
+    if not CHANGELOG_PATH.exists():
+        print(f"Skipping changelog: {CHANGELOG_PATH} not found.")
+        return
+
+    print("\nChangelog entry (press Enter on both prompts to skip):")
+    title = input("Title: ").strip()
+    comment = input("Comment: ").strip()
+    append_changelog_entry(title, comment)
 
 
 def upsert_front_matter_field(text: str, field: str, value: str) -> str:
@@ -169,6 +206,7 @@ def main() -> int:
     commit_title = next_commit_title(args.start)
 
     try:
+        prompt_for_changelog_entry()
         update_lastmod_fields()
         run(["git", "add", "-A"])
         run(["git", "commit", "-m", commit_title])

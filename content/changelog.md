@@ -1,7 +1,7 @@
 ﻿+++
 title = "Changelog"
 date = "2026-04-27T10:08:41+05:30"
-lastmod = "2026-05-06T09:55:55+05:30"
+lastmod = "2026-05-18T09:55:24+05:30"
 weight = 2000
 +++
 
@@ -11,6 +11,11 @@ weight = 2000
 
 <div class="chnglog">
 <!-- CHNG -->
+<p>
+<b> 2026-05-18 09:55 +05:30 - Updated Dark Color Scheme and Rss Template</b>
+
+Added some color to the dark scheme, changed the dark profile image dithering from Monochrome Bayer 2x2 to Floyd Steinberg with a color pallete. Also asked codex to modify my RSS template to use the lastmod date and cover all the weirdly categorized pages.</p>
+
 <p>
 <b> 2026-05-06 09:55 +05:30 - Updated Header, Singles, Lists, Microblog, Post Nav and auto_commit_push.py</b>
 
