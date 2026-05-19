@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-16T11:08:21+05:30"
+lastmod = "2026-05-19T21:33:50+05:30"
 
 menu = "misc"
 
@@ -10,6 +10,12 @@ weight = 200
 type = "misc"
 
 draft = false
+
+[[items]]
+date = "2026-05-19"
+emoji = "🫩"
+text = "Lahore Re-colonizes street names to restore secularism"
+source = "https://www.indiatoday.in/world/story/pakistan-restores-pre-partition-names-of-lahore-streets-islampura-is-now-krishan-nagar-2913707-2026-05-19"
 
 [[items]]
 date = "2026-05-13"
