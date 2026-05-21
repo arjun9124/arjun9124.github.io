@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-19T21:33:50+05:30"
+lastmod = "2026-05-21T12:24:25+05:30"
 
 menu = "misc"
 
@@ -80,7 +80,7 @@ So here are things ranging from stuff that attracts BBC and Al Jazeera headlines
 
 Stuff that made me wonder - <a href="https://www.youtube.com/watch?v=H-kA3UtBj4M">What's going on ?</a>
 
-<img src="/memes/samaj.png" style="float:right; max-height:40vh; width:auto; opacity:0.5" alt="Samaj meme">
+<img src="/memes/samaj.png" style="float:right; max-height:40vh; max-width:25vw; opacity:0.5" alt="Samaj meme">
 
 {{< whats-going-on-list >}}
 
