@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-21T12:24:25+05:30"
+lastmod = "2026-05-24T11:48:22+05:30"
 
 menu = "misc"
 
@@ -10,7 +10,21 @@ weight = 200
 type = "misc"
 
 draft = false
-
+[[items]]
+date = "2026-05-16"
+emoji = "😵"
+text = "Nanhe Miyan from Bareilly is swept up 50m into the air by an aandhi"
+source = "https://timesofindia.indiatimes.com/life-style/people/who-is-nanhe-miyan-viral-bareilly-man-who-flew-50m-into-the-air-recalls-what-truly-happened-in-the-terrifying-moment/articleshow/131132574.cms"
+[[items]]
+date = "2026-05-16"
+emoji = "🥵"
+text = "Banda, UP hits 48°C, People adopt the post apocalyptic regime of not stepping out after 10am."
+source = "https://timesofindia.indiatimes.com/life-style/people/who-is-nanhe-miyan-viral-bareilly-man-who-flew-50m-into-the-air-recalls-what-truly-happened-in-the-terrifying-moment/articleshow/131132574.cms"
+[[items]]
+date = "2026-05-20"
+emoji = "😳"
+text = "PM Modi gifts Melody toffees to Italy's PM Meloni and people back home invest in the wrong stock."
+source = "https://www.indiatoday.in/business/market/story/parle-industries-shares-rise-pm-modi-gifts-melody-to-italy-pm-giorgia-meloni-stock-up-2914410-2026-05-20"
 [[items]]
 date = "2026-05-19"
 emoji = "🫩"
