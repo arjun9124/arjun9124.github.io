@@ -2,7 +2,7 @@
 
 title = "What's going on?"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-24T11:48:22+05:30"
+lastmod = "2026-05-27T08:43:50+05:30"
 
 menu = "misc"
 
@@ -10,6 +10,12 @@ weight = 200
 type = "misc"
 
 draft = false
+
+[[items]]
+date = "2026-05-26"
+emoji = "😵"
+text = "Class 12 student calls out CBSE over mixing up his answersheet with someone else's, DD Anchor calls him Pakistani"
+source = "https://theprint.in/feature/class-xii-student-cbse-mix-up/2941713/"
 [[items]]
 date = "2026-05-16"
 emoji = "😵"
