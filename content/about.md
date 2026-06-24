@@ -1,7 +1,7 @@
 +++
 title = "about"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-05-06T09:55:55+05:30"
+lastmod = "2026-06-24T19:29:17+05:30"
 menu = "main"
 weight = 2
 +++
@@ -11,19 +11,23 @@ weight = 2
 </div>
 
 ### Who am I ? 
+I am Arjun. I am from Delhi but currently living in Bangalore for my first real job. Got my EPF and everything registered. I have forgotten my passions and delusions and surrendered myself to the big machine. I hope to slowly recover and bounce back. 
 
-I am Arjun. I live in Delhi, India. I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul> <!-- I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier) -->
+I qualify for being a Chemical Engineer. <cul>Do not test me on that.</cul> I am yet to recceive my degree thanks to the institutional inefficencies of sarkari babus. 
+ <!-- I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier) -->
 
 I’d appreciate if you read something. Even if you don’t, or if nobody ever does, this place shall continue to exist on principle.
-### What am I doing, NOW ? 
+### What am I doing, NOW ?
 
-Enjoying my last few months as an untaxed liability on my parents. (Until 06/2026)
+Started my first real job, leaving behind my passions and delusions. (06/26)
+
+<s>Enjoying my last few months as an untaxed liability on my parents. (Until 06/2026)</s>
 
 ### What I was doing, a while ago (for the record)
 
 As I used to write my about sections here, starting with the never changing prelude
 
-
+* **2026 (Q1,Q2) - I am 8 credits away from being a Chemical Engineer. <cul>Do not test me on that.</cul>
 * **2025** - I am currently in that awkward phase in life where you've finished 3 years of college and are waiting for any opportunities that allow you to leave college on someones payroll. 
 * **2024** - I am currently in that awkward phase in life where you have finished two years in college and are trying to pivot yourself around a point to what you think is more feasible as a career option than whatever understanding of a career you had as a fresher/sophomore.
 * **2023** - I am currently in that awkward phase in life where you have spent about a year in college and haven’t entirely figured out what to do, are anxious about the direction you are taking. I am a student of Engineering.
