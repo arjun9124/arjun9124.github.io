@@ -1,10 +1,10 @@
 ---
 title: "Cockroach"
 date: 2026-06-07T13:54:08+05:30
-lastmod: 2026-06-07T13:54:08+05:30
+lastmod: 2026-06-30T20:11:23+05:30
 slug: 2026-06-07-cockroach
 type: posts
-draft: flase
+draft: true
 description: "ma chudaye cjp"
 tags:
   - poltiks
