@@ -1,7 +1,7 @@
 +++
 title = "about"
 date = "2024-06-23T08:47:28+05:30"
-lastmod = "2026-06-24T19:29:17+05:30"
+lastmod = "2026-10-18T01:45:00+05:30"
 menu = "main"
 weight = 2
 +++
@@ -11,11 +11,10 @@ weight = 2
 </div>
 
 ### Who am I ? 
-I am Arjun. I am from Delhi but currently living in Bangalore for my first real job. Got my EPF and everything registered. I have forgotten my passions and delusions and surrendered myself to the big machine. I hope to slowly recover and bounce back. 
+I am Arjun. I am from Delhi but currently living in Bangalore for my first real job. Got an EPF and everything. I have forgotten my passions and delusions and surrendered myself to the big machine. I hope to slowly recover and bounce back. 
 
-I qualify for being a Chemical Engineer. <cul>Do not test me on that.</cul> I am yet to recceive my degree thanks to the institutional inefficencies of sarkari babus. 
- <!-- I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier) -->
-
+I qualify for being a Chemical Engineer. <cul>Do not test me on that.</cul> 
+I blame this ineptitude on the system. (Actually, I think it was my fault but this is easier) I am yet to recceive my degree thanks to the institutional inefficencies of sarkari babus. 
 I’d appreciate if you read something. Even if you don’t, or if nobody ever does, this place shall continue to exist on principle.
 ### What am I doing, NOW ?
 
