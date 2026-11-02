@@ -6,7 +6,7 @@
   {{ end }}
 
 
-  {{ range first 2 (sort $pages "Date" "desc") }}
+  {{ range first 1 (sort $pages "Date" "desc") }}
     {{ $page := . }}
 
     <!--<h4>{{ $page.Title }}</h4>-->
@@ -14,7 +14,7 @@
  <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}">
   {{ with $page.Resources.GetMatch $page.Params.image }}
     {{ $thumb := .Resize "300x" }}
-    <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive theme-filtered" style="max-width:47%;">
+    <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive theme-filtered">
   {{ end }}
 </a>
 

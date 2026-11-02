@@ -158,6 +158,7 @@ def update_lastmod_fields() -> None:
             write_text_preserving_bom(path, updated_text, has_bom)
 
 
+
 def latest_commit_title() -> str | None:
     result = subprocess.run(
         ["git", "log", "-1", "--pretty=%s"],

@@ -4,7 +4,7 @@ title = "Notes on तीन ताल"
 date = "2026-03-29T19:45:44+05:30"
 lastmod = "2026-06-03T08:38:14+05:30"
 
-
+draft = "true"
 menu = "misc"
 type = "misc"
 

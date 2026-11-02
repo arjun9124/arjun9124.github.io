@@ -1,12 +1,18 @@
-+++
-title = "Maps of Delhi - Transit"
-date = "2026-03-27T13:50:15+05:30"
-lastmod = "2026-05-06T09:55:55+05:30"
-menu = "misc"
-type = "misc"
-weight = 190
-tags = ["Delhi", "Transit"]
-+++
+---
+title: "Maps of Delhi - Transit"
+date: 2026-03-27T13:50:15+05:30
+lastmod: 2026-05-06T09:55:55+05:30
+description: "Metro, roads, DTC getting around.."
+categories: posts
+slug: delhi-transit
+type: posts
+draft: false
+tags:
+  - Delhi
+  - Maps of Delhi
+  - Transit
+---
+
 <h2> Maps of Delhi - Transit </h2>
 <p> Metro, roads, DTC getting around..<p>
 <div class="container"><div class="column"><img src="/maps/metro.png"></div><div class="column"><img src="/maps/traffic.png"></div></div>

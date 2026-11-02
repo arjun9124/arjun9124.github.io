@@ -12,6 +12,11 @@ weight = 2000
 <div class="chnglog">
 <!-- CHNG -->
 <p>
+<b> 2026-11-03 01:34 +05:30 - Improved display of post tags and categories</b>
+
+Added little badges to read out the post tags and types, to declutter the page organizations. ToDo- fix post metadata across the website. I have never filled the categories and tags properly, in almost 7 years.</p>
+
+<p>
 <b> 2026-05-18 09:55 +05:30 - Updated Dark Color Scheme and Rss Template</b>
 
 Added some color to the dark scheme, changed the dark profile image dithering from Monochrome Bayer 2x2 to Floyd Steinberg with a color pallete. Also asked codex to modify my RSS template to use the lastmod date and cover all the weirdly categorized pages.</p>

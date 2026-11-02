@@ -3,9 +3,10 @@
   {{ if .Data.Singular }}
   <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
   <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
+    <a href="{{ "microblog" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
+
   <style>
     .microblog-feed {
       display: flex;
@@ -38,11 +39,6 @@
       min-width: 0;
     }
 
-    .microblog-tags {
-      color: var(--blockquote-color);
-      font-size: 0.9em;
-    }
-
     .microblog-meta time,
     .microblog-title {
       font-family: var(--font-main);
@@ -54,6 +50,58 @@
       color: var(--blockquote-color);
     }
 
+    /* Category and tag badges */
+    .microblog-taxonomies {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.3rem;
+      margin-top: 0.4rem;
+    }
+
+    .microblog-categories,
+    .microblog-tags {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.3rem;
+      margin: 0;
+    }
+
+    .microblog-category {
+      display: inline-block;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      background-color: var(--link-color);
+      color: var(--text-color);
+      font-size: 0.68rem;
+      font-weight: 600;
+      line-height: 1.4;
+      text-decoration: none;
+    }
+
+    .microblog-category:hover {
+      color: var(--text-color);
+    }
+
+    .microblog-tag {
+      display: inline-block;
+      padding: 0.1rem 0.4rem;
+      border: 1px solid var(--yellow);
+      border-radius: 3px;
+      background-color: var(--highlight-color);
+      color: var(--yellow);
+      font-size: 0.68rem;
+      line-height: 1.4;
+      text-decoration: none;
+    }
+
+    .microblog-tag:hover {
+      background-color: var(--yellow);
+      color: var(--background-color);
+    }
+
+    /* Microblog content formatting */
     .microblog-body p,
     .microblog-body ul,
     .microblog-body ol,
@@ -74,8 +122,16 @@
       max-height: 50vh;
     }
 
-    .microblog-tags {
-      margin: 0.35rem 0 0;
+    /* Responsive layout */
+    @media (max-width: 600px) {
+      .microblog-entry {
+        flex-direction: column;
+        gap: 0.25rem;
+      }
+
+      .microblog-date {
+        flex: unset;
+      }
     }
   </style>
 
@@ -84,7 +140,7 @@
     <article class="microblog-entry">
       <span class="microblog-date">
         <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">
             {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
           </time>
         </i>
@@ -99,21 +155,32 @@
           {{ .Content }}
         </div>
 
-        {{ with .GetTerms "tags" }}
-        <p class="microblog-tags">
-          {{ range . }}
-          <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+        {{ if or (.GetTerms "categories") (.GetTerms "tags") }}
+        <div class="microblog-taxonomies">
+          {{ with .GetTerms "categories" }}
+          <div class="microblog-categories">
+            {{ range . }}
+            <a class="microblog-category" href="{{ .RelPermalink }}">
+              {{ .LinkTitle }}
+            </a>
+            {{ end }}
+          </div>
           {{ end }}
-        </p>
+
+          {{ with .GetTerms "tags" }}
+          <div class="microblog-tags">
+            {{ range . }}
+            <a class="microblog-tag" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
         {{ end }}
       </div>
     </article>
     {{ else }}
-    <p>
-      No posts yet
-    </p>
+    <p>No posts yet</p>
     {{ end }}
   </div>
-
 </content>
 {{ end }}
