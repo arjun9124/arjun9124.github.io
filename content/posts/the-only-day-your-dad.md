@@ -1,17 +1,15 @@
 ---
-title: "The Only Day Your Dad Will Ever Ask You To Watch TV"
+title: The Only Day Your Dad Will Ever Ask You To Watch TV
 date: 2022-01-27T17:30:09+05:30
 slug: republic-day
 type: posts
 draft: false
 categories:
-  - Culture
-  - Life/Zindagi/General
+  - rambling
 tags:
   - Life
   - Culture
   - Family
-  
 ---
 
 _This post was originally published on 27 January 2022 on my old blog. This is a revised version of the post._  

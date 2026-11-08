@@ -1,11 +1,11 @@
 ---
-title: "Post Jee Feels"
+title: Post Jee Feels
 date: 2022-06-17T17:31:18+05:30
 slug: post-jee-feels
 type: posts
 draft: false
 categories:
-  - Life/Zindagi/General
+  - rambling
 tags:
   - JEE
   - School

@@ -1,17 +1,16 @@
 ---
-title: "CPT"
+title: CPT
 date: 2025-05-04
 slug: chemicalprocessingtechnolgy
 type: posts
 draft: false
-description: "An entry from my journal" 
+description: An entry from my journal
 categories:
-  - default
+  - ramblings
 tags:
   - Life
   - College
   - Kutte
-
 ---
 
 An entry from my journal, written in a midnight writers unblock initiated by Sarveshwar Dayal Saxena 

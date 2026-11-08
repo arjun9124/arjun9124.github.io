@@ -1,13 +1,13 @@
 ---
-title: "Unregulated"
+title: Unregulated
 date: 2024-06-28T10:34:02+05:30
 slug: 2024-06-28-unregulated
 lastmod: 2024-06-28T10:34:02+05:30
 type: posts
-description: "Support the unregulated economy, don't haggle with Rikshawalas."
+description: Support the unregulated economy, don't haggle with Rikshawalas.
 draft: false
 categories:
-  - default
+  - rambling
 tags:
   - default
 ---

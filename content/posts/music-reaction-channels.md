@@ -1,11 +1,11 @@
 ---
-title: "Music Reaction Channels"
+title: Music Reaction Channels
 date: 2023-06-25T18:33:38+05:30
 slug: music-reaction-channels
 type: posts
 draft: false
 categories:
-  - Music
+  - ramblings
 tags:
   - Culture
   - Music

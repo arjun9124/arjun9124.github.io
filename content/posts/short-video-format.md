@@ -1,13 +1,13 @@
 ---
-title: "Short Video Format"
+title: Short Video Format
 date: 2023-06-24T13:47:49+05:30
 slug: short-video-format
 type: posts
 draft: false
 categories:
-  - default
+  - nerd stuff
 tags:
-  - default
+  - Internet
 ---
 ## Against the short video format
 

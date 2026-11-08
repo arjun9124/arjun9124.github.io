@@ -1,14 +1,14 @@
 ---
-title: "verysmallmouse"
+title: verysmallmouse
 date: 2026-04-10T10:54:47+05:30
 lastmod: 2026-04-10T10:54:47+05:30
 slug: verysmallmouse
 type: posts
+imagepreview: true
 draft: false
-description: "creating a real life problem"
-
+description: creating a real life problem
 categories:
-  - default
+  - project
 tags:
   - DIY
   - 3D Printing

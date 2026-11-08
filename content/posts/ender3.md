@@ -1,12 +1,13 @@
 ---
-title: "Ender 3"
+title: Ender 3
 date: 2025-10-06T10:03:49+05:30
 slug: ender3
 type: posts
 draft: false
-description: "The rite of passage for a 3D Printing enthusiast."
+description: The rite of passage for a 3D Printing enthusiast.
 categories:
-  - 3D Printing
+  - ramblings
+  - nerd stuff
 tags:
   - DIY
   - 3D Printing

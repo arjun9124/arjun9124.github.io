@@ -1,11 +1,11 @@
 ---
-title: "Wearing A Mechanical Watch"
+title: Wearing A Mechanical Watch
 date: 2022-02-17T17:30:54+05:30
 slug: mechanical-watch
 type: posts
 draft: false
 categories:
-  - Culture
+  - nerd stuff
 tags:
   - Retro
 ---

@@ -1,13 +1,15 @@
 ---
-title: "Totalitarian"
+title: Totalitarian
 date: 2026-05-24T10:14:32+05:30
 lastmod: 2026-05-24T12:49:55+05:30
 slug: totalitarian
 type: posts
+imagepreview: false
+previewimage: "/blog/pictures/saturn.png"
 draft: false
-description: "पितृसत्ता के नाम एक फ़रमान।"
+description: पितृसत्ता के नाम एक फ़रमान।
 categories:
-  - default
+  - rambling
 tags:
   - Life
 ---

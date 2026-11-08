@@ -1,16 +1,15 @@
 ---
-title: "Aloo Tikki"
+title: Aloo Tikki
 date: 2023-07-31T11:19:53+05:30
 slug: aloo-tikki
 type: posts
 draft: false
 categories:
-  - Culture
+  - ramblings
 tags:
   - Food
-  - Ramblings
-  - Autism
-  
+  - Delhi
+  - Culture
 ---
 <center>
 <img src="/blog/pictures/tikki.png" height="400px">

@@ -5,16 +5,12 @@ slug: disconnect
 type: posts
 draft: true
 categories:
-
-- Life/Zindagi/General
-
+  - ramblings
 tags:
-
-- Ramblings
-- Life
-- College
-- Internet
-
+  - Ramblings
+  - Life
+  - College
+  - Internet
 ---
 
 _Music, Mathematics and The Matrix_

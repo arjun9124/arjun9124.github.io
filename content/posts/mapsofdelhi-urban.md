@@ -1,13 +1,13 @@
 ---
-title: "Maps of Delhi - Urban"
+title: Maps of Delhi - Urban
 date: 2026-03-27T13:50:15+05:30
 lastmod: 2026-05-06T09:55:55+05:30
-description: "A collection of maps of urban Delhi"
+description: A collection of maps of urban Delhi
 slug: delhi-urban
 type: posts
 draft: false
 categories:
-  - posts
+  - nerd stuff
 tags:
   - Delhi
   - Maps of delhi

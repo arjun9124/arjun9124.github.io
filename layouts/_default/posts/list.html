@@ -151,7 +151,20 @@
 
          
         </div>
+{{ $images := .Resources.ByType "image" }}
 
+{{ if gt (len $images) 0 }}
+  <div class="blog-image-strip">
+    {{ range first 4 $images }}
+      {{ $thumb := .Fill "300x300" }}
+      <a href="{{ $.Permalink }}" class="blog-preview" title="{{ $.Title }}">
+        <img src="{{ $thumb.RelPermalink }}"
+             alt="{{ $.Title }}"
+             loading="lazy">
+      </a>
+    {{ end }}
+  </div>
+{{ end }}
         {{ $summary := .Summary | plainify | htmlUnescape }}
         {{ $words := split $summary " " }}
         <p class="blog-summary">

@@ -1,12 +1,12 @@
 ---
-title: "Tyvek Wallet"
+title: Tyvek Wallet
 date: 2026-03-20T12:08:03+05:30
 slug: 2026-03-20-tyvek-obituary
 type: posts
-description: "An obituary for my wallet"
+description: An obituary for my wallet
 draft: false
 categories:
-  - default
+  - projects
 tags:
   - EDC
   - Utility

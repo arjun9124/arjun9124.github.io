@@ -1,3 +1,4 @@
+
 <section class="section-block posts-block">
   <div class="section-heading">
     <h2 class="recent">Posts</h2>
@@ -5,21 +6,89 @@
 
   <div class="posts-list">
     {{ with .Site.GetPage "/posts" }}
-      {{ range first 10 (where .Pages ".Params.private" "!=" true).ByLastmod.Reverse }}
+      {{ range first 8 (where .Pages ".Params.private" "!=" true).ByLastmod.Reverse }}
         {{ $isUpdated := ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+        {{ $cover := .Resources.GetMatch "image.jpg" }}
 
         <article class="post">
+
+     {{ $page := . }}
+{{ $preview := false }}
+
+{{ if eq $page.Type "gallery" }}
+  {{ $preview = $page.Resources.GetMatch "image.jpg" }}
+
+{{ else if and (eq $page.Type "posts") $page.Params.imagepreview }}
+  {{ with $page.Params.previewimage }}
+    {{ $preview = $page.Resources.GetMatch . }}
+  {{ else }}
+    {{ $images := $page.Resources.ByType "image" }}
+    {{ if gt (len $images) 0 }}
+      {{ $preview = index $images 0 }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+
+          <span class="post-date">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">
+              {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+            </time>
+          </span>
+
           <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="post-title">
             {{ .Title }}
-            
           </a>
+{{ $page := . }}
+{{ $preview := "" }}
 
+{{ if eq $page.Type "gallery" }}
+
+  {{ with $page.Resources.GetMatch "image.jpg" }}
+    {{ $preview = .RelPermalink }}
+  {{ end }}
+
+{{ else if and (eq $page.Type "posts") $page.Params.imagepreview }}
+
+  {{ with $page.Params.previewimage }}
+    {{ $preview = . }}
+  {{ end }}
+
+{{ end }}
+
+{{ if $preview }}
+  <a href="{{ $page.RelPermalink }}" title="{{ $page.Title }}" class="post-image">
+    <img src="{{ $preview }}" alt="{{ $page.Title }}" loading="lazy">
+  </a>
+{{ end }}
           {{ with .Description }}
-            <span class="post-desc"> {{ . }}</span>
-            {{ if $isUpdated }}
-              <sup class="post-updated">updated</sup>
-            {{ end }}
+            <div class="post-desc">
+              {{ . }}
+            </div>
           {{ end }}
+{{ $cover := .Resources.GetMatch "image.jpg" }}
+          {{ if and (not $cover) (or (.GetTerms "categories") (.GetTerms "tags")) }}
+            <div class="post-taxonomies">
+              {{ with .GetTerms "categories" }}
+                <div class="post-categories">
+                  {{ range . }}
+                    <a class="post-category" href="{{ .RelPermalink }}">
+                      {{ .LinkTitle }}
+                    </a>
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ with .GetTerms "tags" }}
+                <div class="post-tags">
+                  {{ range . }}
+                    <a class="post-tag" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+
         </article>
       {{ end }}
     {{ end }}

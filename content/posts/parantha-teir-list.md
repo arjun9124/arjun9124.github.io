@@ -1,15 +1,15 @@
 ---
-title: "Parantha Teir List"
+title: Parantha Teir List
 date: 2022-02-06T17:31:03+05:30
 slug: parantha
 type: posts
 draft: false
 categories:
-  - Culture
+  - ramblings
 tags:
   - Food
 ---
- This post was originally published on my blogger blog on 6 February 2022. This is a revised version of that post.
+This post was originally published on my blogger blog on 6 February 2022. This is a revised version of that post.
 
 The perfect north Indian breakfast, not just north Indian though. Parantha is a thing that possibly is the largest common tie between one of the largest regions of this sub continent. From Lahore to Calcutta, you can see the similar breakfast of parantas with chai. And why not !? isn't it such a great one. So many different iterations to pick from, tastes great when hot and still remains edible when cold. No need to bother about a pickle or a sookhi sabji, the parantha's already stuffed for you ! It's quite possible one of those foods that strike the balance between ease (of making and eating) and comfort.
 

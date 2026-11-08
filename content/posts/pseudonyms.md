@@ -1,14 +1,13 @@
 ---
-title: "Pseudonyms"
+title: Pseudonyms
 date: 2026-10-18T00:55:11+05:30
 lastmod: 2026-10-18T16:55:53+05:30
 slug: pseudonyms
 type: posts
 draft: false
-description: A history of how I have evaded my own privacy on the internet, and maybe some of my sense of self as well. 
-
+description: A history of how I have evaded my own privacy on the internet, and maybe some of my sense of self as well.
 categories:
-  - default
+  - rambling
 tags:
   - default
 ---

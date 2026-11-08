@@ -5,13 +5,10 @@ slug: college
 type: posts
 draft: false
 categories:
-
-- Life/Zindagi/General
+  - ramblings
 tags:
-- College
-- Ramblings
-- Life
-
+  - College
+  - Life
 ---
 
 ## A series of (incoherent) thoughts I have had since joining college.

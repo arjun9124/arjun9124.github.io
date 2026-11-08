@@ -1,13 +1,13 @@
 ---
-title: "College - II"
+title: College - II
 date: 2026-06-06T14:52:38+05:30
 lastmod: 2026-06-24T19:29:17+05:30
 slug: college-ii
 type: posts
 draft: true
-description: 
+description:
 categories:
-  - default
+  - ramblings
 tags:
   - college
   - life

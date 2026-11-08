@@ -1,13 +1,13 @@
 ---
-title: "Leather Notebook Cover"
+title: Leather Notebook Cover
 date: 2026-05-04T13:37:09+05:30
 lastmod: 2026-05-04T13:37:09+05:30
 slug: leather-notebook-cover
 type: posts
 draft: false
-description: "An obituary for a bovine animal"
+description: An obituary for a bovine animal
 categories:
-  - default
+  - project
 tags:
   - DIY
 ---

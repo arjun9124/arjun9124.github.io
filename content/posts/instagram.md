@@ -5,7 +5,7 @@ slug: instagram
 type: posts
 draft: true
 categories:
-  - default
+  - ramblings
 tags:
   - default
 iframe: https://realaboutinstagram.netlify.app/
