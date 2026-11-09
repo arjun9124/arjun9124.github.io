@@ -12,6 +12,8 @@ tags:
   - default
 ---
 
+{{< foldergallery src="budapest" >}}
+
 shot on fuji 200 color film on an old broken point and shoot canon. 
 
 developed in Budapest, scanned in bangalore

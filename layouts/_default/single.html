@@ -27,6 +27,19 @@
   </i>
 </p>
 {{ end }}{{ end }}
+{{ if eq .Type "gallery" }}{{ if not .Params.menu }}
+    <h2>{{ .Title }}</h2>
+    <p class="post-signature">
+      by <a href="{{ "" | relURL }}">Arjun</a> on
+      <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">
+        {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+      </time>
+    </p>
+    
+{{ end }}{{ end }}
+
+
+  
 <content>
   {{ .Content }}
 </content>
@@ -44,6 +57,10 @@
 {{ end }}
 
 {{ if eq .Type "microblog" }}
+{{- partial "post_navigator.html" . -}}
+{{ end }}
+
+{{ if eq .Type "gallery" }}
 {{- partial "post_navigator.html" . -}}
 {{ end }}
 

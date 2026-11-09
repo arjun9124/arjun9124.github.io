@@ -3,7 +3,7 @@ title: Make Youtube Distraction Free
 date: 2023-06-24T14:05:25+05:30
 slug: 2023-06-24-make-youtube-distraction-free
 type: posts
-draft: false
+draft: true
 categories:
   - nerd stuff
 tags:
