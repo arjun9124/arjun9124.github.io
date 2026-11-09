@@ -2,11 +2,11 @@
 image: "image.jpg"
 title: "Budapest"
 date: 2026-10-04T16:37:02+05:30
-lastmod: 2026-10-04T16:37:02+05:30
+lastmod: 2026-11-09T20:00:32+05:30
 slug: budapest
 type: posts
 imagepreview: true
-previewimage: "budapest/image.jpg"
+previewimage: "/budapest/image.jpg"
 draft: false
 categories:
   - photography
