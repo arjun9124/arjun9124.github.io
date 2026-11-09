@@ -1,7 +1,7 @@
 ﻿+++
 title = "Changelog"
 date = "2026-04-27T10:08:41+05:30"
-lastmod = "2026-05-18T09:55:24+05:30"
+lastmod = "2026-11-09T19:55:32+05:30"
 weight = 2000
 +++
 
@@ -11,6 +11,10 @@ weight = 2000
 
 <div class="chnglog">
 <!-- CHNG -->
+<p>
+<b> 2026-11-09 19:55 +05:30 - Boxes</b>
+
+Updated the front page to display content in boxes, what are they ? could be post it notes, or polaroids, or A4 paper. Who knows. &lt;br&gt; Merged Projects, posts and gallery, and added a sorting mechanism based on post category, which is like a broader version of tags. &lt;br&gt; Todo: Delete the puke theme, it doesnt add any value apart from being a (sick?) joke</p>
 <p>
 <b> 2026-11-03 01:34 +05:30 - Improved display of post tags and categories</b>
 
